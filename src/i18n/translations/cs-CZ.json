@@ -1,0 +1,31 @@
+{
+	"meta": {
+		"description": "ATEX - odborníci na tisk na pletené a tkané polyesterové látky. 20 let zkušeností."
+	},
+	"language": {
+		"czech": {
+			"label": "Čeština",
+			"alt": "Vlajka České republiky"
+		},
+		"german": {
+			"label": "Deutsch",
+			"alt": "Deutsche Flagge"
+		},
+		"english": {
+			"label": "English",
+			"alt": "United States flag"
+		},
+		"hungarian": {
+			"label": "Magyar",
+			"alt": "Magyar zászló"
+		},
+		"polish": {
+			"label": "Polski",
+			"alt": "Flaga Polski"
+		},
+		"russian": {
+			"label": "Русский",
+			"alt": "Флаг России"
+		}
+	}
+}

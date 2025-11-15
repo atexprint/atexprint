@@ -1,0 +1,31 @@
+{
+	"meta": {
+		"description": "ATEX - эксперты по печати на трикотажных и тканых полиэстеровых материалах. 20 лет опыта."
+	},
+	"language": {
+		"czech": {
+			"label": "Čeština",
+			"alt": "Vlajka České republiky"
+		},
+		"german": {
+			"label": "Deutsch",
+			"alt": "Deutsche Flagge"
+		},
+		"english": {
+			"label": "English",
+			"alt": "United States flag"
+		},
+		"hungarian": {
+			"label": "Magyar",
+			"alt": "Magyar zászló"
+		},
+		"polish": {
+			"label": "Polski",
+			"alt": "Flaga Polski"
+		},
+		"russian": {
+			"label": "Русский",
+			"alt": "Флаг России"
+		}
+	}
+}

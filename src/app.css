@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@theme {
+	/* --color-primary: oklch(0.3225 0.0523 257.54); */
+}
+
+.montserrat {
+	font-family: 'Montserrat', sans-serif;
+}

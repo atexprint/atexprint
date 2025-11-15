@@ -1,0 +1,31 @@
+{
+	"meta": {
+		"description": "ATEX - experts in printing on knitted and woven polyester fabrics. 20 years of experience."
+	},
+	"language": {
+		"czech": {
+			"label": "Čeština",
+			"alt": "Vlajka České republiky"
+		},
+		"german": {
+			"label": "Deutsch",
+			"alt": "Deutsche Flagge"
+		},
+		"english": {
+			"label": "English",
+			"alt": "United States flag"
+		},
+		"hungarian": {
+			"label": "Magyar",
+			"alt": "Magyar zászló"
+		},
+		"polish": {
+			"label": "Polski",
+			"alt": "Flaga Polski"
+		},
+		"russian": {
+			"label": "Русский",
+			"alt": "Флаг России"
+		}
+	}
+}
