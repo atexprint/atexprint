@@ -55,7 +55,7 @@
 					<Select.Item {value} {label} {disabled}>
 						{#snippet children({ selected })}
 							<div
-								class={`flex cursor-pointer items-center gap-4 rounded-lg p-2 transition-colors hover:bg-gray-100 ${selected ? 'bg-gray-50' : ''}`}
+								class={`flex cursor-pointer items-center gap-4 rounded-lg p-2 transition-colors hover:bg-gray-300 ${selected ? 'bg-gray-200' : ''}`}
 							>
 								<img
 									class="aspect-video h-4 object-cover"

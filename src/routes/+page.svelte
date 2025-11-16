@@ -5,12 +5,6 @@
 	import LanguageSelect from '$lib/LanguageSelect/LanguageSelect.svelte';
 
 	let animationStarted = false;
-	let showModal = false;
-	let modalVideo = '';
-	let modalTitle = '';
-	let modalText = '';
-	let modalList: string[] = [];
-	let videoPlayer: HTMLVideoElement;
 
 	const services = [
 		{
@@ -83,43 +77,6 @@
 		}
 	];
 
-	function openModal(service: typeof services[0]) {
-		modalVideo = service.video;
-		modalTitle = $translate(service.titleKey);
-		modalText = $translate(service.textKey);
-		
-		// Get the list items from translation
-		const listData = $translate(service.listKey);
-		modalList = Array.isArray(listData) ? listData : [];
-		
-		showModal = true;
-		document.body.style.overflow = 'hidden';
-
-		setTimeout(() => {
-			if (videoPlayer) {
-				videoPlayer.play().catch((error) => {
-					console.error('Video auto-play failed:', error);
-				});
-			}
-		}, 100);
-	}
-
-	function closeModal() {
-		showModal = false;
-		document.body.style.overflow = 'auto';
-		if (videoPlayer) {
-			videoPlayer.pause();
-			videoPlayer.src = '';
-			videoPlayer.load();
-		}
-	}
-
-	function handleKeydown(e: KeyboardEvent) {
-		if (e.key === 'Escape' && showModal) {
-			closeModal();
-		}
-	}
-
 	function animateNumber(element: HTMLElement, target: number, isPercentage: boolean) {
 		const duration = 2000;
 		let startTime: number | null = null;
@@ -179,8 +136,6 @@
 	});
 </script>
 
-<svelte:window on:keydown={handleKeydown} />
-
 <!-- Header -->
 <header class="sticky top-0 z-50 border-b border-gray-200 bg-white shadow-sm">
 	<div class="container mx-auto max-w-7xl px-4">
@@ -195,9 +150,7 @@
 				<a href="#services" class="font-medium text-gray-600 transition-colors hover:text-primary"
 					>{$translate('nav.services')}</a
 				>
-				<a
-					href="#portfolio"
-					class="font-medium text-gray-600 transition-colors hover:text-primary"
+				<a href="#portfolio" class="font-medium text-gray-600 transition-colors hover:text-primary"
 					>{$translate('nav.portfolio')}</a
 				>
 				<a
@@ -251,14 +204,18 @@
 				class="rounded-lg bg-gray-50 p-8 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
 			>
 				<i class="fas fa-rocket mb-5 text-5xl text-[#2f57a3]"></i>
-				<h3 class="mb-2 text-xl font-semibold text-gray-900">{$translate('features.fastDelivery.title')}</h3>
+				<h3 class="mb-2 text-xl font-semibold text-gray-900">
+					{$translate('features.fastDelivery.title')}
+				</h3>
 				<p class="text-sm text-gray-600">{$translate('features.fastDelivery.description')}</p>
 			</div>
 			<div
 				class="rounded-lg bg-gray-50 p-8 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
 			>
 				<i class="fas fa-palette mb-5 text-5xl text-[#2f57a3]"></i>
-				<h3 class="mb-2 text-xl font-semibold text-gray-900">{$translate('features.customDesign.title')}</h3>
+				<h3 class="mb-2 text-xl font-semibold text-gray-900">
+					{$translate('features.customDesign.title')}
+				</h3>
 				<p class="text-sm text-gray-600">
 					{$translate('features.customDesign.description')}
 				</p>
@@ -267,14 +224,18 @@
 				class="rounded-lg bg-gray-50 p-8 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
 			>
 				<i class="fas fa-shield-alt mb-5 text-5xl text-[#2f57a3]"></i>
-				<h3 class="mb-2 text-xl font-semibold text-gray-900">{$translate('features.qualityGuarantee.title')}</h3>
+				<h3 class="mb-2 text-xl font-semibold text-gray-900">
+					{$translate('features.qualityGuarantee.title')}
+				</h3>
 				<p class="text-sm text-gray-600">{$translate('features.qualityGuarantee.description')}</p>
 			</div>
 			<div
 				class="rounded-lg bg-gray-50 p-8 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
 			>
 				<i class="fas fa-headset mb-5 text-5xl text-[#2f57a3]"></i>
-				<h3 class="mb-2 text-xl font-semibold text-gray-900">{$translate('features.expertSupport.title')}</h3>
+				<h3 class="mb-2 text-xl font-semibold text-gray-900">
+					{$translate('features.expertSupport.title')}
+				</h3>
 				<p class="text-sm text-gray-600">{$translate('features.expertSupport.description')}</p>
 			</div>
 		</div>
@@ -305,21 +266,27 @@
 						class="animated-number block text-5xl leading-none font-bold text-rose opacity-0"
 						data-target="12">0</span
 					>
-					<p class="mt-1 text-xs tracking-wider text-gray-600 uppercase">{$translate('about.stats.yearsOfExperience')}</p>
+					<p class="mt-1 text-xs tracking-wider text-gray-600 uppercase">
+						{$translate('about.stats.yearsOfExperience')}
+					</p>
 				</div>
 				<div class="text-center">
 					<span
 						class="animated-number block text-5xl leading-none font-bold text-rose opacity-0"
 						data-target="500">0</span
 					>
-					<p class="mt-1 text-xs tracking-wider text-gray-600 uppercase">{$translate('about.stats.successfulProjects')}</p>
+					<p class="mt-1 text-xs tracking-wider text-gray-600 uppercase">
+						{$translate('about.stats.successfulProjects')}
+					</p>
 				</div>
 				<div class="text-center">
 					<span
 						class="animated-number block text-5xl leading-none font-bold text-rose opacity-0"
 						data-target="98">0</span
 					>
-					<p class="mt-1 text-xs tracking-wider text-gray-600 uppercase">{$translate('about.stats.satisfiedClients')}</p>
+					<p class="mt-1 text-xs tracking-wider text-gray-600 uppercase">
+						{$translate('about.stats.satisfiedClients')}
+					</p>
 				</div>
 			</div>
 		</div>
@@ -334,14 +301,10 @@
 			{#each services as service}
 				<div
 					class="min-h-[200px] cursor-pointer rounded-lg border-t-4 border-[#2f57a3] bg-white p-8 shadow-md transition-all hover:-translate-y-1 hover:border-[#e02161] hover:shadow-lg"
-					on:click={() => openModal(service)}
-					on:keydown={(e) => e.key === 'Enter' && openModal(service)}
 					role="button"
 					tabindex="0"
 				>
-					<h3
-						class="mb-4 text-2xl font-semibold text-[#2f57a3] transition-colors hover:text-[#e02161]"
-					>
+					<h3 class="mb-4 text-2xl font-semibold text-[#2f57a3] transition-colors hover:text-rose">
 						{$translate(service.titleKey)}
 					</h3>
 					<p class="text-gray-600">{$translate(service.descriptionKey)}</p>
@@ -354,7 +317,9 @@
 <!-- Portfolio Section -->
 <section id="portfolio" class="py-44">
 	<div class="container mx-auto max-w-6xl px-4">
-		<h2 class="mb-16 text-center text-4xl font-bold text-[#2f57a3]">{$translate('portfolio.title')}</h2>
+		<h2 class="mb-16 text-center text-4xl font-bold text-[#2f57a3]">
+			{$translate('portfolio.title')}
+		</h2>
 		<div class="mb-10 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
 			{#each portfolioItems as item}
 				<div class="group relative h-[300px] cursor-pointer overflow-hidden rounded-lg shadow-md">
@@ -366,8 +331,12 @@
 					<div
 						class="absolute top-0 left-0 flex h-full w-full flex-col items-center justify-center bg-rose/85 p-5 text-center text-white opacity-0 transition-opacity group-hover:opacity-100"
 					>
-						<p class="mb-1 text-xl font-bold">{$translate('portfolio.projectTitle')}: {$translate(item.titleKey)}</p>
-						<p class="text-sm italic">{$translate('portfolio.service')}: {$translate(item.serviceKey)}</p>
+						<p class="mb-1 text-xl font-bold">
+							{$translate('portfolio.projectTitle')}: {$translate(item.titleKey)}
+						</p>
+						<p class="text-sm italic">
+							{$translate('portfolio.service')}: {$translate(item.serviceKey)}
+						</p>
 					</div>
 				</div>
 			{/each}
@@ -378,7 +347,9 @@
 <!-- Instagram Section -->
 <section id="instagram" class="py-44">
 	<div class="container mx-auto max-w-6xl px-4">
-		<h2 class="mb-8 text-center text-4xl font-bold text-[#2f57a3]">{$translate('instagram.title')}</h2>
+		<h2 class="mb-8 text-center text-4xl font-bold text-[#2f57a3]">
+			{$translate('instagram.title')}
+		</h2>
 		<div
 			class="mx-auto mb-10 flex min-h-[400px] max-w-[900px] items-center justify-center border border-gray-300 bg-gray-50 text-gray-600"
 		>
@@ -427,7 +398,9 @@
 						/>
 					</div>
 					<div>
-						<label for="email" class="mb-2 block text-sm font-semibold text-gray-600">{$translate('contact.form.email')}</label>
+						<label for="email" class="mb-2 block text-sm font-semibold text-gray-600"
+							>{$translate('contact.form.email')}</label
+						>
 						<input
 							type="email"
 							id="email"
@@ -489,7 +462,9 @@
 
 			<!-- Contact Info -->
 			<div class="pt-14">
-				<h3 class="mb-8 text-2xl font-semibold text-gray-900">{$translate('contact.info.title')}</h3>
+				<h3 class="mb-8 text-2xl font-semibold text-gray-900">
+					{$translate('contact.info.title')}
+				</h3>
 				<div class="mb-6 flex items-center">
 					<i class="fas fa-map-marker-alt mr-4 min-w-[25px] text-center text-2xl text-[#2f57a3]"
 					></i>
@@ -585,7 +560,9 @@
 				</div>
 			</div>
 			<div>
-				<h4 class="mb-5 text-lg font-semibold text-white uppercase">{$translate('footer.information.title')}</h4>
+				<h4 class="mb-5 text-lg font-semibold text-white uppercase">
+					{$translate('footer.information.title')}
+				</h4>
 				<ul class="space-y-2">
 					<li>
 						<a
@@ -618,7 +595,9 @@
 				</ul>
 			</div>
 			<div>
-				<h4 class="mb-5 text-lg font-semibold text-white uppercase">{$translate('footer.quickLinks.title')}</h4>
+				<h4 class="mb-5 text-lg font-semibold text-white uppercase">
+					{$translate('footer.quickLinks.title')}
+				</h4>
 				<ul class="space-y-2">
 					<li>
 						<a
@@ -674,51 +653,3 @@
 		</div>
 	</div>
 </footer>
-
-<!-- Modal -->
-{#if showModal}
-	<div
-		class="fixed inset-0 z-1000 overflow-auto bg-black/90 opacity-100 transition-opacity"
-		on:click={closeModal}
-		on:keydown={(e) => e.key === 'Enter' && closeModal()}
-		role="button"
-		tabindex="0"
-	>
-		<div
-			tabindex="0"
-			class="relative mx-auto my-[5%] w-[90%] max-w-[800px] rounded-lg bg-white p-6 shadow-2xl"
-			on:click|stopPropagation
-			on:keydown|stopPropagation
-			role="dialog"
-			aria-modal="true"
-		>
-			<button
-				class="absolute top-2 right-5 z-1001 float-right cursor-pointer text-5xl leading-none font-bold text-gray-400 hover:text-[#2f57a3]"
-				on:click={closeModal}
-				aria-label="Close modal"
-			>
-				×
-			</button>
-			<div class="relative mb-5 h-0 overflow-hidden pb-[56.25%]">
-				<video
-					bind:this={videoPlayer}
-					controls
-					muted
-					loop
-					playsinline
-					class="absolute top-0 left-0 h-full w-full rounded"
-					src={modalVideo}
-				>
-					<track kind="captions" />
-				</video>
-			</div>
-			<h3 class="mt-4 text-2xl font-bold text-[#2f57a3]">{modalTitle}</h3>
-			<p class="mb-2 text-base leading-relaxed">{modalText}</p>
-			<ul class="mt-2 ml-5 list-disc text-sm">
-				{#each modalList as item}
-					<li>{item}</li>
-				{/each}
-			</ul>
-		</div>
-	</div>
-{/if}
