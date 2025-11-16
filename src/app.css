@@ -3,7 +3,13 @@
 @plugin '@tailwindcss/typography';
 
 @theme {
-	/* --color-primary: oklch(0.3225 0.0523 257.54); */
+	--color-primary: #2f57a3;
+	--color-accent: #2f57a3;
+	--color-rose: #e02161;
+	--color-primary-text: #333;
+	--color-secondary-text: #666;
+
+	--font-family-sans: 'Montserrat', sans-serif;
 }
 
 .montserrat {

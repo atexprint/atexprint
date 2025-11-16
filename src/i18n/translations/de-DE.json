@@ -27,5 +27,186 @@
 			"label": "Русский",
 			"alt": "Флаг России"
 		}
+	},
+	"nav": {
+		"aboutUs": "Über uns",
+		"services": "Dienstleistungen",
+		"portfolio": "Portfolio",
+		"instagram": "Instagram",
+		"contact": "Kontakt"
+	},
+	"hero": {
+		"title": "Professionelle Drucklösungen für Ihre Marke",
+		"subtitle": "Von individueller Kleidung bis zu einzigartigen Verpackungen bringen wir Ihre Vision mit Präzision und Qualität zum Leben.",
+		"cta": "Angebot anfordern"
+	},
+	"features": {
+		"fastDelivery": {
+			"title": "Schnelle Lieferung",
+			"description": "Schnelle Bearbeitungszeiten, um Ihre Fristen einzuhalten."
+		},
+		"customDesign": {
+			"title": "Individuelles Design",
+			"description": "Erwecken Sie Ihre einzigartige Vision mit personalisierten Drucken zum Leben."
+		},
+		"qualityGuarantee": {
+			"title": "Qualitätsgarantie",
+			"description": "100% Zufriedenheit bei jeder Druckbestellung."
+		},
+		"expertSupport": {
+			"title": "Expertenunterstützung",
+			"description": "Engagierte Unterstützung online oder per Telefon."
+		}
+	},
+	"about": {
+		"title": "Über uns",
+		"text1": "Wir sind ein engagiertes Team, das leidenschaftlich <strong class=\"font-semibold text-[#2f57a3]\">außergewöhnliche Druckqualität liefert</strong>. Seit über einem Jahrzehnt ist PRINT.CO der vertrauenswürdige Partner für Unternehmen, die zuverlässige und kreative Lösungen im Digital-, Sieb- und Spezialdruck suchen. Wir kombinieren technisches Fachwissen mit dem Engagement für nachhaltige Praktiken.",
+		"text2": "Unser Fokus liegt darauf, ein nahtloses Erlebnis zu bieten, von der ersten Designberatung bis zur endgültigen Lieferung, um sicherzustellen, dass jedes Projekt unseren hohen Standards entspricht und Ihre Erwartungen übertrifft.",
+		"cta": "Unsere Fähigkeiten",
+		"stats": {
+			"yearsOfExperience": "Jahre Erfahrung",
+			"successfulProjects": "Erfolgreiche Projekte",
+			"satisfiedClients": "Zufriedene Kunden"
+		}
+	},
+	"services": {
+		"title": "Unsere Dienstleistungen",
+		"sublimation": {
+			"title": "Sublimation",
+			"description": "Hochwertiger Druck auf Textilien und Merchandise mit lebendigen Farben.",
+			"text": "Sublimationsdruck ist eine digitale Druckmethode, die Wärme verwendet, um Farbstoff auf Materialien wie Stoff, Kunststoff und Papier zu übertragen. Es ist ideal für individuelle Kleidung, Werbeartikel und personalisierte Geschenke und bietet vollfarbige, langlebige und ausbleichbeständige Designs ohne schweres Gefühl.",
+			"list": [
+				"Lebendige, vollfarbige Designs",
+				"Langlebig und ausbleichbeständig",
+				"Weicher Griff auf Stoff",
+				"Ideal für helle Polyestermaterialien"
+			]
+		},
+		"diffusion": {
+			"title": "Diffusionsdruck",
+			"description": "Spezialdruck für komplexe Materialien und einzigartige visuelle Effekte.",
+			"text": "Beim Diffusionsdruck werden spezialisierte Tinten verwendet, die tiefer in die Fasern des Materials eindringen und einen weichen, integrierten Druck erzeugen, der Teil des Stoffes selbst wird. Diese Methode eignet sich besonders zum Erzielen einzigartiger visueller Texturen und eines luxuriösen Gefühls auf hochwertigen Textilien.",
+			"list": [
+				"Integrierter Druck, keine Oberflächenhaptik",
+				"Weicher, natürlicher Fall des Stoffes erhalten",
+				"Ideal für empfindliche und hochwertige Materialien",
+				"Einzigartige Tiefe und Textur in Designs"
+			]
+		},
+		"screenPrinting": {
+			"title": "Siebdruck",
+			"description": "Langlebiger, dauerhafter und dichter Druck, ideal für große Mengen.",
+			"text": "Siebdruck ist eine vielseitige Drucktechnik, bei der ein Netz verwendet wird, um Tinte auf ein Substrat zu übertragen, außer in Bereichen, die durch eine blockierende Schablone für die Tinte undurchlässig gemacht wurden. Eine Klinge oder ein Rakel wird über den Bildschirm bewegt, um die offenen Netzöffnungen mit Tinte zu füllen, und ein Rückhub bewirkt dann, dass der Bildschirm das Substrat kurzzeitig entlang einer Kontaktlinie berührt.",
+			"list": [
+				"Hohe Haltbarkeit und Waschbeständigkeit",
+				"Lebendige Farben auf dunklen Stoffen",
+				"Kosteneffektiv für große Chargen",
+				"Breite Palette von Tintenarten (metallisch, leuchtend im Dunkeln)"
+			]
+		},
+		"logoTags": {
+			"title": "Logo-Etiketten",
+			"description": "Design und Druck von Textil- und Kartonetiketten mit Ihrer Marke.",
+			"text": "Wir bieten umfassende Lösungen für individuelle Logo-Etiketten, einschließlich Design, Materialauswahl (Textil, Karton, Kunstleder) und Druck. Unsere Etiketten steigern die Professionalität Ihrer Marke und liefern wesentliche Produktinformationen. Von eleganten gewebten Etiketten bis hin zu robusten gedruckten Kartonetiketten gewährleisten wir Qualität und Markenkonsistenz.",
+			"list": [
+				"Individuelles Design und Branding",
+				"Vielfalt an Materialien: Textil, Karton, synthetisch",
+				"Hochwertiger Druck und Veredelung",
+				"Stärkt die Markenidentität"
+			]
+		},
+		"packaging": {
+			"title": "Kartonverpackungen",
+			"description": "Erstellung und Druck von maßgeschneiderten, stilvollen Kartonverpackungen.",
+			"text": "Unsere Kartonverpackungsdienste gehen über einfache Kartons hinaus. Wir entwerfen und produzieren maßgeschneiderte Verpackungen, die die Ästhetik Ihrer Marke widerspiegeln und Ihre Produkte schützen. Durch den Einsatz verschiedener Drucktechniken und Veredelungsoptionen schaffen wir Verpackungen, die sich abheben, von minimalistischen Designs bis hin zu komplexen, mehrfarbigen Lösungen.",
+			"list": [
+				"Maßgeschneidertes Design und Strukturtechnik",
+				"Hochwertiger Druck auf verschiedenen Kartonarten",
+				"Nachhaltige und umweltfreundliche Optionen",
+				"Verbessert Produktpräsentation und -schutz"
+			]
+		}
+	},
+	"portfolio": {
+		"title": "Unsere neuesten Projekte",
+		"projectTitle": "Projekttitel",
+		"service": "Dienstleistung",
+		"items": {
+			"customTShirts": "Individuelle T-Shirts",
+			"scarfPrinting": "Schaldruck",
+			"luxuryPackaging": "Luxusverpackungen",
+			"brandedMugs": "Marken-Tassen",
+			"elegantLogoTags": "Elegante Logo-Etiketten",
+			"specialtyItems": "Spezialprodukte",
+			"screenPrinting": "Siebdruck",
+			"diffusionPrinting": "Diffusionsdruck",
+			"cardboardPackaging": "Kartonverpackungen",
+			"sublimation": "Sublimation",
+			"logoTags": "Logo-Etiketten",
+			"screenPrintingSpecial": "Siebdruck / Spezial"
+		}
+	},
+	"instagram": {
+		"title": "Folgen Sie uns auf Instagram",
+		"cta": "Profil anzeigen"
+	},
+	"contact": {
+		"title": "Kontaktieren Sie uns und geben Sie Ihre Bestellung auf",
+		"form": {
+			"subtitle": "Angebot anfordern oder Bestellung aufgeben",
+			"name": "Ihr Name",
+			"email": "E-Mail",
+			"phone": "Telefon (Optional)",
+			"service": "Interessierte Dienstleistung",
+			"selectService": "-- Wählen Sie eine Dienstleistung --",
+			"services": {
+				"sublimation": "Sublimation",
+				"diffusion": "Diffusionsdruck",
+				"screenPrinting": "Siebdruck",
+				"logoTags": "Logo-Etiketten",
+				"packaging": "Kartonverpackungen",
+				"other": "Andere / Allgemeine Anfrage"
+			},
+			"details": "Projektdetails / Nachricht",
+			"detailsPlaceholder": "Beschreiben Sie Ihr Projekt, Menge und erforderliches Lieferdatum.",
+			"submit": "Anfrage senden"
+		},
+		"info": {
+			"title": "Unsere Details"
+		}
+	},
+	"footer": {
+		"about": "Experte für Digital- und Siebdruck. Wir erwecken Ihre Markenvision mit Präzision und Qualität zum Leben.",
+		"information": {
+			"title": "INFORMATIONEN",
+			"privacy": "Datenschutzrichtlinie",
+			"terms": "Geschäftsbedingungen",
+			"delivery": "Lieferkosten",
+			"returns": "Rücksendungen und Beschwerden"
+		},
+		"quickLinks": {
+			"title": "SCHNELLZUGRIFF",
+			"about": "Über uns",
+			"services": "Unsere Dienstleistungen",
+			"portfolio": "Portfolio",
+			"contact": "Kontakt"
+		},
+		"copyright": "© 2025 ATEX | Alle Rechte vorbehalten.",
+		"wholesale": "Großhandelskooperation",
+		"payments": "Wir akzeptieren sichere Zahlungen:"
+	},
+	"api": {
+		"validation": {
+			"errors": {
+				"MinLength": "Wert ist zu kurz - Mindestlänge ist {{MinLength}}",
+				"MaxLength": "Wert ist zu lang - Maximallänge ist {{MaxLength}}",
+				"Min": "Wert ist zu klein - Mindestwert ist {{Min}}",
+				"Max": "Wert ist zu groß - Maximalwert ist {{Max}}",
+				"IsDefined": "Dieses Feld ist erforderlich",
+				"IsPhoneNumber": "Bitte geben Sie eine gültige Telefonnummer ein",
+				"IsEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+				"IsString": "Dieses Feld muss ein Textwert sein"
+			}
+		}
 	}
 }

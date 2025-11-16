@@ -39,23 +39,23 @@
 	items={ITEMS}
 >
 	<Select.Trigger
-		class="text-primary flex cursor-pointer items-center gap-2 rounded-xl bg-gray-500 px-3 py-1.5"
+		class="flex cursor-pointer items-center gap-2 rounded-lg border border-gray-300 bg-white px-3 py-1.5 text-gray-700 transition-colors hover:border-primary hover:bg-gray-50"
 	>
-		<i class="fa fa-globe"></i>
+		<i class="fa fa-language text-primary"></i>
 		{$translate(selectedLabel)}
 	</Select.Trigger>
 
 	<Select.Portal>
 		<Select.Content
 			sideOffset={8}
-			class="border-accent bg-primary text-secondary z-70 rounded-lg border-2 p-2"
+			class="z-70 rounded-lg border-2 border-primary bg-white p-2 shadow-lg"
 		>
-			<Select.Viewport class="flex flex-col gap-4">
+			<Select.Viewport class="flex flex-col gap-2">
 				{#each ITEMS as { value, label, disabled }, i (i + value)}
 					<Select.Item {value} {label} {disabled}>
 						{#snippet children({ selected })}
 							<div
-								class={`hover:bg-background/30 flex cursor-pointer items-center gap-4 rounded-lg p-[5px] ${selected ? 'bg-background/15' : ''}`}
+								class={`flex cursor-pointer items-center gap-4 rounded-lg p-2 transition-colors hover:bg-gray-100 ${selected ? 'bg-gray-50' : ''}`}
 							>
 								<img
 									class="aspect-video h-4 object-cover"

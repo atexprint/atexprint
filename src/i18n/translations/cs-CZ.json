@@ -27,5 +27,187 @@
 			"label": "Русский",
 			"alt": "Флаг России"
 		}
+	},
+	"nav": {
+		"home": "Domů",
+		"aboutUs": "O nás",
+		"services": "Služby",
+		"portfolio": "Portfolio",
+		"instagram": "Instagram",
+		"contact": "Kontakt"
+	},
+	"hero": {
+		"title": "Profesionální textilní tisk",
+		"subtitle": "Sublimace | Difuzní tisk | Sítotisk",
+		"cta": "Získat nabídku"
+	},
+	"features": {
+		"fastDelivery": {
+			"title": "Rychlé dodání",
+			"description": "Garantujeme včasné dodání vašich zakázek"
+		},
+		"highQuality": {
+			"title": "Vysoká kvalita",
+			"description": "Používáme nejmodernější technologie tisku"
+		},
+		"customDesigns": {
+			"title": "Vlastní design",
+			"description": "Přizpůsobené řešení pro vaše potřeby"
+		},
+		"expertSupport": {
+			"title": "Odborná podpora",
+			"description": "Naši zkušení profesionálové vám pomohou"
+		}
+	},
+	"about": {
+		"title": "O nás",
+		"text1": "Jsme oddaný tým vášnivých profesionálů, kteří poskytují <strong class=\"font-semibold text-[#2f57a3]\">výjimečnou kvalitu tisku</strong>. Více než deset let je PRINT.CO důvěryhodným partnerem pro firmy hledající spolehlivá a kreativní řešení v digitálním, sítotiskovém a specializovaných tiskových technikách. Kombinujeme technické odborné znalosti se závazkem k udržitelným praktikám.",
+		"text2": "Naše zaměření je na poskytování bezproblémového zážitku, od počáteční designové konzultace až po konečné dodání, zajišťující, že každý projekt splňuje naše vysoké standardy a překračuje vaše očekávání.",
+		"cta": "Naše schopnosti",
+		"stats": {
+			"yearsOfExperience": "Let zkušeností",
+			"successfulProjects": "Úspěšných projektů",
+			"satisfiedClients": "Spokojených klientů"
+		}
+	},
+	"services": {
+		"title": "Naše služby",
+		"sublimation": {
+			"title": "Sublimace",
+			"description": "Vysoká kvalita, trvanlivé tiskové řešení pro textil a doplňky",
+			"text": "Technologie sublimačního tisku umožňuje přenášet návrhy přímo do vlákna materiálu, čímž vznikají vibrantní a odolné barvy, které nevyblednou ani nepraská. Ideální pro sportovní oblečení, propagační materiály a vlastní oděvy.",
+			"list": [
+				"Živé, trvanlivé barvy",
+				"Ideální pro polyesterové textilie a potažené doplňky",
+				"Bezešvé, odolné proti vyblednutí výtisky",
+				"Přizpůsobené návrhy bez minimálních objednávek"
+			]
+		},
+		"diffusion": {
+			"title": "Difuzní tisk",
+			"description": "Špičková technika pro detailní a pestré výsledky",
+			"text": "Difuzní tisk poskytuje ohromující detaily s vysokým rozlišením perfektní pro složité vzory. Tato metoda zajišťuje, že design dokonale splyne s textilem a vytvoří luxusní dotek a vzhled ideální pro high-end značky.",
+			"list": [
+				"Tisk s vysokým rozlišením s živými detaily",
+				"Dokonale vhodné pro složité návrhy",
+				"Jemný, hebký dotek na textiliích",
+				"Ekologické a udržitelné možnosti"
+			]
+		},
+		"screenPrinting": {
+			"title": "Sítotisk",
+			"description": "Tradiční, prověřená metoda pro objemové zakázky",
+			"text": "Sítotisk je klasický přístup, který poskytuje dlouhotrvající, odvážné výtisky. Ideální pro velké zakázky a obzvláště účinný pro design s jasnými barvami. Oblíbená volba pro firemní oděvy, propagační produkty a více.",
+			"list": [
+				"Trvanlivý a odolný k otěru",
+				"Ideální pro velké výrobní běhy",
+				"Různé typy inkoustů a dokončení",
+				"Nákladově efektivní pro objemové objednávky"
+			]
+		},
+		"logoTags": {
+			"title": "Logo štítky",
+			"description": "Vlastní tkané a vytištěné štítky pro vaše produkty",
+			"text": "Naše logo štítky dodávají profesionální a elegantní dotek vaším oděvům nebo produktům. Nabízíme širokou škálu možností přizpůsobení včetně tkaných štítků, vytištěných štítků a závěsných štítků, které odrážejí identitu vaší značky.",
+			"list": [
+				"Tkané, vytištěné nebo vytlačované štítky",
+				"Vlastní velikosti a materiály",
+				"Zlepšuje branding produktu",
+				"Ideální pro oděvy, doplňky a balení"
+			]
+		},
+		"packaging": {
+			"title": "Kartonové balení",
+			"description": "Atraktivní, vlastní tištěné krabice a balení",
+			"text": "Balení je první dojem vašeho produktu. Naše služby tištěného kartonového balení nabízejí přizpůsobitelné možnosti, které kombinují ochranu, estetiku a udržitelnost. Od krabic po vložky je vaše značka dobře reprezentována.",
+			"list": [
+				"Vlastní tištěné krabice a vložky",
+				"Různé typy lepenky a povrchové úpravy",
+				"Udržitelné a ekologické možnosti",
+				"Zlepšuje prezentaci a ochranu produktů"
+			]
+		}
+	},
+	"portfolio": {
+		"title": "Naše nejnovější projekty",
+		"projectTitle": "Název projektu",
+		"service": "Služba",
+		"items": {
+			"customTShirts": "Vlastní trička",
+			"scarfPrinting": "Tisk šátků",
+			"luxuryPackaging": "Luxusní balení",
+			"brandedMugs": "Značkové hrnky",
+			"elegantLogoTags": "Elegantní logo štítky",
+			"specialtyItems": "Speciální položky",
+			"screenPrinting": "Sítotisk",
+			"diffusionPrinting": "Difuzní tisk",
+			"cardboardPackaging": "Kartonové balení",
+			"sublimation": "Sublimace",
+			"logoTags": "Logo štítky",
+			"screenPrintingSpecial": "Sítotisk / Speciální"
+		}
+	},
+	"instagram": {
+		"title": "Sledujte nás na Instagramu",
+		"cta": "Zobrazit profil"
+	},
+	"contact": {
+		"title": "Kontaktujte nás a objednejte",
+		"form": {
+			"subtitle": "Požádejte o nabídku nebo objednávku",
+			"name": "Vaše jméno",
+			"email": "Email",
+			"phone": "Telefon (volitelné)",
+			"service": "Služba, o kterou máte zájem",
+			"selectService": "-- Vyberte službu --",
+			"services": {
+				"sublimation": "Sublimace",
+				"diffusion": "Difuzní tisk",
+				"screenPrinting": "Sítotisk",
+				"logoTags": "Logo štítky",
+				"packaging": "Kartonové balení",
+				"other": "Jiné / Obecný dotaz"
+			},
+			"details": "Podrobnosti projektu / Zpráva",
+			"detailsPlaceholder": "Popište svůj projekt, množství a požadované datum dodání.",
+			"submit": "Odeslat žádost"
+		},
+		"info": {
+			"title": "Naše údaje"
+		}
+	},
+	"footer": {
+		"about": "Experti v digitálním a sítotiskovém tisku. Realizujeme vaši vizi značky s přesností a kvalitou.",
+		"information": {
+			"title": "INFORMACE",
+			"privacy": "Zásady ochrany osobních údajů",
+			"terms": "Pravidla obchodu",
+			"delivery": "Náklady na doručení",
+			"returns": "Vrácení a reklamace"
+		},
+		"quickLinks": {
+			"title": "RYCHLÉ ODKAZY",
+			"about": "O nás",
+			"services": "Naše služby",
+			"portfolio": "Portfolio",
+			"contact": "Kontakt"
+		},
+		"copyright": "© 2025 ATEX | Všechna práva vyhrazena.",
+		"wholesale": "Velkoobchodní spolupráce",
+		"payments": "Přijímáme bezpečné platby:"
+	},
+	"api": {
+		"validation": {
+			"errors": {
+				"MinLength": "Hodnota je příliš krátká - minimální délka je {{MinLength}}",
+				"MaxLength": "Hodnota je příliš dlouhá - maximální délka je {{MaxLength}}",
+				"Min": "Hodnota je příliš malá - minimální povolená hodnota je {{Min}}",
+				"Max": "Hodnota je příliš velká - maximální povolená hodnota je {{Max}}",
+				"IsDefined": "Toto pole je povinné",
+				"IsPhoneNumber": "Zadejte prosím platné telefonní číslo",
+				"IsEmail": "Zadejte prosím platnou e-mailovou adresu",
+				"IsString": "Toto pole musí být textová hodnota"
+			}
+		}
 	}
 }

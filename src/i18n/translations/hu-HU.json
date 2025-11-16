@@ -27,5 +27,186 @@
 			"label": "Русский",
 			"alt": "Флаг России"
 		}
+	},
+	"nav": {
+		"aboutUs": "Rólunk",
+		"services": "Szolgáltatások",
+		"portfolio": "Portfólió",
+		"instagram": "Instagram",
+		"contact": "Kapcsolat"
+	},
+	"hero": {
+		"title": "Szakértői nyomtatási megoldások márkájának",
+		"subtitle": "Egyedi ruhától egyedi csomagolásig, életre keltjük elképzelését precizitással és minőséggel.",
+		"cta": "Árajánlat kérése"
+	},
+	"features": {
+		"fastDelivery": {
+			"title": "Gyors szállítás",
+			"description": "Gyors határidők betartása érdekében."
+		},
+		"customDesign": {
+			"title": "Egyedi design",
+			"description": "Keltsük életre egyedi elképzelését személyre szabott nyomatokkal."
+		},
+		"qualityGuarantee": {
+			"title": "Minőségi garancia",
+			"description": "100%-os elégedettség minden nyomtatási megrendelésnél."
+		},
+		"expertSupport": {
+			"title": "Szakértői támogatás",
+			"description": "Elkötelezett segítség online vagy telefonon."
+		}
+	},
+	"about": {
+		"title": "Rólunk",
+		"text1": "Elkötelezett csapat vagyunk, akik szenvedélyesen <strong class=\"font-semibold text-[#2f57a3]\">kivételes nyomtatási minőséget nyújtanak</strong>. Több mint egy évtizede a PRINT.CO a megbízható partner a vállalkozások számára, akik megbízható és kreatív megoldásokat keresnek digitális, szitanyomás és speciális nyomtatási technikákban. Ötvözzük a műszaki szakértelmet a fenntartható gyakorlatok iránti elkötelezettséggel.",
+		"text2": "Fókuszunk a zökkenőmentes élmény nyújtásán van, a kezdeti tervezési konzultációtól a végső szállításig, biztosítva, hogy minden projekt megfelel magas színvonalunknak és meghaladja elvárásait.",
+		"cta": "Képességeink",
+		"stats": {
+			"yearsOfExperience": "Év tapasztalat",
+			"successfulProjects": "Sikeres projektek",
+			"satisfiedClients": "Elégedett ügyfelek"
+		}
+	},
+	"services": {
+		"title": "Szolgáltatásaink",
+		"sublimation": {
+			"title": "Szublimáció",
+			"description": "Kiváló minőségű nyomtatás textilekre és termékekre élénk színekkel.",
+			"text": "A szublimációs nyomtatás egy digitális nyomtatási módszer, amely hőt használ a festék anyagokra, például szövetre, műanyagra és papírra történő átviteléhez. Ideális egyedi ruházathoz, promóciós termékekhez és személyre szabott ajándékokhoz, teljes színű, tartós és kifakadásálló mintákat kínálva nehéz érzet nélkül.",
+			"list": [
+				"Élénk, teljes színű minták",
+				"Tartós és kifakadásálló",
+				"Puha tapintás a szöveten",
+				"Ideális világos színű poliészter anyagokhoz"
+			]
+		},
+		"diffusion": {
+			"title": "Diffúziós nyomtatás",
+			"description": "Speciális nyomtatás összetett anyagokhoz és egyedi vizuális hatásokhoz.",
+			"text": "A diffúziós nyomtatás speciális festékeket használ, amelyek mélyebbre hatolnak az anyag szálai közé, puha, integrált nyomatot hozva létre, amely magának a szövetnek a része lesz. Ez a módszer különösen alkalmas egyedi vizuális textúrák és luxus érzet elérésére csúcskategóriás textilek esetében.",
+			"list": [
+				"Integrált nyomat, nincs felületi érzet",
+				"Puha, természetes szövet esés megőrzése",
+				"Ideális finom és csúcskategóriás anyagokhoz",
+				"Egyedi mélység és textúra a mintákban"
+			]
+		},
+		"screenPrinting": {
+			"title": "Szitanyomás",
+			"description": "Tartós, hosszú élettartamú és sűrű nyomtatás, ideális nagy mennyiségekhez.",
+			"text": "A szitanyomás egy sokoldalú nyomtatási technika, ahol hálót használnak a festék szubsztrátra történő átvitelére, kivéve azokat a területeket, amelyeket blokkoló sablon tesz áthatolhatatlanná a festék számára. Egy pengét vagy gumit mozgatnak a képernyőn keresztül, hogy megtöltsék a nyitott hálónyílásokat festékkel, majd egy fordított lökés hatására a képernyő egy pillanatra érinti a szubsztrátot egy érintkezési vonal mentén.",
+			"list": [
+				"Nagy tartósság és mosásállóság",
+				"Élénk színek sötét szöveteken",
+				"Költséghatékony nagy tételekhez",
+				"Széles választék festéktípusok (fémes, sötétben világító)"
+			]
+		},
+		"logoTags": {
+			"title": "Logó címkék",
+			"description": "Textil és karton címkék tervezése és nyomtatása márkájával.",
+			"text": "Átfogó megoldásokat kínálunk egyedi logó címkékhez, beleértve a tervezést, anyagválasztást (textil, karton, műbőr) és nyomtatást. Címkéink fokozzák márkája professzionalizmusát és lényeges termékinformációkat nyújtanak. Az elegáns szőtt címkéktől a robusztus nyomtatott karton címkékig minőséget és márka konzisztenciát biztosítunk.",
+			"list": [
+				"Egyedi design és márkaépítés",
+				"Anyagok sokfélesége: textil, karton, szintetikus",
+				"Kiváló minőségű nyomtatás és befejezés",
+				"Erősíti a márka identitását"
+			]
+		},
+		"packaging": {
+			"title": "Karton csomagolás",
+			"description": "Egyedi, stílusos karton csomagolás létrehozása és nyomtatása.",
+			"text": "Karton csomagolási szolgáltatásaink túlmutatnak a dobozokon. Egyedi csomagolást tervezünk és gyártunk, amely tükrözi márkája esztétikáját és védi termékét. Különféle nyomtatási technikák és befejezési lehetőségek felhasználásával olyan csomagolást hozunk létre, amely kiemelkedik, a minimalista dizájnoktól a összetett, többszínű megoldásokig.",
+			"list": [
+				"Testreszabott tervezés és szerkezeti mérnöki munka",
+				"Kiváló minőségű nyomtatás különféle karton típusokon",
+				"Fenntartható és környezetbarát lehetőségek",
+				"Javítja a termék bemutatását és védelmét"
+			]
+		}
+	},
+	"portfolio": {
+		"title": "Legújabb projektjeink",
+		"projectTitle": "Projekt címe",
+		"service": "Szolgáltatás",
+		"items": {
+			"customTShirts": "Egyedi pólók",
+			"scarfPrinting": "Sál nyomtatás",
+			"luxuryPackaging": "Luxus csomagolás",
+			"brandedMugs": "Márkás bögre",
+			"elegantLogoTags": "Elegáns logó címkék",
+			"specialtyItems": "Speciális termékek",
+			"screenPrinting": "Szitanyomás",
+			"diffusionPrinting": "Diffúziós nyomtatás",
+			"cardboardPackaging": "Karton csomagolás",
+			"sublimation": "Szublimáció",
+			"logoTags": "Logó címkék",
+			"screenPrintingSpecial": "Szitanyomás / Speciális"
+		}
+	},
+	"instagram": {
+		"title": "Kövess minket Instagramon",
+		"cta": "Profil megtekintése"
+	},
+	"contact": {
+		"title": "Lépjen kapcsolatba velünk és adja le rendelését",
+		"form": {
+			"subtitle": "Árajánlat kérése vagy rendelés leadása",
+			"name": "Az Ön neve",
+			"email": "E-mail",
+			"phone": "Telefon (opcionális)",
+			"service": "Érdeklődési szolgáltatás",
+			"selectService": "-- Válasszon szolgáltatást --",
+			"services": {
+				"sublimation": "Szublimáció",
+				"diffusion": "Diffúziós nyomtatás",
+				"screenPrinting": "Szitanyomás",
+				"logoTags": "Logó címkék",
+				"packaging": "Karton csomagolás",
+				"other": "Egyéb / Általános érdeklődés"
+			},
+			"details": "Projekt részletei / Üzenet",
+			"detailsPlaceholder": "Írja le projektjét, mennyiséget és szükséges szállítási dátumot.",
+			"submit": "Kérés küldése"
+		},
+		"info": {
+			"title": "Adataink"
+		}
+	},
+	"footer": {
+		"about": "Szakértő digitális és szitanyomásban. Életre keltjük márkája vízióját precizitással és minőséggel.",
+		"information": {
+			"title": "INFORMÁCIÓK",
+			"privacy": "Adatvédelmi irányelvek",
+			"terms": "Üzletszabályzat",
+			"delivery": "Szállítási költségek",
+			"returns": "Visszaküldések és reklamációk"
+		},
+		"quickLinks": {
+			"title": "GYORS LINKEK",
+			"about": "Rólunk",
+			"services": "Szolgáltatásaink",
+			"portfolio": "Portfólió",
+			"contact": "Kapcsolat"
+		},
+		"copyright": "© 2025 ATEX | Minden jog fenntartva.",
+		"wholesale": "Nagykereskedelmi együttműködés",
+		"payments": "Biztonságos fizetéseket fogadunk el:"
+	},
+	"api": {
+		"validation": {
+			"errors": {
+				"MinLength": "Az érték túl rövid - a minimális hossz {{MinLength}}",
+				"MaxLength": "Az érték túl hosszú - a maximális hossz {{MaxLength}}",
+				"Min": "Az érték túl kicsi - a minimálisan megengedett érték {{Min}}",
+				"Max": "Az érték túl nagy - a maximálisan megengedett érték {{Max}}",
+				"IsDefined": "Ez a mező kötelező",
+				"IsPhoneNumber": "Kérjük, adjon meg egy érvényes telefonszámot",
+				"IsEmail": "Kérjük, adjon meg egy érvényes e-mail címet",
+				"IsString": "Ez a mező szöveges értéket kell tartalmazzon"
+			}
+		}
 	}
 }

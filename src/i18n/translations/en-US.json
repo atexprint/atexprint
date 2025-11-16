@@ -27,5 +27,186 @@
 			"label": "Русский",
 			"alt": "Флаг России"
 		}
+	},
+	"nav": {
+		"aboutUs": "About Us",
+		"services": "Services",
+		"portfolio": "Portfolio",
+		"instagram": "Instagram",
+		"contact": "Contact"
+	},
+	"hero": {
+		"title": "Expert Printing Solutions for Your Brand",
+		"subtitle": "From custom apparel to unique packaging, we bring your vision to life with precision and quality.",
+		"cta": "Get a Quote"
+	},
+	"features": {
+		"fastDelivery": {
+			"title": "Fast Delivery",
+			"description": "Swift turnaround times to meet your deadlines."
+		},
+		"customDesign": {
+			"title": "Custom Design",
+			"description": "Bring your unique vision to life with personalized prints."
+		},
+		"qualityGuarantee": {
+			"title": "Quality Guarantee",
+			"description": "100% satisfaction with every print order."
+		},
+		"expertSupport": {
+			"title": "Expert Support",
+			"description": "Dedicated assistance online or by phone."
+		}
+	},
+	"about": {
+		"title": "About Us",
+		"text1": "We are a dedicated team passionate about <strong>delivering exceptional print quality</strong>. For over a decade, PRINT.CO has been the trusted partner for businesses seeking reliable and creative solutions in digital, screen, and specialized printing techniques. We combine technical expertise with a commitment to sustainable practices.",
+		"text2": "Our focus is on providing a seamless experience, from initial design consultation to final delivery, ensuring every project meets our high standards and exceeds your expectations.",
+		"cta": "Our Capabilities",
+		"stats": {
+			"yearsExperience": "Years of Experience",
+			"successfulProjects": "Successful Projects",
+			"satisfiedClients": "Satisfied Clients %"
+		}
+	},
+	"services": {
+		"title": "Our Services",
+		"sublimation": {
+			"title": "Sublimation",
+			"description": "High-quality printing on textiles and merchandise with vibrant colors.",
+			"text": "Sublimation printing is a digital printing method that uses heat to transfer dye onto materials like fabric, plastic, and paper. It's ideal for custom apparel, promotional products, and personalized gifts, offering full-color, durable, and fade-resistant designs without a heavy feel.",
+			"list": [
+				"Vibrant, full-color designs",
+				"Durable and fade-resistant",
+				"Soft-hand feel on fabric",
+				"Ideal for light-colored polyester materials"
+			]
+		},
+		"diffusion": {
+			"title": "Diffusion Printing",
+			"description": "Specialized printing for complex materials and unique visual effects.",
+			"text": "Diffusion printing involves using specialized inks that penetrate deeper into the material's fibers, creating a soft, integrated print that becomes part of the fabric itself. This method is particularly suitable for achieving unique visual textures and a luxurious feel on high-end textiles.",
+			"list": [
+				"Integrated print, no surface feel",
+				"Soft, natural drape of fabric preserved",
+				"Ideal for delicate and high-end materials",
+				"Unique depth and texture in designs"
+			]
+		},
+		"screenPrinting": {
+			"title": "Screen Printing",
+			"description": "Durable, long-lasting, and dense printing, ideal for large volumes.",
+			"text": "Screen printing is a versatile printing technique where a mesh is used to transfer ink onto a substrate, except in areas made impermeable to the ink by a blocking stencil. A blade or squeegee is moved across the screen to fill the open mesh apertures with ink, and a reverse stroke then causes the screen to touch the substrate momentarily along a line of contact.",
+			"list": [
+				"High durability and wash resistance",
+				"Vibrant colors on dark fabrics",
+				"Cost-effective for large batches",
+				"Wide range of ink types (metallics, glow-in-the-dark)"
+			]
+		},
+		"logoTags": {
+			"title": "Logo Tags",
+			"description": "Design and printing of textile and cardboard tags featuring your brand.",
+			"text": "We offer comprehensive solutions for custom logo tags, including design, material selection (textile, cardboard, leatherette), and printing. Our tags enhance your brand's professionalism and provide essential product information. From elegant woven labels to robust printed cardboard tags, we ensure quality and brand consistency.",
+			"list": [
+				"Custom design and branding",
+				"Variety of materials: textile, cardboard, synthetic",
+				"High-quality printing and finishing",
+				"Reinforces brand identity"
+			]
+		},
+		"packaging": {
+			"title": "Cardboard Packaging",
+			"description": "Creation and printing of customized, stylish cardboard packaging.",
+			"text": "Our cardboard packaging services go beyond just boxes. We design and produce custom packaging that reflects your brand's aesthetics and protects your products. Utilizing various printing techniques and finishing options, we create packaging that stands out, from minimalist designs to complex, multi-color solutions.",
+			"list": [
+				"Tailored design and structural engineering",
+				"High-quality printing on various cardboard types",
+				"Sustainable and eco-friendly options",
+				"Enhances product presentation and protection"
+			]
+		}
+	},
+	"portfolio": {
+		"title": "Our Latest Projects",
+		"projectTitle": "Project Title",
+		"service": "Service",
+		"items": {
+			"customTShirts": "Custom T-Shirts",
+			"scarfPrinting": "Scarf Printing",
+			"luxuryPackaging": "Luxury Packaging",
+			"brandedMugs": "Branded Mugs",
+			"elegantLogoTags": "Elegant Logo Tags",
+			"specialtyItems": "Specialty Items",
+			"screenPrinting": "Screen Printing",
+			"diffusionPrinting": "Diffusion Printing",
+			"cardboardPackaging": "Cardboard Packaging",
+			"sublimation": "Sublimation",
+			"logoTags": "Logo Tags",
+			"screenPrintingSpecial": "Screen Printing / Special"
+		}
+	},
+	"instagram": {
+		"title": "Follow Us on Instagram",
+		"cta": "View Profile"
+	},
+	"contact": {
+		"title": "Contact Us & Place Your Order",
+		"form": {
+			"subtitle": "Request a Quote or Place an Order",
+			"name": "Your Name",
+			"email": "Email",
+			"phone": "Phone (Optional)",
+			"service": "Service Interested In",
+			"selectService": "-- Select a Service --",
+			"services": {
+				"sublimation": "Sublimation",
+				"diffusion": "Diffusion Printing",
+				"screenPrinting": "Screen Printing",
+				"logoTags": "Logo Tags",
+				"packaging": "Cardboard Packaging",
+				"other": "Other / General Inquiry"
+			},
+			"details": "Project Details / Message",
+			"detailsPlaceholder": "Describe your project, quantity, and required delivery date.",
+			"submit": "Send Request"
+		},
+		"info": {
+			"title": "Our Details"
+		}
+	},
+	"footer": {
+		"about": "Expert in digital and screen printing. Bringing your brand vision to life with precision and quality.",
+		"information": {
+			"title": "INFORMATION",
+			"privacy": "Privacy Policy",
+			"terms": "Store Regulations",
+			"delivery": "Delivery Costs",
+			"returns": "Returns and Complaints"
+		},
+		"quickLinks": {
+			"title": "QUICK LINKS",
+			"about": "About Us",
+			"services": "Our Services",
+			"portfolio": "Portfolio",
+			"contact": "Contact"
+		},
+		"copyright": "© 2025 ATEX | All Rights Reserved.",
+		"wholesale": "Wholesale Cooperation",
+		"payments": "We accept secure payments:"
+	},
+	"api": {
+		"validation": {
+			"errors": {
+				"MinLength": "Value is too short - minimum length is {{length}}",
+				"MaxLength": "Value is too long - maximum length is {{length}}",
+				"Min": "Value is too small - minimum allowed is {{length}}",
+				"Max": "Value is too large - maximum allowed is {{length}}",
+				"IsDefined": "This field is required",
+				"IsPhoneNumber": "Please provide a valid phone number",
+				"IsEmail": "Please provide a valid email address",
+				"IsString": "This field must be a text value"
+			}
+		}
 	}
 }

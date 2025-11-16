@@ -27,5 +27,186 @@
 			"label": "Русский",
 			"alt": "Флаг России"
 		}
+	},
+	"nav": {
+		"aboutUs": "O nas",
+		"services": "Usługi",
+		"portfolio": "Portfolio",
+		"instagram": "Instagram",
+		"contact": "Kontakt"
+	},
+	"hero": {
+		"title": "Profesjonalne rozwiązania drukowe dla Twojej marki",
+		"subtitle": "Od odzieży na zamówienie po unikalne opakowania, ożywiamy Twoją wizję z precyzją i jakością.",
+		"cta": "Uzyskaj wycenę"
+	},
+	"features": {
+		"fastDelivery": {
+			"title": "Szybka dostawa",
+			"description": "Krótki czas realizacji, aby dotrzymać terminów."
+		},
+		"customDesign": {
+			"title": "Własny projekt",
+			"description": "Ożyw swoją unikalną wizję dzięki spersonalizowanym wydrukom."
+		},
+		"qualityGuarantee": {
+			"title": "Gwarancja jakości",
+			"description": "100% satysfakcji z każdego zamówienia druku."
+		},
+		"expertSupport": {
+			"title": "Wsparcie eksperckie",
+			"description": "Dedykowana pomoc online lub telefonicznie."
+		}
+	},
+	"about": {
+		"title": "O nas",
+		"text1": "Jesteśmy zaangażowanym zespołem pasjonatów <strong class=\"font-semibold text-[#2f57a3]\">dostarczających wyjątkową jakość druku</strong>. Przez ponad dekadę PRINT.CO jest zaufanym partnerem dla firm poszukujących niezawodnych i kreatywnych rozwiązań w zakresie druku cyfrowego, sitodruku i specjalistycznych technik druku. Łączymy wiedzę techniczną z zaangażowaniem w zrównoważone praktyki.",
+		"text2": "Naszym celem jest zapewnienie płynnego doświadczenia, od początkowej konsultacji projektowej po ostateczną dostawę, zapewniając, że każdy projekt spełnia nasze wysokie standardy i przekracza Twoje oczekiwania.",
+		"cta": "Nasze możliwości",
+		"stats": {
+			"yearsOfExperience": "Lat doświadczenia",
+			"successfulProjects": "Udanych projektów",
+			"satisfiedClients": "Zadowolonych klientów"
+		}
+	},
+	"services": {
+		"title": "Nasze usługi",
+		"sublimation": {
+			"title": "Sublimacja",
+			"description": "Wysokiej jakości druk na tekstyliach i gadżetach z jaskrawymi kolorami.",
+			"text": "Druk sublimacyjny to cyfrowa metoda druku wykorzystująca ciepło do przenoszenia barwnika na materiały takie jak tkanina, plastik i papier. Jest idealny do odzieży na zamówienie, produktów promocyjnych i spersonalizowanych prezentów, oferując pełnokolorowe, trwałe i odporne na blaknięcie wzory bez ciężkiego wykończenia.",
+			"list": [
+				"Jaskrawe, pełnokolorowe wzory",
+				"Trwałe i odporne na blaknięcie",
+				"Miękkie wykończenie na tkaninie",
+				"Idealne dla jasnych materiałów poliestrowych"
+			]
+		},
+		"diffusion": {
+			"title": "Druk dyfuzyjny",
+			"description": "Specjalistyczny druk na złożonych materiałach z unikalnymi efektami wizualnymi.",
+			"text": "Druk dyfuzyjny polega na użyciu specjalistycznych atramentów, które wnikają głębiej w włókna materiału, tworząc miękki, zintegrowany wydruk, który staje się częścią samej tkaniny. Ta metoda jest szczególnie odpowiednia do osiągania unikalnych tekstur wizualnych i luksusowego wykończenia na wysokiej klasy tekstyliach.",
+			"list": [
+				"Zintegrowany wydruk, bez wyczuwalnej powierzchni",
+				"Miękki, naturalny drap tkaniny zachowany",
+				"Idealny dla delikatnych materiałów wysokiej jakości",
+				"Unikalna głębia i tekstura wzorów"
+			]
+		},
+		"screenPrinting": {
+			"title": "Sitodruk",
+			"description": "Trwały, długotrwały i gęsty druk, idealny dla dużych wolumenów.",
+			"text": "Sitodruk to wszechstronna technika druku, w której siatka jest używana do przenoszenia atramentu na podłoże, z wyjątkiem obszarów uczynionych nieprzepuszczalnymi dla atramentu przez blokujący szablon. Łopatka lub rakiel jest przesuwana przez ekran, aby wypełnić otwarte otwory siatki atramentem, a następnie ruch wsteczny powoduje, że ekran dotyka podłoża chwilowo wzdłuż linii kontaktu.",
+			"list": [
+				"Wysoka trwałość i odporność na pranie",
+				"Jaskrawe kolory na ciemnych tkaninach",
+				"Opłacalne dla dużych partii",
+				"Szeroka gama typów atramentów (metaliczne, świecące w ciemności)"
+			]
+		},
+		"logoTags": {
+			"title": "Metki logo",
+			"description": "Projektowanie i druk metek tekstylnych i kartonowych z Twoją marką.",
+			"text": "Oferujemy kompleksowe rozwiązania dla niestandardowych metek logo, w tym projektowanie, dobór materiału (tekstylny, kartonowy, skóropodobny) i druk. Nasze metki podnoszą profesjonalizm Twojej marki i dostarczają niezbędnych informacji o produkcie. Od eleganckich tkanych etykiet po solidne drukowane metki kartonowe, zapewniamy jakość i spójność marki.",
+			"list": [
+				"Własny projekt i branding",
+				"Różnorodność materiałów: tekstylne, kartonowe, syntetyczne",
+				"Wysokiej jakości druk i wykończenie",
+				"Wzmacnia tożsamość marki"
+			]
+		},
+		"packaging": {
+			"title": "Opakowania kartonowe",
+			"description": "Tworzenie i druk spersonalizowanych, stylowych opakowań kartonowych.",
+			"text": "Nasze usługi opakowań kartonowych wykraczają poza zwykłe pudełka. Projektujemy i produkujemy niestandardowe opakowania, które odzwierciedlają estetykę Twojej marki i chronią Twoje produkty. Wykorzystując różne techniki druku i opcje wykończenia, tworzymy opakowania, które się wyróżniają, od minimalistycznych projektów po złożone, wielokolorowe rozwiązania.",
+			"list": [
+				"Indywidualny projekt i inżynieria konstrukcyjna",
+				"Wysokiej jakości druk na różnych typach kartonu",
+				"Zrównoważone i ekologiczne opcje",
+				"Poprawia prezentację i ochronę produktów"
+			]
+		}
+	},
+	"portfolio": {
+		"title": "Nasze najnowsze projekty",
+		"projectTitle": "Tytuł projektu",
+		"service": "Usługa",
+		"items": {
+			"customTShirts": "Koszulki na zamówienie",
+			"scarfPrinting": "Druk szalików",
+			"luxuryPackaging": "Luksusowe opakowania",
+			"brandedMugs": "Kubki z logo",
+			"elegantLogoTags": "Eleganckie metki logo",
+			"specialtyItems": "Produkty specjalne",
+			"screenPrinting": "Sitodruk",
+			"diffusionPrinting": "Druk dyfuzyjny",
+			"cardboardPackaging": "Opakowania kartonowe",
+			"sublimation": "Sublimacja",
+			"logoTags": "Metki logo",
+			"screenPrintingSpecial": "Sitodruk / Specjalny"
+		}
+	},
+	"instagram": {
+		"title": "Śledź nas na Instagramie",
+		"cta": "Zobacz profil"
+	},
+	"contact": {
+		"title": "Skontaktuj się z nami i złóż zamówienie",
+		"form": {
+			"subtitle": "Poproś o wycenę lub złóż zamówienie",
+			"name": "Twoje imię",
+			"email": "Email",
+			"phone": "Telefon (opcjonalnie)",
+			"service": "Interesująca usługa",
+			"selectService": "-- Wybierz usługę --",
+			"services": {
+				"sublimation": "Sublimacja",
+				"diffusion": "Druk dyfuzyjny",
+				"screenPrinting": "Sitodruk",
+				"logoTags": "Metki logo",
+				"packaging": "Opakowania kartonowe",
+				"other": "Inne / Ogólne zapytanie"
+			},
+			"details": "Szczegóły projektu / Wiadomość",
+			"detailsPlaceholder": "Opisz swój projekt, ilość i wymagany termin dostawy.",
+			"submit": "Wyślij zapytanie"
+		},
+		"info": {
+			"title": "Nasze dane"
+		}
+	},
+	"footer": {
+		"about": "Ekspert w druku cyfrowym i sitodrukowaniu. Ożywiamy wizję Twojej marki z precyzją i jakością.",
+		"information": {
+			"title": "INFORMACJE",
+			"privacy": "Polityka prywatności",
+			"terms": "Regulamin sklepu",
+			"delivery": "Koszty dostawy",
+			"returns": "Zwroty i reklamacje"
+		},
+		"quickLinks": {
+			"title": "SZYBKIE LINKI",
+			"about": "O nas",
+			"services": "Nasze usługi",
+			"portfolio": "Portfolio",
+			"contact": "Kontakt"
+		},
+		"copyright": "© 2025 ATEX | Wszelkie prawa zastrzeżone.",
+		"wholesale": "Współpraca hurtowa",
+		"payments": "Akceptujemy bezpieczne płatności:"
+	},
+	"api": {
+		"validation": {
+			"errors": {
+				"MinLength": "Wartość jest za krótka - minimalna długość to {{MinLength}}",
+				"MaxLength": "Wartość jest za długa - maksymalna długość to {{MaxLength}}",
+				"Min": "Wartość jest za mała - minimalna dozwolona wartość to {{Min}}",
+				"Max": "Wartość jest za duża - maksymalna dozwolona wartość to {{Max}}",
+				"IsDefined": "To pole jest wymagane",
+				"IsPhoneNumber": "Proszę podać prawidłowy numer telefonu",
+				"IsEmail": "Proszę podać prawidłowy adres e-mail",
+				"IsString": "To pole musi być wartością tekstową"
+			}
+		}
 	}
 }
