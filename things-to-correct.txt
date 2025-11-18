@@ -1,0 +1,13 @@
+Strona Główna
+-gówniana jakość wideo, ale video i tak będzie inne.
+-Wersja mobilna : pasek menu na górze troszkę spierdala poza ramkę. " o nas"- "o" jest nad "nas"
+-"our services" się nie tłumaczy
+- przy kafelkach z usługami, np." sublimacja" ma wyskakiwać okienko z rozwinięciem informacji
+-przy klikaniu "instagram" na górze w menu, nic się nie dzieje
+- ruski jest zjebany xd
+- dodaj logowanie MMBS
+ Wersja mobilna: ramka " +12 lat doświadczenia" ni jest wycentrowana
+-trzeba podłączyć instagram.
+"polityka prywatności","regulamin", "koszty dostawy", "zwroty i reklamacje" -uzupełnić
+
+-O Nas  podmienić "PRINT.CO" na "Atex"
