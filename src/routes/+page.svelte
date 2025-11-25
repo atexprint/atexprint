@@ -10,35 +10,30 @@
 		{
 			titleKey: 'services.sublimation.title',
 			descriptionKey: 'services.sublimation.description',
-			video: 'media/sublimation.mp4',
 			textKey: 'services.sublimation.text',
 			listKey: 'services.sublimation.list'
 		},
 		{
 			titleKey: 'services.diffusion.title',
 			descriptionKey: 'services.diffusion.description',
-			video: 'media/diffusion.mp4',
 			textKey: 'services.diffusion.text',
 			listKey: 'services.diffusion.list'
 		},
 		{
 			titleKey: 'services.screenPrinting.title',
 			descriptionKey: 'services.screenPrinting.description',
-			video: 'media/screen-printing.mp4',
 			textKey: 'services.screenPrinting.text',
 			listKey: 'services.screenPrinting.list'
 		},
 		{
 			titleKey: 'services.logoTags.title',
 			descriptionKey: 'services.logoTags.description',
-			video: 'media/logo-tags.mp4',
 			textKey: 'services.logoTags.text',
 			listKey: 'services.logoTags.list'
 		},
 		{
 			titleKey: 'services.packaging.title',
 			descriptionKey: 'services.packaging.description',
-			video: 'media/packaging.mp4',
 			textKey: 'services.packaging.text',
 			listKey: 'services.packaging.list'
 		}
@@ -46,32 +41,32 @@
 
 	const portfolioItems = [
 		{
-			image: asset('/img/IMG_0004[1].jpg'),
+			image: asset('/img/vanilla-lion.jpg'),
 			titleKey: 'portfolio.items.customTShirts',
 			serviceKey: 'portfolio.items.screenPrinting'
 		},
 		{
-			image: asset('/img/IMG_1338.jpg'),
+			image: asset('/img/digital-zebra.jpg'),
 			titleKey: 'portfolio.items.scarfPrinting',
 			serviceKey: 'portfolio.items.diffusionPrinting'
 		},
 		{
-			image: asset('/img/IMG_1489[1].jpg'),
+			image: asset('/img/dotted-zebra.jpg'),
 			titleKey: 'portfolio.items.luxuryPackaging',
 			serviceKey: 'portfolio.items.cardboardPackaging'
 		},
 		{
-			image: asset('/img/IMG_1615[1].jpg'),
+			image: asset('/img/tropical-zebra.jpg'),
 			titleKey: 'portfolio.items.brandedMugs',
 			serviceKey: 'portfolio.items.sublimation'
 		},
 		{
-			image: asset('/img/IMG_1666[1].jpg'),
+			image: asset('/img/white-tiger.jpg'),
 			titleKey: 'portfolio.items.elegantLogoTags',
 			serviceKey: 'portfolio.items.logoTags'
 		},
 		{
-			image: asset('/img/IMG_1752[1].jpg'),
+			image: asset('/img/ping-gepard.jpg'),
 			titleKey: 'portfolio.items.specialtyItems',
 			serviceKey: 'portfolio.items.screenPrintingSpecial'
 		}
@@ -178,7 +173,7 @@
 		playsinline
 		class="absolute top-0 left-0 z-0 h-full w-full object-cover"
 	>
-		<source src={asset('/video/WhatsApp Video 2025-11-07 at 19.54.17.mp4')} type="video/mp4" />
+		<source src={asset('/video/printer.mp4')} type="video/mp4" />
 		Your browser does not support HTML5 video.
 	</video>
 	<div class="relative z-10 container mx-auto max-w-7xl px-4 text-center">
@@ -190,7 +185,7 @@
 		</p>
 		<a
 			href="#contact"
-			class="inline-block rounded border-2 border-[#2f57a3] bg-[#2f57a3] px-6 py-3 font-semibold text-white transition-all hover:border-[#e02161] hover:bg-[#e02161] hover:shadow-lg"
+			class="inline-block rounded border-2 border-primary bg-primary px-6 py-3 font-semibold text-white transition-all hover:border-rose hover:bg-rose hover:shadow-lg"
 			>{$translate('hero.cta')}</a
 		>
 	</div>
@@ -203,7 +198,7 @@
 			<div
 				class="rounded-lg bg-gray-50 p-8 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
 			>
-				<i class="fas fa-rocket mb-5 text-5xl text-[#2f57a3]"></i>
+				<i class="fas fa-rocket mb-5 text-5xl text-primary"></i>
 				<h3 class="mb-2 text-xl font-semibold text-gray-900">
 					{$translate('features.fastDelivery.title')}
 				</h3>
@@ -212,7 +207,7 @@
 			<div
 				class="rounded-lg bg-gray-50 p-8 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
 			>
-				<i class="fas fa-palette mb-5 text-5xl text-[#2f57a3]"></i>
+				<i class="fas fa-palette mb-5 text-5xl text-primary"></i>
 				<h3 class="mb-2 text-xl font-semibold text-gray-900">
 					{$translate('features.customDesign.title')}
 				</h3>
@@ -223,7 +218,7 @@
 			<div
 				class="rounded-lg bg-gray-50 p-8 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
 			>
-				<i class="fas fa-shield-alt mb-5 text-5xl text-[#2f57a3]"></i>
+				<i class="fas fa-shield-alt mb-5 text-5xl text-primary"></i>
 				<h3 class="mb-2 text-xl font-semibold text-gray-900">
 					{$translate('features.qualityGuarantee.title')}
 				</h3>
@@ -232,7 +227,7 @@
 			<div
 				class="rounded-lg bg-gray-50 p-8 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
 			>
-				<i class="fas fa-headset mb-5 text-5xl text-[#2f57a3]"></i>
+				<i class="fas fa-headset mb-5 text-5xl text-primary"></i>
 				<h3 class="mb-2 text-xl font-semibold text-gray-900">
 					{$translate('features.expertSupport.title')}
 				</h3>
@@ -245,7 +240,7 @@
 <!-- About Section -->
 <section id="about" class="border-b border-gray-200 bg-white py-44">
 	<div class="container mx-auto max-w-7xl px-4">
-		<h2 class="mb-12 text-center text-4xl font-bold text-[#2f57a3]">{$translate('about.title')}</h2>
+		<h2 class="mb-12 text-center text-4xl font-bold text-primary">{$translate('about.title')}</h2>
 		<div class="flex flex-col items-start gap-12 lg:flex-row">
 			<div class="flex-2 text-lg leading-relaxed">
 				<p class="mb-4">
@@ -256,11 +251,11 @@
 				</p>
 				<a
 					href="#services"
-					class="mt-12 inline-block rounded border-2 border-[#2f57a3] bg-transparent px-6 py-3 font-semibold text-[#2f57a3] transition-all hover:border-[#e02161] hover:bg-[#e02161] hover:text-white"
+					class="mt-12 inline-block rounded border-2 border-primary bg-transparent px-6 py-3 font-semibold text-primary transition-all hover:border-rose hover:bg-rose hover:text-white"
 					>{$translate('about.cta')}</a
 				>
 			</div>
-			<div class="flex min-w-[250px] flex-1 flex-col gap-8 rounded bg-gray-50 p-10">
+			<div class="flex min-w-62.5 flex-1 flex-col gap-8 rounded bg-gray-50 p-10">
 				<div class="text-center">
 					<span
 						class="animated-number block text-5xl leading-none font-bold text-rose opacity-0"
@@ -296,15 +291,17 @@
 <!-- Services Section -->
 <section id="services" class="bg-gray-50 py-44">
 	<div class="container mx-auto max-w-7xl px-4">
-		<h2 class="mb-12 text-center text-4xl font-bold text-[#2f57a3]">Our Services</h2>
+		<h2 class="mb-12 text-center text-4xl font-bold text-primary">
+			{$translate('services.title')}
+		</h2>
 		<div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
 			{#each services as service}
 				<div
-					class="min-h-[200px] cursor-pointer rounded-lg border-t-4 border-[#2f57a3] bg-white p-8 shadow-md transition-all hover:-translate-y-1 hover:border-[#e02161] hover:shadow-lg"
+					class="min-h-50 cursor-pointer rounded-lg border-t-4 border-primary bg-white p-8 shadow-md transition-all hover:-translate-y-1 hover:border-rose hover:shadow-lg"
 					role="button"
 					tabindex="0"
 				>
-					<h3 class="mb-4 text-2xl font-semibold text-[#2f57a3] transition-colors hover:text-rose">
+					<h3 class="mb-4 text-2xl font-semibold text-primary transition-colors hover:text-rose">
 						{$translate(service.titleKey)}
 					</h3>
 					<p class="text-gray-600">{$translate(service.descriptionKey)}</p>
@@ -317,12 +314,12 @@
 <!-- Portfolio Section -->
 <section id="portfolio" class="py-44">
 	<div class="container mx-auto max-w-6xl px-4">
-		<h2 class="mb-16 text-center text-4xl font-bold text-[#2f57a3]">
+		<h2 class="mb-16 text-center text-4xl font-bold text-primary">
 			{$translate('portfolio.title')}
 		</h2>
 		<div class="mb-10 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
 			{#each portfolioItems as item}
-				<div class="group relative h-[300px] cursor-pointer overflow-hidden rounded-lg shadow-md">
+				<div class="group relative h-75 cursor-pointer overflow-hidden rounded-lg shadow-md">
 					<img
 						src={item.image}
 						alt={$translate(item.titleKey)}
@@ -347,11 +344,11 @@
 <!-- Instagram Section -->
 <section id="instagram" class="py-44">
 	<div class="container mx-auto max-w-6xl px-4">
-		<h2 class="mb-8 text-center text-4xl font-bold text-[#2f57a3]">
+		<h2 class="mb-8 text-center text-4xl font-bold text-primary">
 			{$translate('instagram.title')}
 		</h2>
 		<div
-			class="mx-auto mb-10 flex min-h-[400px] max-w-[900px] items-center justify-center border border-gray-300 bg-gray-50 text-gray-600"
+			class="mx-auto mb-10 flex min-h-100 max-w-225 items-center justify-center border border-gray-300 bg-gray-50 text-gray-600"
 		>
 			<script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
 			<iframe
@@ -366,7 +363,7 @@
 			href="https://www.instagram.com/atex_print_mm/"
 			target="_blank"
 			rel="noopener noreferrer"
-			class="mt-5 inline-block rounded border-2 border-[#2f57a3] bg-transparent px-6 py-3 font-semibold text-[#2f57a3] transition-all hover:border-rose hover:bg-rose hover:text-white"
+			class="mt-5 inline-block rounded border-2 border-primary bg-transparent px-6 py-3 font-semibold text-primary transition-all hover:border-rose hover:bg-rose hover:text-white"
 			>{$translate('instagram.cta')}</a
 		>
 	</div>
@@ -375,7 +372,7 @@
 <!-- Contact Section -->
 <section id="contact" class="bg-white py-20">
 	<div class="container mx-auto max-w-7xl px-4">
-		<h2 class="mb-12 text-center text-4xl font-bold text-[#2f57a3]">
+		<h2 class="mb-12 text-center text-4xl font-bold text-primary">
 			{$translate('contact.title')}
 		</h2>
 		<div class="grid grid-cols-1 items-start gap-16 lg:grid-cols-[2fr_1fr]">
@@ -394,7 +391,7 @@
 							id="name"
 							name="name"
 							required
-							class="w-full rounded border border-gray-300 p-3 text-base transition-all focus:border-[#2f57a3] focus:ring-2 focus:ring-[#2f57a3]/20 focus:outline-none"
+							class="w-full rounded border border-gray-300 p-3 text-base transition-all focus:border-primary focus:ring-2 focus:ring-primary/20 focus:outline-none"
 						/>
 					</div>
 					<div>
@@ -406,7 +403,7 @@
 							id="email"
 							name="email"
 							required
-							class="w-full rounded border border-gray-300 p-3 text-base transition-all focus:border-[#2f57a3] focus:ring-2 focus:ring-[#2f57a3]/20 focus:outline-none"
+							class="w-full rounded border border-gray-300 p-3 text-base transition-all focus:border-primary focus:ring-2 focus:ring-primary/20 focus:outline-none"
 						/>
 					</div>
 					<div>
@@ -417,7 +414,7 @@
 							type="tel"
 							id="phone"
 							name="phone"
-							class="w-full rounded border border-gray-300 p-3 text-base transition-all focus:border-[#2f57a3] focus:ring-2 focus:ring-[#2f57a3]/20 focus:outline-none"
+							class="w-full rounded border border-gray-300 p-3 text-base transition-all focus:border-primary focus:ring-2 focus:ring-primary/20 focus:outline-none"
 						/>
 					</div>
 					<div>
@@ -428,7 +425,7 @@
 							id="service"
 							name="service"
 							required
-							class="w-full rounded border border-gray-300 p-3 text-base transition-all focus:border-[#2f57a3] focus:ring-2 focus:ring-[#2f57a3]/20 focus:outline-none"
+							class="w-full rounded border border-gray-300 p-3 text-base transition-all focus:border-primary focus:ring-2 focus:ring-primary/20 focus:outline-none"
 						>
 							<option value="">{$translate('contact.form.selectService')}</option>
 							<option value="sublimacja">{$translate('contact.form.services.sublimation')}</option>
@@ -449,12 +446,12 @@
 							rows="5"
 							required
 							placeholder={$translate('contact.form.detailsPlaceholder')}
-							class="w-full resize-y rounded border border-gray-300 p-3 text-base transition-all focus:border-[#2f57a3] focus:ring-2 focus:ring-[#2f57a3]/20 focus:outline-none"
+							class="w-full resize-y rounded border border-gray-300 p-3 text-base transition-all focus:border-primary focus:ring-2 focus:ring-primary/20 focus:outline-none"
 						></textarea>
 					</div>
 					<button
 						type="submit"
-						class="mt-10 w-full rounded border-2 border-[#2f57a3] bg-[#2f57a3] px-6 py-3 font-semibold text-white transition-all hover:border-rose hover:bg-rose hover:shadow-lg"
+						class="mt-10 w-full rounded border-2 border-primary bg-primary px-6 py-3 font-semibold text-white transition-all hover:border-rose hover:bg-rose hover:shadow-lg"
 						>{$translate('contact.form.submit')}</button
 					>
 				</form>
@@ -466,16 +463,15 @@
 					{$translate('contact.info.title')}
 				</h3>
 				<div class="mb-6 flex items-center">
-					<i class="fas fa-map-marker-alt mr-4 min-w-[25px] text-center text-2xl text-[#2f57a3]"
-					></i>
+					<i class="fas fa-map-marker-alt mr-4 min-w-6 text-center text-2xl text-primary"></i>
 					<p class="leading-snug text-gray-900">Poddębina 16, Tuszyn 95-080</p>
 				</div>
 				<div class="mb-6 flex items-center">
-					<i class="fas fa-phone mr-4 min-w-[25px] text-center text-2xl text-[#2f57a3]"></i>
+					<i class="fas fa-phone mr-4 min-w-6 text-center text-2xl text-primary"></i>
 					<p class="leading-snug text-gray-900">+48 508 227 647</p>
 				</div>
 				<div class="mb-6 flex items-center">
-					<i class="fas fa-envelope mr-4 min-w-[25px] text-center text-2xl text-[#2f57a3]"></i>
+					<i class="fas fa-envelope mr-4 min-w-6 text-center text-2xl text-primary"></i>
 					<p class="leading-snug text-gray-900">atex@atexprint.pl</p>
 				</div>
 
@@ -486,7 +482,7 @@
 							href="https://www.instagram.com/drukarnia_tkanindzianin_atex/"
 							target="_blank"
 							aria-label="Instagram"
-							class="text-3xl text-gray-600 transition-colors hover:text-[#2f57a3]"
+							class="text-3xl text-gray-600 transition-colors hover:text-primary"
 						>
 							<i class="fab fa-instagram"></i>
 						</a>
@@ -494,7 +490,7 @@
 							href="https://www.facebook.com/profile.php?id=61560891526409&locale=pl_PL"
 							target="_blank"
 							aria-label="Facebook"
-							class="text-3xl text-gray-600 transition-colors hover:text-[#2f57a3]"
+							class="text-3xl text-gray-600 transition-colors hover:text-primary"
 						>
 							<i class="fab fa-facebook-f"></i>
 						</a>
@@ -502,7 +498,7 @@
 							href="https://wa.me/48508227647"
 							target="_blank"
 							aria-label="WhatsApp"
-							class="text-3xl text-gray-600 transition-colors hover:text-[#2f57a3]"
+							class="text-3xl text-gray-600 transition-colors hover:text-primary"
 						>
 							<i class="fab fa-whatsapp"></i>
 						</a>
@@ -518,7 +514,7 @@
 						loading="lazy"
 						referrerpolicy="no-referrer-when-downgrade"
 						title="ATEX Location"
-						class="block h-[300px] w-full"
+						class="block h-75 w-full"
 					></iframe>
 				</div>
 			</div>
@@ -531,7 +527,7 @@
 	<div class="container mx-auto max-w-7xl px-4">
 		<div class="grid grid-cols-1 gap-10 md:grid-cols-[2fr_1fr_1fr]">
 			<div>
-				<img src={asset('/android-chrome-512x512.png')} alt="Print.Co Logo" class="mb-4 w-16" />
+				<img src={asset('/android-chrome-512x512.png')} alt="Atex Logo" class="mb-4 w-16" />
 				<p class="mb-5">
 					{$translate('footer.about')}
 				</p>
@@ -539,21 +535,21 @@
 					<a
 						href="#"
 						aria-label="Instagram"
-						class="text-2xl text-gray-100 transition-colors hover:text-[#2f57a3]"
+						class="text-2xl text-gray-100 transition-colors hover:text-primary"
 					>
 						<i class="fab fa-instagram"></i>
 					</a>
 					<a
 						href="#"
 						aria-label="Facebook"
-						class="text-2xl text-gray-100 transition-colors hover:text-[#2f57a3]"
+						class="text-2xl text-gray-100 transition-colors hover:text-primary"
 					>
 						<i class="fab fa-facebook-f"></i>
 					</a>
 					<a
 						href="#"
 						aria-label="WhatsApp"
-						class="text-2xl text-gray-100 transition-colors hover:text-[#2f57a3]"
+						class="text-2xl text-gray-100 transition-colors hover:text-primary"
 					>
 						<i class="fab fa-whatsapp"></i>
 					</a>
@@ -567,28 +563,28 @@
 					<li>
 						<a
 							href="#"
-							class="text-gray-100 opacity-90 transition-all hover:text-[#2f57a3] hover:opacity-100"
+							class="text-gray-100 opacity-90 transition-all hover:text-primary hover:opacity-100"
 							>{$translate('footer.information.privacy')}</a
 						>
 					</li>
 					<li>
 						<a
 							href="#"
-							class="text-gray-100 opacity-90 transition-all hover:text-[#2f57a3] hover:opacity-100"
+							class="text-gray-100 opacity-90 transition-all hover:text-primary hover:opacity-100"
 							>{$translate('footer.information.terms')}</a
 						>
 					</li>
 					<li>
 						<a
 							href="#"
-							class="text-gray-100 opacity-90 transition-all hover:text-[#2f57a3] hover:opacity-100"
+							class="text-gray-100 opacity-90 transition-all hover:text-primary hover:opacity-100"
 							>{$translate('footer.information.delivery')}</a
 						>
 					</li>
 					<li>
 						<a
 							href="#"
-							class="text-gray-100 opacity-90 transition-all hover:text-[#2f57a3] hover:opacity-100"
+							class="text-gray-100 opacity-90 transition-all hover:text-primary hover:opacity-100"
 							>{$translate('footer.information.returns')}</a
 						>
 					</li>
@@ -602,28 +598,28 @@
 					<li>
 						<a
 							href="#about"
-							class="text-gray-100 opacity-90 transition-all hover:text-[#2f57a3] hover:opacity-100"
+							class="text-gray-100 opacity-90 transition-all hover:text-primary hover:opacity-100"
 							>{$translate('footer.quickLinks.about')}</a
 						>
 					</li>
 					<li>
 						<a
 							href="#services"
-							class="text-gray-100 opacity-90 transition-all hover:text-[#2f57a3] hover:opacity-100"
+							class="text-gray-100 opacity-90 transition-all hover:text-primary hover:opacity-100"
 							>{$translate('footer.quickLinks.services')}</a
 						>
 					</li>
 					<li>
 						<a
 							href="#portfolio"
-							class="text-gray-100 opacity-90 transition-all hover:text-[#2f57a3] hover:opacity-100"
+							class="text-gray-100 opacity-90 transition-all hover:text-primary hover:opacity-100"
 							>{$translate('footer.quickLinks.portfolio')}</a
 						>
 					</li>
 					<li>
 						<a
 							href="#contact"
-							class="text-gray-100 opacity-90 transition-all hover:text-[#2f57a3] hover:opacity-100"
+							class="text-gray-100 opacity-90 transition-all hover:text-primary hover:opacity-100"
 							>{$translate('footer.quickLinks.contact')}</a
 						>
 					</li>
