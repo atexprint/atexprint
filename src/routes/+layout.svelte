@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.css';
+	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
 
 	import { currentLocale, getUserPreferredLocale, Locale } from '$i18n';
 	import { onDestroy, onMount } from 'svelte';
@@ -14,6 +15,9 @@
 	let { children } = $props();
 
 	const UNSUBS: Unsubscriber[] = [];
+
+	// Vercel Speed Insights
+	injectSpeedInsights();
 
 	onMount(() => {
 		UNSUBS.push(
