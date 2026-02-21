@@ -1,6 +1,9 @@
 {
 	"meta": {
-		"description": "ATEX - szakértők poliészter kötött és szőtt anyagok nyomtatásában. 20 év tapasztalat."
+		"general": {
+			"title": "ATEX",
+			"description": "ATEX - experts in printing on knitted and woven polyester fabrics. 20 years of experience."
+		}
 	},
 	"language": {
 		"czech": {
@@ -29,184 +32,192 @@
 		}
 	},
 	"nav": {
-		"aboutUs": "Rólunk",
-		"services": "Szolgáltatások",
-		"portfolio": "Portfólió",
+		"about": "About Us",
+		"services": "Services",
+		"portfolio": "Portfolio",
 		"instagram": "Instagram",
-		"contact": "Kapcsolat"
+		"contact": "Contact"
 	},
 	"hero": {
-		"title": "Szakértői nyomtatási megoldások márkájának",
-		"subtitle": "Egyedi ruhától egyedi csomagolásig, életre keltjük elképzelését precizitással és minőséggel.",
-		"cta": "Árajánlat kérése"
+		"title": "Expert Solutions for Your Brand",
+		"subtitle": "From custom apparel to unique packaging, we bring your vision to life with precision and quality.",
+		"cta": "Get a Quote",
+		"callUs": "Call us",
+		"html5VideoUnsupported": "Your browser does not support HTML5 video."
 	},
 	"features": {
 		"fastDelivery": {
-			"title": "Gyors szállítás",
-			"description": "Gyors határidők betartása érdekében."
+			"title": "Fast Delivery",
+			"description": "Swift turnaround times to meet your deadlines."
 		},
 		"customDesign": {
-			"title": "Egyedi design",
-			"description": "Keltsük életre egyedi elképzelését személyre szabott nyomatokkal."
+			"title": "Custom Design",
+			"description": "Bring your unique vision to life with personalized prints."
 		},
 		"qualityGuarantee": {
-			"title": "Minőségi garancia",
-			"description": "100%-os elégedettség minden nyomtatási megrendelésnél."
+			"title": "Quality Guarantee",
+			"description": "100% satisfaction with every print order."
 		},
 		"expertSupport": {
-			"title": "Szakértői támogatás",
-			"description": "Elkötelezett segítség online vagy telefonon."
+			"title": "Expert Support",
+			"description": "Dedicated assistance online or by phone."
 		}
 	},
 	"about": {
-		"title": "Rólunk",
-		"text1": "Elkötelezett csapat vagyunk, akik szenvedélyesen <strong class=\"font-semibold text-[#2f57a3]\">kivételes nyomtatási minőséget nyújtanak</strong>. Több mint egy évtizede a PRINT.CO a megbízható partner a vállalkozások számára, akik megbízható és kreatív megoldásokat keresnek digitális, szitanyomás és speciális nyomtatási technikákban. Ötvözzük a műszaki szakértelmet a fenntartható gyakorlatok iránti elkötelezettséggel.",
-		"text2": "Fókuszunk a zökkenőmentes élmény nyújtásán van, a kezdeti tervezési konzultációtól a végső szállításig, biztosítva, hogy minden projekt megfelel magas színvonalunknak és meghaladja elvárásait.",
-		"cta": "Képességeink",
+		"title": "About Us",
+		"text1": "We are a dedicated team passionate about <strong class=\"font-semibold text-[#2f57a3]\">delivering exceptional print quality</strong>. For over a decade, ATEX has been the trusted partner for businesses seeking reliable and creative solutions in digital, screen, and specialized printing techniques. We combine technical expertise with a commitment to sustainable practices.",
+		"text2": "Our focus is on providing a seamless experience, from initial design consultation to final delivery, ensuring every project meets our high standards and exceeds your expectations.",
+		"cta": "Our Capabilities",
 		"stats": {
-			"yearsOfExperience": "Év tapasztalat",
-			"successfulProjects": "Sikeres projektek",
-			"satisfiedClients": "Elégedett ügyfelek"
+			"yearsOfExperience": "Years of Experience",
+			"printMeters": "Meters printed",
+			"satisfiedClients": "Satisfied Clients"
 		}
 	},
 	"services": {
-		"title": "Szolgáltatásaink",
+		"title": "Our Services",
 		"sublimation": {
-			"title": "Szublimáció",
-			"description": "Kiváló minőségű nyomtatás textilekre és termékekre élénk színekkel.",
-			"text": "A szublimációs nyomtatás egy digitális nyomtatási módszer, amely hőt használ a festék anyagokra, például szövetre, műanyagra és papírra történő átviteléhez. Ideális egyedi ruházathoz, promóciós termékekhez és személyre szabott ajándékokhoz, teljes színű, tartós és kifakadásálló mintákat kínálva nehéz érzet nélkül.",
+			"title": "Sublimation",
+			"description": "High-quality printing on textiles and merchandise with vibrant colors.",
+			"text": "Sublimation printing is a digital printing method that uses heat to transfer dye onto materials like fabric, plastic, and paper. It's ideal for custom apparel, promotional products, and personalized gifts, offering full-color, durable, and fade-resistant designs without a heavy feel.",
 			"list": [
-				"Élénk, teljes színű minták",
-				"Tartós és kifakadásálló",
-				"Puha tapintás a szöveten",
-				"Ideális világos színű poliészter anyagokhoz"
+				"Vibrant, full-color designs",
+				"Durable and fade-resistant",
+				"Soft-hand feel on fabric",
+				"Ideal for light-colored polyester materials"
 			]
 		},
 		"diffusion": {
-			"title": "Diffúziós nyomtatás",
-			"description": "Speciális nyomtatás összetett anyagokhoz és egyedi vizuális hatásokhoz.",
-			"text": "A diffúziós nyomtatás speciális festékeket használ, amelyek mélyebbre hatolnak az anyag szálai közé, puha, integrált nyomatot hozva létre, amely magának a szövetnek a része lesz. Ez a módszer különösen alkalmas egyedi vizuális textúrák és luxus érzet elérésére csúcskategóriás textilek esetében.",
+			"title": "Diffusion Printing",
+			"description": "Specialized printing for complex materials and unique visual effects.",
+			"text": "Diffusion printing involves using specialized inks that penetrate deeper into the material's fibers, creating a soft, integrated print that becomes part of the fabric itself. This method is particularly suitable for achieving unique visual textures and a luxurious feel on high-end textiles.",
 			"list": [
-				"Integrált nyomat, nincs felületi érzet",
-				"Puha, természetes szövet esés megőrzése",
-				"Ideális finom és csúcskategóriás anyagokhoz",
-				"Egyedi mélység és textúra a mintákban"
+				"Integrated print, no surface feel",
+				"Soft, natural drape of fabric preserved",
+				"Ideal for delicate and high-end materials",
+				"Unique depth and texture in designs"
 			]
 		},
 		"screenPrinting": {
-			"title": "Szitanyomás",
-			"description": "Tartós, hosszú élettartamú és sűrű nyomtatás, ideális nagy mennyiségekhez.",
-			"text": "A szitanyomás egy sokoldalú nyomtatási technika, ahol hálót használnak a festék szubsztrátra történő átvitelére, kivéve azokat a területeket, amelyeket blokkoló sablon tesz áthatolhatatlanná a festék számára. Egy pengét vagy gumit mozgatnak a képernyőn keresztül, hogy megtöltsék a nyitott hálónyílásokat festékkel, majd egy fordított lökés hatására a képernyő egy pillanatra érinti a szubsztrátot egy érintkezési vonal mentén.",
+			"title": "Screen Printing",
+			"description": "Durable, long-lasting, and dense printing, ideal for large volumes.",
+			"text": "Screen printing is a versatile printing technique where a mesh is used to transfer ink onto a substrate, except in areas made impermeable to the ink by a blocking stencil. A blade or squeegee is moved across the screen to fill the open mesh apertures with ink, and a reverse stroke then causes the screen to touch the substrate momentarily along a line of contact.",
 			"list": [
-				"Nagy tartósság és mosásállóság",
-				"Élénk színek sötét szöveteken",
-				"Költséghatékony nagy tételekhez",
-				"Széles választék festéktípusok (fémes, sötétben világító)"
+				"High durability and wash resistance",
+				"Vibrant colors on dark fabrics",
+				"Cost-effective for large batches",
+				"Wide range of ink types (metallics, glow-in-the-dark)"
 			]
 		},
 		"logoTags": {
-			"title": "Logó címkék",
-			"description": "Textil és karton címkék tervezése és nyomtatása márkájával.",
-			"text": "Átfogó megoldásokat kínálunk egyedi logó címkékhez, beleértve a tervezést, anyagválasztást (textil, karton, műbőr) és nyomtatást. Címkéink fokozzák márkája professzionalizmusát és lényeges termékinformációkat nyújtanak. Az elegáns szőtt címkéktől a robusztus nyomtatott karton címkékig minőséget és márka konzisztenciát biztosítunk.",
+			"title": "Logo Tags",
+			"description": "Design and printing of textile and cardboard tags featuring your brand.",
+			"text": "We offer comprehensive solutions for custom logo tags, including design, material selection (textile, cardboard, leatherette), and printing. Our tags enhance your brand's professionalism and provide essential product information. From elegant woven labels to robust printed cardboard tags, we ensure quality and brand consistency.",
 			"list": [
-				"Egyedi design és márkaépítés",
-				"Anyagok sokfélesége: textil, karton, szintetikus",
-				"Kiváló minőségű nyomtatás és befejezés",
-				"Erősíti a márka identitását"
+				"Custom design and branding",
+				"Variety of materials: textile, cardboard, synthetic",
+				"High-quality printing and finishing",
+				"Reinforces brand identity"
 			]
 		},
 		"packaging": {
-			"title": "Karton csomagolás",
-			"description": "Egyedi, stílusos karton csomagolás létrehozása és nyomtatása.",
-			"text": "Karton csomagolási szolgáltatásaink túlmutatnak a dobozokon. Egyedi csomagolást tervezünk és gyártunk, amely tükrözi márkája esztétikáját és védi termékét. Különféle nyomtatási technikák és befejezési lehetőségek felhasználásával olyan csomagolást hozunk létre, amely kiemelkedik, a minimalista dizájnoktól a összetett, többszínű megoldásokig.",
+			"title": "Cardboard Packaging",
+			"description": "Creation and printing of customized, stylish cardboard packaging.",
+			"text": "Our cardboard packaging services go beyond just boxes. We design and produce custom packaging that reflects your brand's aesthetics and protects your products. Utilizing various printing techniques and finishing options, we create packaging that stands out, from minimalist designs to complex, multi-color solutions.",
 			"list": [
-				"Testreszabott tervezés és szerkezeti mérnöki munka",
-				"Kiváló minőségű nyomtatás különféle karton típusokon",
-				"Fenntartható és környezetbarát lehetőségek",
-				"Javítja a termék bemutatását és védelmét"
+				"Tailored design and structural engineering",
+				"High-quality printing on various cardboard types",
+				"Sustainable and eco-friendly options",
+				"Enhances product presentation and protection"
 			]
 		}
 	},
 	"portfolio": {
-		"title": "Legújabb projektjeink",
-		"projectTitle": "Projekt címe",
-		"service": "Szolgáltatás",
+		"title": "Our Latest Projects",
+		"projectTitle": "Project Title",
+		"service": "Service",
 		"items": {
-			"customTShirts": "Egyedi pólók",
-			"scarfPrinting": "Sál nyomtatás",
-			"luxuryPackaging": "Luxus csomagolás",
-			"brandedMugs": "Márkás bögre",
-			"elegantLogoTags": "Elegáns logó címkék",
-			"specialtyItems": "Speciális termékek",
-			"screenPrinting": "Szitanyomás",
-			"diffusionPrinting": "Diffúziós nyomtatás",
-			"cardboardPackaging": "Karton csomagolás",
-			"sublimation": "Szublimáció",
-			"logoTags": "Logó címkék",
-			"screenPrintingSpecial": "Szitanyomás / Speciális"
+			"customTShirts": "Custom T-Shirts",
+			"scarfPrinting": "Scarf Printing",
+			"luxuryPackaging": "Luxury Packaging",
+			"brandedMugs": "Branded Mugs",
+			"elegantLogoTags": "Elegant Logo Tags",
+			"specialtyItems": "Specialty Items",
+			"screenPrinting": "Screen Printing",
+			"diffusionPrinting": "Diffusion Printing",
+			"cardboardPackaging": "Cardboard Packaging",
+			"sublimation": "Sublimation",
+			"logoTags": "Logo Tags",
+			"screenPrintingSpecial": "Screen Printing / Special"
 		}
 	},
 	"instagram": {
-		"title": "Kövess minket Instagramon",
-		"cta": "Profil megtekintése"
+		"title": "Follow Us on Instagram",
+		"cta": "View Profile"
 	},
 	"contact": {
-		"title": "Lépjen kapcsolatba velünk és adja le rendelését",
+		"title": "Contact Us",
 		"form": {
-			"subtitle": "Árajánlat kérése vagy rendelés leadása",
-			"name": "Az Ön neve",
-			"email": "E-mail",
-			"phone": "Telefon (opcionális)",
-			"service": "Érdeklődési szolgáltatás",
-			"selectService": "-- Válasszon szolgáltatást --",
+			"subtitle": "Request a Quote",
+			"name": "Your Name",
+			"email": "Email",
+			"phone": "Phone (Optional)",
+			"service": "Service Interested In",
+			"selectService": "-- Select a Service --",
 			"services": {
-				"sublimation": "Szublimáció",
-				"diffusion": "Diffúziós nyomtatás",
-				"screenPrinting": "Szitanyomás",
-				"logoTags": "Logó címkék",
-				"packaging": "Karton csomagolás",
-				"other": "Egyéb / Általános érdeklődés"
+				"sublimation": "Sublimation",
+				"diffusion": "Diffusion Printing",
+				"screenPrinting": "Screen Printing",
+				"logoTags": "Logo Tags",
+				"packaging": "Cardboard Packaging",
+				"other": "Other / General Inquiry"
 			},
-			"details": "Projekt részletei / Üzenet",
-			"detailsPlaceholder": "Írja le projektjét, mennyiséget és szükséges szállítási dátumot.",
-			"submit": "Kérés küldése"
+			"details": "Project Details / Message",
+			"detailsPlaceholder": "Describe your project, quantity, and required delivery date.",
+			"submit": "Send Request"
 		},
 		"info": {
-			"title": "Adataink"
+			"title": "Our Details"
+		},
+		"connect": {
+			"title": "Connect with us"
 		}
 	},
 	"footer": {
-		"about": "Szakértő digitális és szitanyomásban. Életre keltjük márkája vízióját precizitással és minőséggel.",
+		"about": "Expert in digital printing. Bringing your brand vision to life with precision and quality.",
 		"information": {
-			"title": "INFORMÁCIÓK",
-			"privacy": "Adatvédelmi irányelvek",
-			"terms": "Üzletszabályzat",
-			"delivery": "Szállítási költségek",
-			"returns": "Visszaküldések és reklamációk"
+			"title": "INFORMATION",
+			"privacy": "Privacy Policy",
+			"terms": "Store Regulations",
+			"delivery": "Delivery Costs",
+			"returns": "Returns and Complaints"
 		},
 		"quickLinks": {
-			"title": "GYORS LINKEK",
-			"about": "Rólunk",
-			"services": "Szolgáltatásaink",
-			"portfolio": "Portfólió",
-			"contact": "Kapcsolat"
+			"title": "QUICK LINKS",
+			"about": "About Us",
+			"services": "Our Services",
+			"portfolio": "Portfolio",
+			"contact": "Contact"
 		},
-		"copyright": "© 2025 ATEX | Minden jog fenntartva.",
-		"wholesale": "Nagykereskedelmi együttműködés",
-		"payments": "Biztonságos fizetéseket fogadunk el:"
+		"copyright": "© 2025 ATEX | All Rights Reserved."
 	},
 	"api": {
 		"validation": {
 			"errors": {
-				"MinLength": "Az érték túl rövid - a minimális hossz {{MinLength}}",
-				"MaxLength": "Az érték túl hosszú - a maximális hossz {{MaxLength}}",
-				"Min": "Az érték túl kicsi - a minimálisan megengedett érték {{Min}}",
-				"Max": "Az érték túl nagy - a maximálisan megengedett érték {{Max}}",
-				"IsDefined": "Ez a mező kötelező",
-				"IsPhoneNumber": "Kérjük, adjon meg egy érvényes telefonszámot",
-				"IsEmail": "Kérjük, adjon meg egy érvényes e-mail címet",
-				"IsString": "Ez a mező szöveges értéket kell tartalmazzon"
+				"MinLength": "Value is too short - minimum length is {{MinLength}}",
+				"MaxLength": "Value is too long - maximum length is {{MaxLength}}",
+				"Min": "Value is too small - minimum allowed value is {{Min}}",
+				"Max": "Value is too large - maximum allowed value is {{Max}}",
+				"IsDefined": "This field is required",
+				"IsPhoneNumber": "Please provide a valid phone number",
+				"IsEmail": "Please provide a valid email address",
+				"IsString": "This field must be a text value"
 			}
 		}
+	},
+	"numberSuffix": {
+		"thousand": "K",
+		"milion": "M",
+		"billion": "B"
 	}
 }

@@ -21,9 +21,16 @@ export class EmailService {
 	}
 
 	async contactRequest(args: ContactRequestArgs) {
-		const html = (await import('./email-templates/contact-request.html?raw')).default;
-		const replacedHtml = htmlKeyValueReplacer(html, args);
-		await this._send(replacedHtml);
+		const adminHtml = (await import('./email-templates/contact/contact-request-admin.html?raw'))
+			.default;
+		const userHtml = (await import('./email-templates/contact/contact-request-user.html?raw'))
+			.default;
+
+		const adminReplacedHtml = htmlKeyValueReplacer(adminHtml, args);
+		const userReplacedHtml = htmlKeyValueReplacer(userHtml, args);
+
+		await this._send(adminReplacedHtml);
+		await this._send(userReplacedHtml);
 	}
 
 	private async _send(html: string) {

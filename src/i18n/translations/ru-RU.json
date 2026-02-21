@@ -1,6 +1,9 @@
 {
 	"meta": {
-		"description": "ATEX - эксперты по печати на трикотажных и тканых полиэстеровых материалах. 20 лет опыта."
+		"general": {
+			"title": "ATEX",
+			"description": "ATEX - experts in printing on knitted and woven polyester fabrics. 20 years of experience."
+		}
 	},
 	"language": {
 		"czech": {
@@ -29,184 +32,192 @@
 		}
 	},
 	"nav": {
-		"aboutUs": "О нас",
-		"services": "Услуги",
-		"portfolio": "Портфолио",
+		"about": "About Us",
+		"services": "Services",
+		"portfolio": "Portfolio",
 		"instagram": "Instagram",
-		"contact": "Контакты"
+		"contact": "Contact"
 	},
 	"hero": {
-		"title": "Профессиональные решения для печати для вашего бренда",
-		"subtitle": "От индивидуальной одежды до уникальной упаковки мы воплощаем ваше видение в жизнь с точностью и качеством.",
-		"cta": "Получить предложение"
+		"title": "Expert Solutions for Your Brand",
+		"subtitle": "From custom apparel to unique packaging, we bring your vision to life with precision and quality.",
+		"cta": "Get a Quote",
+		"callUs": "Call us",
+		"html5VideoUnsupported": "Your browser does not support HTML5 video."
 	},
 	"features": {
 		"fastDelivery": {
-			"title": "Быстрая доставка",
-			"description": "Быстрые сроки выполнения для соблюдения ваших дедлайнов."
+			"title": "Fast Delivery",
+			"description": "Swift turnaround times to meet your deadlines."
 		},
 		"customDesign": {
-			"title": "Индивидуальный дизайн",
-			"description": "Воплотите свое уникальное видение с персонализированными принтами."
+			"title": "Custom Design",
+			"description": "Bring your unique vision to life with personalized prints."
 		},
 		"qualityGuarantee": {
-			"title": "Гарантия качества",
-			"description": "100% удовлетворенность каждым заказом печати."
+			"title": "Quality Guarantee",
+			"description": "100% satisfaction with every print order."
 		},
 		"expertSupport": {
-			"title": "Экспертная поддержка",
-			"description": "Специализированная помощь онлайн или по телефону."
+			"title": "Expert Support",
+			"description": "Dedicated assistance online or by phone."
 		}
 	},
 	"about": {
-		"title": "О нас",
-		"text1": "Мы - преданная команда, увлеченная <strong class=\"font-semibold text-[#2f57a3]\">предоставлением исключительного качества печати</strong>. Уже более десяти лет PRINT.CO является надежным партнером для компаний, ищущих надежные и креативные решения в цифровой, трафаретной и специализированной печати. Мы сочетаем технический опыт с приверженностью к устойчивым практикам.",
-		"text2": "Наша цель - обеспечить беспроблемный опыт, от первоначальной консультации по дизайну до окончательной доставки, гарантируя, что каждый проект соответствует нашим высоким стандартам и превосходит ваши ожидания.",
-		"cta": "Наши возможности",
+		"title": "About Us",
+		"text1": "We are a dedicated team passionate about <strong class=\"font-semibold text-[#2f57a3]\">delivering exceptional print quality</strong>. For over a decade, ATEX has been the trusted partner for businesses seeking reliable and creative solutions in digital, screen, and specialized printing techniques. We combine technical expertise with a commitment to sustainable practices.",
+		"text2": "Our focus is on providing a seamless experience, from initial design consultation to final delivery, ensuring every project meets our high standards and exceeds your expectations.",
+		"cta": "Our Capabilities",
 		"stats": {
-			"yearsOfExperience": "Лет опыта",
-			"successfulProjects": "Успешных проектов",
-			"satisfiedClients": "Довольных клиентов"
+			"yearsOfExperience": "Years of Experience",
+			"printMeters": "Meters printed",
+			"satisfiedClients": "Satisfied Clients"
 		}
 	},
 	"services": {
-		"title": "Наши услуги",
+		"title": "Our Services",
 		"sublimation": {
-			"title": "Сублимация",
-			"description": "Высококачественная печать на текстиле и мерчандайзе с яркими цветами.",
-			"text": "Сублимационная печать - это метод цифровой печати, который использует тепло для переноса красителя на материалы, такие как ткань, пластик и бумага. Идеально подходит для индивидуальной одежды, рекламной продукции и персонализированных подарков, предлагая полноцветные, долговечные и устойчивые к выцветанию дизайны без тяжелого ощущения.",
+			"title": "Sublimation",
+			"description": "High-quality printing on textiles and merchandise with vibrant colors.",
+			"text": "Sublimation printing is a digital printing method that uses heat to transfer dye onto materials like fabric, plastic, and paper. It's ideal for custom apparel, promotional products, and personalized gifts, offering full-color, durable, and fade-resistant designs without a heavy feel.",
 			"list": [
-				"Яркие, полноцветные дизайны",
-				"Долговечные и устойчивые к выцветанию",
-				"Мягкое ощущение на ткани",
-				"Идеально для светлых полиэстеровых материалов"
+				"Vibrant, full-color designs",
+				"Durable and fade-resistant",
+				"Soft-hand feel on fabric",
+				"Ideal for light-colored polyester materials"
 			]
 		},
 		"diffusion": {
-			"title": "Диффузная печать",
-			"description": "Специализированная печать для сложных материалов и уникальных визуальных эффектов.",
-			"text": "Диффузная печать использует специализированные чернила, которые проникают глубже в волокна материала, создавая мягкий, интегрированный отпечаток, который становится частью самой ткани. Этот метод особенно подходит для достижения уникальных визуальных текстур и роскошного ощущения на высококачественных тканях.",
+			"title": "Diffusion Printing",
+			"description": "Specialized printing for complex materials and unique visual effects.",
+			"text": "Diffusion printing involves using specialized inks that penetrate deeper into the material's fibers, creating a soft, integrated print that becomes part of the fabric itself. This method is particularly suitable for achieving unique visual textures and a luxurious feel on high-end textiles.",
 			"list": [
-				"Интегрированный отпечаток, без поверхностного ощущения",
-				"Мягкая, естественная драпировка ткани сохраняется",
-				"Идеально для деликатных и высококачественных материалов",
-				"Уникальная глубина и текстура в дизайнах"
+				"Integrated print, no surface feel",
+				"Soft, natural drape of fabric preserved",
+				"Ideal for delicate and high-end materials",
+				"Unique depth and texture in designs"
 			]
 		},
 		"screenPrinting": {
-			"title": "Трафаретная печать",
-			"description": "Долговечная, стойкая и плотная печать, идеальна для больших объемов.",
-			"text": "Трафаретная печать - это универсальная техника печати, при которой сетка используется для переноса чернил на подложку, за исключением областей, сделанных непроницаемыми для чернил блокирующим трафаретом. Лезвие или ракель перемещается по экрану, чтобы заполнить открытые отверстия сетки чернилами, а затем обратный ход заставляет экран на мгновение касаться подложки вдоль линии контакта.",
+			"title": "Screen Printing",
+			"description": "Durable, long-lasting, and dense printing, ideal for large volumes.",
+			"text": "Screen printing is a versatile printing technique where a mesh is used to transfer ink onto a substrate, except in areas made impermeable to the ink by a blocking stencil. A blade or squeegee is moved across the screen to fill the open mesh apertures with ink, and a reverse stroke then causes the screen to touch the substrate momentarily along a line of contact.",
 			"list": [
-				"Высокая долговечность и устойчивость к стирке",
-				"Яркие цвета на темных тканях",
-				"Экономически эффективно для больших партий",
-				"Широкий выбор типов чернил (металлические, светящиеся в темноте)"
+				"High durability and wash resistance",
+				"Vibrant colors on dark fabrics",
+				"Cost-effective for large batches",
+				"Wide range of ink types (metallics, glow-in-the-dark)"
 			]
 		},
 		"logoTags": {
-			"title": "Логотип-бирки",
-			"description": "Разработка и печать текстильных и картонных бирок с вашим брендом.",
-			"text": "Мы предлагаем комплексные решения для индивидуальных бирок с логотипом, включая дизайн, выбор материала (текстиль, картон, кожзам) и печать. Наши бирки повышают профессионализм вашего бренда и предоставляют необходимую информацию о продукте. От элегантных тканых этикеток до прочных печатных картонных бирок, мы обеспечиваем качество и единообразие бренда.",
+			"title": "Logo Tags",
+			"description": "Design and printing of textile and cardboard tags featuring your brand.",
+			"text": "We offer comprehensive solutions for custom logo tags, including design, material selection (textile, cardboard, leatherette), and printing. Our tags enhance your brand's professionalism and provide essential product information. From elegant woven labels to robust printed cardboard tags, we ensure quality and brand consistency.",
 			"list": [
-				"Индивидуальный дизайн и брендинг",
-				"Разнообразие материалов: текстиль, картон, синтетика",
-				"Высококачественная печать и отделка",
-				"Укрепляет идентичность бренда"
+				"Custom design and branding",
+				"Variety of materials: textile, cardboard, synthetic",
+				"High-quality printing and finishing",
+				"Reinforces brand identity"
 			]
 		},
 		"packaging": {
-			"title": "Картонная упаковка",
-			"description": "Создание и печать индивидуальной, стильной картонной упаковки.",
-			"text": "Наши услуги картонной упаковки выходят за рамки просто коробок. Мы разрабатываем и производим индивидуальную упаковку, которая отражает эстетику вашего бренда и защищает ваши продукты. Используя различные технологии печати и варианты отделки, мы создаем упаковку, которая выделяется, от минималистичных дизайнов до сложных многоцветных решений.",
+			"title": "Cardboard Packaging",
+			"description": "Creation and printing of customized, stylish cardboard packaging.",
+			"text": "Our cardboard packaging services go beyond just boxes. We design and produce custom packaging that reflects your brand's aesthetics and protects your products. Utilizing various printing techniques and finishing options, we create packaging that stands out, from minimalist designs to complex, multi-color solutions.",
 			"list": [
-				"Индивидуальный дизайн и структурная инженерия",
-				"Высококачественная печать на различных типах картона",
-				"Устойчивые и экологически чистые варианты",
-				"Улучшает презентацию и защиту продукции"
+				"Tailored design and structural engineering",
+				"High-quality printing on various cardboard types",
+				"Sustainable and eco-friendly options",
+				"Enhances product presentation and protection"
 			]
 		}
 	},
 	"portfolio": {
-		"title": "Наши последние проекты",
-		"projectTitle": "Название проекта",
-		"service": "Услуга",
+		"title": "Our Latest Projects",
+		"projectTitle": "Project Title",
+		"service": "Service",
 		"items": {
-			"customTShirts": "Индивидуальные футболки",
-			"scarfPrinting": "Печать шарфов",
-			"luxuryPackaging": "Роскошная упаковка",
-			"brandedMugs": "Фирменные кружки",
-			"elegantLogoTags": "Элегантные бирки с логотипом",
-			"specialtyItems": "Специальные товары",
-			"screenPrinting": "Трафаретная печать",
-			"diffusionPrinting": "Диффузная печать",
-			"cardboardPackaging": "Картонная упаковка",
-			"sublimation": "Сублимация",
-			"logoTags": "Логотип-бирки",
-			"screenPrintingSpecial": "Трафаретная печать / Специальная"
+			"customTShirts": "Custom T-Shirts",
+			"scarfPrinting": "Scarf Printing",
+			"luxuryPackaging": "Luxury Packaging",
+			"brandedMugs": "Branded Mugs",
+			"elegantLogoTags": "Elegant Logo Tags",
+			"specialtyItems": "Specialty Items",
+			"screenPrinting": "Screen Printing",
+			"diffusionPrinting": "Diffusion Printing",
+			"cardboardPackaging": "Cardboard Packaging",
+			"sublimation": "Sublimation",
+			"logoTags": "Logo Tags",
+			"screenPrintingSpecial": "Screen Printing / Special"
 		}
 	},
 	"instagram": {
-		"title": "Следите за нами в Instagram",
-		"cta": "Посмотреть профиль"
+		"title": "Follow Us on Instagram",
+		"cta": "View Profile"
 	},
 	"contact": {
-		"title": "Свяжитесь с нами и разместите заказ",
+		"title": "Contact Us",
 		"form": {
-			"subtitle": "Запросить предложение или разместить заказ",
-			"name": "Ваше имя",
-			"email": "Электронная почта",
-			"phone": "Телефон (необязательно)",
-			"service": "Интересующая услуга",
-			"selectService": "-- Выберите услугу --",
+			"subtitle": "Request a Quote",
+			"name": "Your Name",
+			"email": "Email",
+			"phone": "Phone (Optional)",
+			"service": "Service Interested In",
+			"selectService": "-- Select a Service --",
 			"services": {
-				"sublimation": "Сублимация",
-				"diffusion": "Диффузная печать",
-				"screenPrinting": "Трафаретная печать",
-				"logoTags": "Логотип-бирки",
-				"packaging": "Картонная упаковка",
-				"other": "Другое / Общий запрос"
+				"sublimation": "Sublimation",
+				"diffusion": "Diffusion Printing",
+				"screenPrinting": "Screen Printing",
+				"logoTags": "Logo Tags",
+				"packaging": "Cardboard Packaging",
+				"other": "Other / General Inquiry"
 			},
-			"details": "Детали проекта / Сообщение",
-			"detailsPlaceholder": "Опишите ваш проект, количество и требуемую дату доставки.",
-			"submit": "Отправить запрос"
+			"details": "Project Details / Message",
+			"detailsPlaceholder": "Describe your project, quantity, and required delivery date.",
+			"submit": "Send Request"
 		},
 		"info": {
-			"title": "Наши контакты"
+			"title": "Our Details"
+		},
+		"connect": {
+			"title": "Connect with us"
 		}
 	},
 	"footer": {
-		"about": "Эксперт в цифровой и трафаретной печати. Воплощаем видение вашего бренда в жизнь с точностью и качеством.",
+		"about": "Expert in digital printing. Bringing your brand vision to life with precision and quality.",
 		"information": {
-			"title": "ИНФОРМАЦИЯ",
-			"privacy": "Политика конфиденциальности",
-			"terms": "Правила магазина",
-			"delivery": "Стоимость доставки",
-			"returns": "Возврат и жалобы"
+			"title": "INFORMATION",
+			"privacy": "Privacy Policy",
+			"terms": "Store Regulations",
+			"delivery": "Delivery Costs",
+			"returns": "Returns and Complaints"
 		},
 		"quickLinks": {
-			"title": "БЫСТРЫЕ ССЫЛКИ",
-			"about": "О нас",
-			"services": "Наши услуги",
-			"portfolio": "Портфолио",
-			"contact": "Контакты"
+			"title": "QUICK LINKS",
+			"about": "About Us",
+			"services": "Our Services",
+			"portfolio": "Portfolio",
+			"contact": "Contact"
 		},
-		"copyright": "© 2025 ATEX | Все права защищены.",
-		"wholesale": "Оптовое сотрудничество",
-		"payments": "Мы принимаем безопасные платежи:"
+		"copyright": "© 2025 ATEX | All Rights Reserved."
 	},
 	"api": {
 		"validation": {
 			"errors": {
-				"MinLength": "Значение слишком короткое - минимальная длина {{MinLength}}",
-				"MaxLength": "Значение слишком длинное - максимальная длина {{MaxLength}}",
-				"Min": "Значение слишком маленькое - минимально допустимое значение {{Min}}",
-				"Max": "Значение слишком большое - максимально допустимое значение {{Max}}",
-				"IsDefined": "Это поле обязательно для заполнения",
-				"IsPhoneNumber": "Пожалуйста, укажите корректный номер телефона",
-				"IsEmail": "Пожалуйста, укажите корректный адрес электронной почты",
-				"IsString": "Это поле должно содержать текстовое значение"
+				"MinLength": "Value is too short - minimum length is {{MinLength}}",
+				"MaxLength": "Value is too long - maximum length is {{MaxLength}}",
+				"Min": "Value is too small - minimum allowed value is {{Min}}",
+				"Max": "Value is too large - maximum allowed value is {{Max}}",
+				"IsDefined": "This field is required",
+				"IsPhoneNumber": "Please provide a valid phone number",
+				"IsEmail": "Please provide a valid email address",
+				"IsString": "This field must be a text value"
 			}
 		}
+	},
+	"numberSuffix": {
+		"thousand": "K",
+		"milion": "M",
+		"billion": "B"
 	}
 }

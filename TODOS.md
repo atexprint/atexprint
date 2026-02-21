@@ -6,9 +6,9 @@
 
 ## Zobowiązania ATEX (wymagane, aby rozpocząć prace)
 
-- [ ] Dostarczyć film do sekcji **Hero** (min. szer. 1280 px; preferowany format 16:9).
+- [x] Dostarczyć film do sekcji **Hero** (min. szer. 1280 px; preferowany format 16:9).
 - [x] Dostarczyć logo w grafice wektorowej (SVG) - już dostarczone.
-- [ ] Dostarczyć linki do mediów społecznościowych (Instagram, Facebook, WhatsApp).
+- [x] Dostarczyć linki do mediów społecznościowych (Instagram, Facebook, WhatsApp).
 - [ ] Dostarczyć teksty opisów + media (zdjęcia i/lub wideo) do popupów w sekcji `Nasze usługi`.
 - [ ] Dostarczyć zdjęcia do sekcji `Nasze najnowsze projekty` + galerie do popupów:
   - [ ] Ustalić jeden format dla wszystkich zdjęć (1:1 lub 4:5 lub 1.91:1).
@@ -25,6 +25,7 @@
 
 ### Ogólne
 
+- [ ] Zaimplementowac system wysylki maili wraz z w pelni walidowanym formularzem
 - [ ] Zmniejszyć wertykalne odstępy między sekcjami.
 - [ ] Stworzyć wersję mobilną strony na podstawie wersji desktopowej.
 - [ ] Dodać numer telefonu **+48 794 093 963** we wszystkich miejscach, gdzie występuje **+48 508 227 647**.
@@ -39,19 +40,19 @@
 
 ### Header
 
-- [ ] Podmienić logo PNG na logo SVG (już dostarczone przez ATEX).
-- [ ] Powiększyć logo `ATEX`.
-- [ ] Dodać hasło `DIGITAL TEXTILE PRINT` obok logo.
+- [x] Podmienić logo PNG na logo SVG (już dostarczone przez ATEX).
+- [x] Powiększyć logo `ATEX`.
+- [x] Dodać hasło `DIGITAL TEXTILE PRINT` obok logo.
 
 ### Panel Hero
 
-- [ ] Zmienić tekst: `Profesjonalne rozwiazania drukowe dla twojej marki` → `Profesjonalne rozwiązania dla twojej marki`.
-- [ ] Zmienić tekst: `Od odziezy na zamowienie po unikalne opakowania, ozywiamy Twoja wizje z precyzja i jakoscia` → `Od odzieży na zamówienie, ożywiamy Twoją wizję z precyzją i jakością`.
-- [ ] Pod przyciskiem `Uzyskaj wycenę` wstawić panel kontaktowy z numerami:
-  - [ ] +48 508 227 647 (link tel:)
-  - [ ] +48 794 093 963 (link tel:)
-- [ ] Ustawić panel kontaktowy w kolorze secondary (magenta).
-- [ ] Ustawić w tle film dostarczony przez ATEX (min. 1280 px szer.; preferowany 16:9).
+- [x] Zmienić tekst: `Profesjonalne rozwiazania drukowe dla twojej marki` → `Profesjonalne rozwiązania dla twojej marki`.
+- [x] Zmienić tekst: `Od odziezy na zamowienie po unikalne opakowania, ozywiamy Twoja wizje z precyzja i jakoscia` → `Od odzieży na zamówienie, ożywiamy Twoją wizję z precyzją i jakością`.
+- [x] Pod przyciskiem `Uzyskaj wycenę` wstawić panel kontaktowy z numerami:
+  - [x] +48 508 227 647 (link tel:)
+  - [x] +48 794 093 963 (link tel:)
+- [x] Ustawić panel kontaktowy w kolorze secondary (magenta).
+- [x] Ustawić w tle film dostarczony przez ATEX (min. 1280 px szer.; preferowany 16:9).
 
 ### Sekcja kart atutów ATEX
 
@@ -73,8 +74,8 @@
 
 ### Sekcja opisowa `Nasze możliwości`
 
-- [ ] Podmienić fragment `Przez ponad dekadę PRINT.CO` → `Przez ponad dekadę ATEX`.
-- [ ] Podmienić `+500 udanych projektów` → `+400 tys. metrów druku`.
+- [x] Podmienić fragment `Przez ponad dekadę ATEX` → `Przez ponad dekadę ATEX`.
+- [x] Podmienić `+500 udanych projektów` → `+400 tys. metrów druku`.
 
 ### Sekcja `Nasze usługi`
 
@@ -102,17 +103,17 @@
 
 ### Sekcja `Skontaktuj się z nami i złóż zamówienie`
 
-- [ ] Skrócić tytuł do `Skontaktuj się z nami`.
-- [ ] Podsekcja `Nasze dane`:
-  - [ ] Dodać numer telefonu +48 794 093 963 (link tel:).
+- [x] Skrócić tytuł do `Skontaktuj się z nami`.
+- [x] Podsekcja `Nasze dane`:
+  - [x] Dodać numer telefonu +48 794 093 963 (link tel:).
 
 ### Stopka
 
-- [ ] Zmienić tekst `Ekspert w druku cyfrowym i sitodrukowaniu` → `Ekspert w druku cyfrowym`.
-- [ ] Usunąć pozycje:
-  - [ ] Regulamin sklepu
-  - [ ] Koszty dostawy
-  - [ ] Zwroty i reklamacje
-- [ ] Usunąć sekcję `Akceptujemy bezpieczne płatności` oraz ikony kart.
-- [ ] Usunąć tekst `Współpraca hurtowa`.
-- [ ] Dodać linki do mediów społecznościowych (ATEX dostarcza).
+- [x] Zmienić tekst `Ekspert w druku cyfrowym i sitodrukowaniu` → `Ekspert w druku cyfrowym`.
+- [x] Usunąć pozycje:
+  - [x] Regulamin sklepu
+  - [x] Koszty dostawy
+  - [x] Zwroty i reklamacje
+- [x] Usunąć sekcję `Akceptujemy bezpieczne płatności` oraz ikony kart.
+- [x] Usunąć tekst `Współpraca hurtowa`.
+- [x] Dodać linki do mediów społecznościowych (ATEX dostarcza).

@@ -1,8 +1,9 @@
 <script lang="ts">
 	import '../app.css';
 	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
+	import { injectAnalytics } from '@vercel/analytics/sveltekit';
 
-	import { currentLocale, getUserPreferredLocale, Locale } from '$i18n';
+	import { currentLocale, getUserPreferredLocale, Locale, translate } from '$i18n';
 	import { onDestroy, onMount } from 'svelte';
 	import {
 		localStorageGetItem,
@@ -19,13 +20,10 @@
 	// Vercel Speed Insights
 	injectSpeedInsights();
 
-	onMount(() => {
-		UNSUBS.push(
-			currentLocale.subscribe((locale) => {
-				localStorageSetItem(LocalStorageKey.locale, locale);
-			})
-		);
+	// Vercel Web Analytics
+	injectAnalytics();
 
+	onMount(() => {
 		let locale = localStorageGetItem(LocalStorageKey.locale);
 		if (!Object.values(Locale).includes(locale as Locale)) {
 			locale = null;
@@ -36,6 +34,12 @@
 		} else {
 			currentLocale.set(getUserPreferredLocale());
 		}
+
+		UNSUBS.push(
+			currentLocale.subscribe((locale) => {
+				localStorageSetItem(LocalStorageKey.locale, locale);
+			})
+		);
 	});
 
 	onDestroy(() => {
@@ -44,10 +48,10 @@
 </script>
 
 <svelte:head>
-	<meta
-		name="description"
-		content="ATEX - eksperci druku na dzianinach i tkaninach poliestrowych. 20 lat doświadczenia."
-	/>
+	<title>
+		{$translate('meta.general.title')}
+	</title>
+	<meta name="description" content={$translate('meta.general.description')} />
 </svelte:head>
 
 {@render children?.()}

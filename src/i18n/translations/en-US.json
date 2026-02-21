@@ -1,6 +1,9 @@
 {
 	"meta": {
-		"description": "ATEX - experts in printing on knitted and woven polyester fabrics. 20 years of experience."
+		"general": {
+			"title": "ATEX",
+			"description": "ATEX - experts in printing on knitted and woven polyester fabrics. 20 years of experience."
+		}
 	},
 	"language": {
 		"czech": {
@@ -29,16 +32,18 @@
 		}
 	},
 	"nav": {
-		"aboutUs": "About Us",
+		"about": "About Us",
 		"services": "Services",
 		"portfolio": "Portfolio",
 		"instagram": "Instagram",
 		"contact": "Contact"
 	},
 	"hero": {
-		"title": "Expert Printing Solutions for Your Brand",
+		"title": "Expert Solutions for Your Brand",
 		"subtitle": "From custom apparel to unique packaging, we bring your vision to life with precision and quality.",
-		"cta": "Get a Quote"
+		"cta": "Get a Quote",
+		"callUs": "Call us",
+		"html5VideoUnsupported": "Your browser does not support HTML5 video."
 	},
 	"features": {
 		"fastDelivery": {
@@ -60,13 +65,13 @@
 	},
 	"about": {
 		"title": "About Us",
-		"text1": "We are a dedicated team passionate about <strong>delivering exceptional print quality</strong>. For over a decade, PRINT.CO has been the trusted partner for businesses seeking reliable and creative solutions in digital, screen, and specialized printing techniques. We combine technical expertise with a commitment to sustainable practices.",
+		"text1": "We are a dedicated team passionate about <strong class=\"font-semibold text-[#2f57a3]\">delivering exceptional print quality</strong>. For over a decade, ATEX has been the trusted partner for businesses seeking reliable and creative solutions in digital, screen, and specialized printing techniques. We combine technical expertise with a commitment to sustainable practices.",
 		"text2": "Our focus is on providing a seamless experience, from initial design consultation to final delivery, ensuring every project meets our high standards and exceeds your expectations.",
 		"cta": "Our Capabilities",
 		"stats": {
-			"yearsExperience": "Years of Experience",
-			"successfulProjects": "Successful Projects",
-			"satisfiedClients": "Satisfied Clients %"
+			"yearsOfExperience": "Years of Experience",
+			"printMeters": "Meters printed",
+			"satisfiedClients": "Satisfied Clients"
 		}
 	},
 	"services": {
@@ -151,9 +156,9 @@
 		"cta": "View Profile"
 	},
 	"contact": {
-		"title": "Contact Us & Place Your Order",
+		"title": "Contact Us",
 		"form": {
-			"subtitle": "Request a Quote or Place an Order",
+			"subtitle": "Request a Quote",
 			"name": "Your Name",
 			"email": "Email",
 			"phone": "Phone (Optional)",
@@ -173,10 +178,13 @@
 		},
 		"info": {
 			"title": "Our Details"
+		},
+		"connect": {
+			"title": "Connect with us"
 		}
 	},
 	"footer": {
-		"about": "Expert in digital and screen printing. Bringing your brand vision to life with precision and quality.",
+		"about": "Expert in digital printing. Bringing your brand vision to life with precision and quality.",
 		"information": {
 			"title": "INFORMATION",
 			"privacy": "Privacy Policy",
@@ -191,22 +199,25 @@
 			"portfolio": "Portfolio",
 			"contact": "Contact"
 		},
-		"copyright": "© 2025 ATEX | All Rights Reserved.",
-		"wholesale": "Wholesale Cooperation",
-		"payments": "We accept secure payments:"
+		"copyright": "© 2025 ATEX | All Rights Reserved."
 	},
 	"api": {
 		"validation": {
 			"errors": {
-				"MinLength": "Value is too short - minimum length is {{length}}",
-				"MaxLength": "Value is too long - maximum length is {{length}}",
-				"Min": "Value is too small - minimum allowed is {{length}}",
-				"Max": "Value is too large - maximum allowed is {{length}}",
+				"MinLength": "Value is too short - minimum length is {{MinLength}}",
+				"MaxLength": "Value is too long - maximum length is {{MaxLength}}",
+				"Min": "Value is too small - minimum allowed value is {{Min}}",
+				"Max": "Value is too large - maximum allowed value is {{Max}}",
 				"IsDefined": "This field is required",
 				"IsPhoneNumber": "Please provide a valid phone number",
 				"IsEmail": "Please provide a valid email address",
 				"IsString": "This field must be a text value"
 			}
 		}
+	},
+	"numberSuffix": {
+		"thousand": "K",
+		"milion": "M",
+		"billion": "B"
 	}
 }

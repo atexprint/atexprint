@@ -1,6 +1,9 @@
 {
 	"meta": {
-		"description": "ATEX - eksperci druku na dzianinach i tkaninach poliestrowych. 20 lat doświadczenia."
+		"general": {
+			"title": "ATEX",
+			"description": "ATEX - eksperci druku na dzianinach i tkaninach poliestrowych. 20 lat doświadczenia."
+		}
 	},
 	"language": {
 		"czech": {
@@ -29,16 +32,18 @@
 		}
 	},
 	"nav": {
-		"aboutUs": "O nas",
+		"about": "O nas",
 		"services": "Usługi",
 		"portfolio": "Portfolio",
 		"instagram": "Instagram",
 		"contact": "Kontakt"
 	},
 	"hero": {
-		"title": "Profesjonalne rozwiązania drukowe dla Twojej marki",
-		"subtitle": "Od odzieży na zamówienie po unikalne opakowania, ożywiamy Twoją wizję z precyzją i jakością.",
-		"cta": "Uzyskaj wycenę"
+		"title": "Profesjonalne rozwiązania dla Twojej marki",
+		"subtitle": "Od odzieży na zamówienie, ożywiamy Twoją wizję z precyzją i jakością",
+		"cta": "Uzyskaj wycenę",
+		"callUs": "Zadzwoń do nas",
+		"html5VideoUnsupported": "Twoja przeglądarka nie wspiera wideo w standardzie HTML5."
 	},
 	"features": {
 		"fastDelivery": {
@@ -60,12 +65,12 @@
 	},
 	"about": {
 		"title": "O nas",
-		"text1": "Jesteśmy zaangażowanym zespołem pasjonatów <strong class=\"font-semibold text-[#2f57a3]\">dostarczających wyjątkową jakość druku</strong>. Przez ponad dekadę PRINT.CO jest zaufanym partnerem dla firm poszukujących niezawodnych i kreatywnych rozwiązań w zakresie druku cyfrowego, sitodruku i specjalistycznych technik druku. Łączymy wiedzę techniczną z zaangażowaniem w zrównoważone praktyki.",
+		"text1": "Jesteśmy zaangażowanym zespołem pasjonatów <strong class=\"font-semibold text-[#2f57a3]\">dostarczających wyjątkową jakość druku</strong>. Przez ponad dekadę ATEX jest zaufanym partnerem dla firm poszukujących niezawodnych i kreatywnych rozwiązań w zakresie druku cyfrowego, sitodruku i specjalistycznych technik druku. Łączymy wiedzę techniczną z zaangażowaniem w zrównoważone praktyki.",
 		"text2": "Naszym celem jest zapewnienie płynnego doświadczenia, od początkowej konsultacji projektowej po ostateczną dostawę, zapewniając, że każdy projekt spełnia nasze wysokie standardy i przekracza Twoje oczekiwania.",
 		"cta": "Nasze możliwości",
 		"stats": {
 			"yearsOfExperience": "Lat doświadczenia",
-			"successfulProjects": "Udanych projektów",
+			"printMeters": "Metrów druku",
 			"satisfiedClients": "Zadowolonych klientów"
 		}
 	},
@@ -151,13 +156,13 @@
 		"cta": "Zobacz profil"
 	},
 	"contact": {
-		"title": "Skontaktuj się z nami i złóż zamówienie",
+		"title": "Skontaktuj się z nami",
 		"form": {
-			"subtitle": "Poproś o wycenę lub złóż zamówienie",
+			"subtitle": "Poproś o wycenę",
 			"name": "Twoje imię",
 			"email": "Email",
 			"phone": "Telefon (opcjonalnie)",
-			"service": "Interesująca usługa",
+			"service": "Interesująca mnie usługa",
 			"selectService": "-- Wybierz usługę --",
 			"services": {
 				"sublimation": "Sublimacja",
@@ -173,10 +178,13 @@
 		},
 		"info": {
 			"title": "Nasze dane"
+		},
+		"connect": {
+			"title": "Połącz się z nami"
 		}
 	},
 	"footer": {
-		"about": "Ekspert w druku cyfrowym i sitodrukowaniu. Ożywiamy wizję Twojej marki z precyzją i jakością.",
+		"about": "Ekspert w druku cyfrowym. Ożywiamy wizję Twojej marki z precyzją i jakością.",
 		"information": {
 			"title": "INFORMACJE",
 			"privacy": "Polityka prywatności",
@@ -191,9 +199,7 @@
 			"portfolio": "Portfolio",
 			"contact": "Kontakt"
 		},
-		"copyright": "© 2025 ATEX | Wszelkie prawa zastrzeżone.",
-		"wholesale": "Współpraca hurtowa",
-		"payments": "Akceptujemy bezpieczne płatności:"
+		"copyright": "© 2025 ATEX | Wszelkie prawa zastrzeżone."
 	},
 	"api": {
 		"validation": {
@@ -208,5 +214,10 @@
 				"IsString": "To pole musi być wartością tekstową"
 			}
 		}
+	},
+	"numberSuffix": {
+		"thousand": "tyś.",
+		"milion": "mln",
+		"billion": "mld"
 	}
 }
