@@ -2,7 +2,7 @@
 	"meta": {
 		"general": {
 			"title": "ATEX",
-			"description": "ATEX - experts in printing on knitted and woven polyester fabrics. 20 years of experience."
+			"description": "ATEX - experts in printing on knitted and polyester fabrics. 20 years of experience."
 		}
 	},
 	"language": {
@@ -32,174 +32,168 @@
 		}
 	},
 	"nav": {
-		"about": "About Us",
+		"about": "About us",
 		"services": "Services",
 		"portfolio": "Portfolio",
 		"instagram": "Instagram",
 		"contact": "Contact"
 	},
 	"hero": {
-		"title": "Expert Solutions for Your Brand",
-		"subtitle": "From custom apparel to unique packaging, we bring your vision to life with precision and quality.",
-		"cta": "Get a Quote",
+		"title": "Professional solutions for your brand",
+		"subtitle": "From custom apparel, we bring your vision to life with precision and quality",
+		"cta": "Get a quote",
 		"callUs": "Call us",
 		"html5VideoUnsupported": "Your browser does not support HTML5 video."
 	},
 	"features": {
 		"fastDelivery": {
-			"title": "Fast Delivery",
-			"description": "Swift turnaround times to meet your deadlines."
+			"title": "Fast turnaround",
+			"description": "Modern machinery park"
 		},
 		"customDesign": {
-			"title": "Custom Design",
+			"title": "Custom design",
 			"description": "Bring your unique vision to life with personalized prints."
 		},
 		"qualityGuarantee": {
-			"title": "Quality Guarantee",
+			"title": "Quality guarantee",
 			"description": "100% satisfaction with every print order."
 		},
 		"expertSupport": {
-			"title": "Expert Support",
+			"title": "Expert support",
 			"description": "Dedicated assistance online or by phone."
+		},
+		"ownTransport": {
+			"title": "Own transport delivery",
+			"description": ""
+		},
+		"professionalDesigners": {
+			"title": "Professional graphic team",
+			"description": ""
 		}
 	},
 	"about": {
-		"title": "About Us",
-		"text1": "We are a dedicated team passionate about <strong class=\"font-semibold text-[#2f57a3]\">delivering exceptional print quality</strong>. For over a decade, ATEX has been the trusted partner for businesses seeking reliable and creative solutions in digital, screen, and specialized printing techniques. We combine technical expertise with a commitment to sustainable practices.",
-		"text2": "Our focus is on providing a seamless experience, from initial design consultation to final delivery, ensuring every project meets our high standards and exceeds your expectations.",
-		"cta": "Our Capabilities",
+		"title": "About us",
+		"text": "For over a decade, ATEX has been a leader among sublimation printing houses, combining precision, innovation, and a passion for detail. We offer comprehensive sublimation printing on polyester fabrics and materials, ideal for custom apparel production - from T-shirts and hoodies to sportswear and corporate uniforms. Our professional graphic team will help you develop or optimize your design to ensure every print looks perfect. Thanks to modern equipment and continuous development, we guarantee colors that do not fade and remain durable during washing and use. Hundreds of clients have already trusted us - from fashion brands to event organizers. Have an idea? Write to us - we will realize it with the utmost care!",
+		"cta": "Our capabilities",
 		"stats": {
-			"yearsOfExperience": "Years of Experience",
+			"yearsOfExperience": "Years of experience",
 			"printMeters": "Meters printed",
-			"satisfiedClients": "Satisfied Clients"
+			"satisfiedClients": "Satisfied clients"
 		}
 	},
 	"services": {
-		"title": "Our Services",
+		"title": "Our services",
 		"sublimation": {
 			"title": "Sublimation",
-			"description": "High-quality printing on textiles and merchandise with vibrant colors.",
-			"text": "Sublimation printing is a digital printing method that uses heat to transfer dye onto materials like fabric, plastic, and paper. It's ideal for custom apparel, promotional products, and personalized gifts, offering full-color, durable, and fade-resistant designs without a heavy feel.",
-			"list": [
-				"Vibrant, full-color designs",
-				"Durable and fade-resistant",
-				"Soft-hand feel on fabric",
-				"Ideal for light-colored polyester materials"
-			]
+			"description": "Sublimation printing is a durable and vibrant method of marking polyester fabrics. Ideal for sportswear and fashion, ensuring the highest quality and aesthetics.",
+			"text": "Sublimation printing is a modern technology that allows for the application of full-color patterns directly onto polyester fabrics. Colors are vivid, durable, and wash-resistant. Sublimation technology is ideal for producing sports kits, branded collections, event T-shirts, or personalized clothing. Sublimation allows for design freedom: from single elements to roll-to-roll printing. Choose sublimation if you care about aesthetics, quality, and print longevity."
 		},
-		"diffusion": {
-			"title": "Diffusion Printing",
-			"description": "Specialized printing for complex materials and unique visual effects.",
-			"text": "Diffusion printing involves using specialized inks that penetrate deeper into the material's fibers, creating a soft, integrated print that becomes part of the fabric itself. This method is particularly suitable for achieving unique visual textures and a luxurious feel on high-end textiles.",
-			"list": [
-				"Integrated print, no surface feel",
-				"Soft, natural drape of fabric preserved",
-				"Ideal for delicate and high-end materials",
-				"Unique depth and texture in designs"
-			]
+		"dtfPrint": {
+			"title": "DTF Printing (Direct to Film)",
+			"description": "DTF is an innovative print for every type of fabric. It provides vivid colors, detail, and durability. Ideal for small series and personalization from just 1 piece.",
+			"text": "DTF printing is an innovative method of applying prints to any type of fabric - cotton, polyester, blends, or even dark materials. It guarantees intense colors, excellent detail reproduction, and durability comparable to screen printing. It works perfectly for small series, personalized t-shirts, promotional gadgets, or unique artistic projects. DTF is a flexible and economical solution where sublimation does not work - without compromising on quality, providing excellent results from 1 piece."
 		},
 		"screenPrinting": {
-			"title": "Screen Printing",
-			"description": "Durable, long-lasting, and dense printing, ideal for large volumes.",
-			"text": "Screen printing is a versatile printing technique where a mesh is used to transfer ink onto a substrate, except in areas made impermeable to the ink by a blocking stencil. A blade or squeegee is moved across the screen to fill the open mesh apertures with ink, and a reverse stroke then causes the screen to touch the substrate momentarily along a line of contact.",
-			"list": [
-				"High durability and wash resistance",
-				"Vibrant colors on dark fabrics",
-				"Cost-effective for large batches",
-				"Wide range of ink types (metallics, glow-in-the-dark)"
-			]
+			"title": "Screen printing",
+			"description": "Screen printing is a classic method ideal for high volumes. It guarantees durability, low costs, and clear logos on corporate and event clothing.",
+			"text": "Screen printing is a proven, classic printing technology, ideal for high volumes and simple designs. By using appropriate inks, you get a clear, durable effect - especially with single or multi-color logos. Often used for corporate clothing, advertising campaigns, team outfits, or event t-shirts. Screen printing is the choice when you need a solid, economical, and fast solution for a larger audience."
 		},
 		"logoTags": {
-			"title": "Logo Tags",
-			"description": "Design and printing of textile and cardboard tags featuring your brand.",
-			"text": "We offer comprehensive solutions for custom logo tags, including design, material selection (textile, cardboard, leatherette), and printing. Our tags enhance your brand's professionalism and provide essential product information. From elegant woven labels to robust printed cardboard tags, we ensure quality and brand consistency.",
-			"list": [
-				"Custom design and branding",
-				"Variety of materials: textile, cardboard, synthetic",
-				"High-quality printing and finishing",
-				"Reinforces brand identity"
-			]
+			"title": "Logo tags",
+			"description": "Sublimation and woven tags are the key to your brand's recognition. Personalized, durable, and aesthetic - perfect for clothing and accessories.",
+			"text": "Professional neck and hang tags are a subtle but effective way to build brand recognition. We offer sublimation tags (soft, full color) and woven tags (classic, durable). Ideal for: fashion clothing, designer collections, gift bags, totes, or accessories. Possibility to customize the shape, color, and content - your logo, brand name, or slogan will always be in place."
 		},
-		"packaging": {
-			"title": "Cardboard Packaging",
-			"description": "Creation and printing of customized, stylish cardboard packaging.",
-			"text": "Our cardboard packaging services go beyond just boxes. We design and produce custom packaging that reflects your brand's aesthetics and protects your products. Utilizing various printing techniques and finishing options, we create packaging that stands out, from minimalist designs to complex, multi-color solutions.",
-			"list": [
-				"Tailored design and structural engineering",
-				"High-quality printing on various cardboard types",
-				"Sustainable and eco-friendly options",
-				"Enhances product presentation and protection"
-			]
+		"eventAndMarketingClothing": {
+			"title": "Promotional and event clothing",
+			"description": "Personalized clothing with your logo: from T-shirts to jackets. Any printing method, well-known brands, and graphic support. Fast turnaround and high quality.",
+			"text": "Clothing with your branding - fast, reliable, and in line with your brand vision. We create T-shirts, hoodies, polo shirts, hats, fleeces, and jackets with sublimation, DTF, screen printing, or flex/flock prints - depending on your needs. Perfect for: conferences, festivals, marketing campaigns, open days, or uniforms for employees and teams. We offer both ready-made products and production from scratch - along with help from our graphic team. Our offer includes products from brands such as Fruit of the Loom, Malfini, JHK, Roly, Gildan, and AWDis."
+		},
+		"graphicStudio": {
+			"title": "Graphic studio",
+			"description": "Creative designs for sublimation and DTF. We combine design with technical knowledge, providing print-ready files. Make your brand stand out on the market!",
+			"text": "We bring fabrics to life through unique design. Our team specializes in designing for sublimation and DTF printing. We combine creativity with technical knowledge, guaranteeing the highest quality, vivid colors, and precision. We support clothing brands and textile manufacturers by providing production-ready files. Whether you need pattern repeats or placements - we create designs that stand out on the market. Trust the professionals. Contact us and start collaborating today!"
 		}
 	},
 	"portfolio": {
-		"title": "Our Latest Projects",
-		"projectTitle": "Project Title",
+		"title": "Our latest projects",
+		"projectTitle": "Project title",
 		"service": "Service",
 		"items": {
-			"customTShirts": "Custom T-Shirts",
-			"scarfPrinting": "Scarf Printing",
-			"luxuryPackaging": "Luxury Packaging",
-			"brandedMugs": "Branded Mugs",
-			"elegantLogoTags": "Elegant Logo Tags",
-			"specialtyItems": "Specialty Items",
-			"screenPrinting": "Screen Printing",
-			"diffusionPrinting": "Diffusion Printing",
-			"cardboardPackaging": "Cardboard Packaging",
+			"customTShirts": "Custom T-shirts",
+			"scarfPrinting": "Scarf printing",
+			"luxuryPackaging": "Luxury packaging",
+			"brandedMugs": "Branded mugs",
+			"elegantLogoTags": "Elegant logo tags",
+			"specialtyItems": "Specialty items",
+			"screenPrinting": "Screen printing",
+			"diffusionPrinting": "Diffusion printing",
+			"cardboardPackaging": "Cardboard packaging",
 			"sublimation": "Sublimation",
-			"logoTags": "Logo Tags",
-			"screenPrintingSpecial": "Screen Printing / Special"
+			"logoTags": "Logo tags",
+			"screenPrintingSpecial": "Screen printing / Special"
 		}
 	},
 	"instagram": {
-		"title": "Follow Us on Instagram",
-		"cta": "View Profile"
+		"title": "Follow us on Instagram",
+		"cta": "View profile"
 	},
 	"contact": {
-		"title": "Contact Us",
+		"title": "Contact us",
 		"form": {
-			"subtitle": "Request a Quote",
-			"name": "Your Name",
+			"subtitle": "Request a quote",
+			"name": "Your name",
 			"email": "Email",
-			"phone": "Phone (Optional)",
-			"service": "Service Interested In",
-			"selectService": "-- Select a Service --",
+			"phone": "Phone (optional)",
+			"service": "Service of interest",
+			"selectService": "-- Select a service --",
 			"services": {
 				"sublimation": "Sublimation",
-				"diffusion": "Diffusion Printing",
-				"screenPrinting": "Screen Printing",
-				"logoTags": "Logo Tags",
-				"packaging": "Cardboard Packaging",
-				"other": "Other / General Inquiry"
+				"dtfPrint": "DTF Printing (Direct to Film)",
+				"screenPrinting": "Screen printing",
+				"logoTags": "Logo tags",
+				"eventAndMarketingClothing": "Promotional and event clothing",
+				"other": "Other / General inquiry"
 			},
-			"details": "Project Details / Message",
+			"details": "Project details / Message",
 			"detailsPlaceholder": "Describe your project, quantity, and required delivery date.",
-			"submit": "Send Request"
+			"submit": "Send inquiry",
+			"errors": {
+				"required": "This field is required",
+				"nameTooShort": "Name must be at least 2 characters",
+				"nameTooLong": "Name can be a maximum of 100 characters",
+				"emailInvalid": "Please provide a valid email address",
+				"emailTooLong": "Email address can be a maximum of 254 characters",
+				"phoneTooLong": "Phone number can be a maximum of 20 characters",
+				"detailsTooShort": "Message must be at least 10 characters",
+				"detailsTooLong": "Message can be a maximum of 2000 characters",
+				"submitFailed": "An error occurred while sending the message. Please try again."
+			},
+			"submitSuccess": "Message sent. We will contact you soon!"
 		},
 		"info": {
-			"title": "Our Details"
+			"title": "Our details"
 		},
 		"connect": {
 			"title": "Connect with us"
 		}
 	},
 	"footer": {
-		"about": "Expert in digital printing. Bringing your brand vision to life with precision and quality.",
+		"about": "Expert in digital printing. We bring your brand's vision to life with precision and quality.",
 		"information": {
 			"title": "INFORMATION",
 			"privacy": "Privacy Policy",
-			"terms": "Store Regulations",
-			"delivery": "Delivery Costs",
-			"returns": "Returns and Complaints"
+			"terms": "Terms and Conditions",
+			"delivery": "Delivery costs",
+			"returns": "Returns and complaints"
 		},
 		"quickLinks": {
 			"title": "QUICK LINKS",
-			"about": "About Us",
-			"services": "Our Services",
+			"about": "About us",
+			"services": "Our services",
 			"portfolio": "Portfolio",
 			"contact": "Contact"
 		},
-		"copyright": "© 2025 ATEX | All Rights Reserved."
+		"copyright": "© 2025 ATEX | All rights reserved."
 	},
 	"api": {
 		"validation": {
@@ -216,8 +210,57 @@
 		}
 	},
 	"numberSuffix": {
-		"thousand": "K",
+		"thousand": "k",
 		"milion": "M",
 		"billion": "B"
+	},
+	"email": {
+		"contactRequest": {
+			"user": {
+				"title": "Contact request confirmation - {{serviceName}}",
+				"hero": {
+					"title": "Thank you, {{nameAndSurname}}!",
+					"description": "We have received your message and will contact you as soon as possible."
+				},
+				"summary": {
+					"title": "Inquiry summary",
+					"nameAndSurname": "Name and surname",
+					"email": "Email address",
+					"tel": "Phone number",
+					"service": "Service"
+				},
+				"message": {
+					"title": "Message content"
+				},
+				"cta": {
+					"text": "Visit atexprint.pl"
+				},
+				"footer": {
+					"systemNotice": "This email was generated automatically by the system."
+				}
+			},
+			"admin": {
+				"title": "Contact request - {{serviceName}}",
+				"header": {
+					"title": "ATEX - New message"
+				},
+				"alert": {
+					"text": "New message from: {{nameAndSurname}}"
+				},
+				"details": {
+					"title": "Contact details",
+					"nameAndSurname": "Name and surname",
+					"email": "Email address",
+					"tel": "Phone number",
+					"service": "Service"
+				},
+				"message": {
+					"title": "Message content"
+				},
+				"footer": {
+					"systemNotice": "This email was generated automatically by the system."
+				}
+			}
+		}
 	}
 }

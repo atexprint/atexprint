@@ -47,8 +47,8 @@
 	},
 	"features": {
 		"fastDelivery": {
-			"title": "Szybka dostawa",
-			"description": "Krótki czas realizacji, aby dotrzymać terminów."
+			"title": "Szybka realizacja",
+			"description": "Nowoczesny park maszynowy"
 		},
 		"customDesign": {
 			"title": "Własny projekt",
@@ -61,12 +61,19 @@
 		"expertSupport": {
 			"title": "Wsparcie eksperckie",
 			"description": "Dedykowana pomoc online lub telefonicznie."
+		},
+		"ownTransport": {
+			"title": "Dostawa własnym transportem",
+			"description": ""
+		},
+		"professionalDesigners": {
+			"title": "Profesjonalny zespół graficzny",
+			"description": ""
 		}
 	},
 	"about": {
 		"title": "O nas",
-		"text1": "Jesteśmy zaangażowanym zespołem pasjonatów <strong class=\"font-semibold text-[#2f57a3]\">dostarczających wyjątkową jakość druku</strong>. Przez ponad dekadę ATEX jest zaufanym partnerem dla firm poszukujących niezawodnych i kreatywnych rozwiązań w zakresie druku cyfrowego, sitodruku i specjalistycznych technik druku. Łączymy wiedzę techniczną z zaangażowaniem w zrównoważone praktyki.",
-		"text2": "Naszym celem jest zapewnienie płynnego doświadczenia, od początkowej konsultacji projektowej po ostateczną dostawę, zapewniając, że każdy projekt spełnia nasze wysokie standardy i przekracza Twoje oczekiwania.",
+		"text": "Od ponad dekady ATEX to lider wśród drukarni sublimacyjnych, który łączy precyzję, innowacyjność i pasję do detali. Oferujemy kompleksowy druk sublimacyjny na tkaninach i materiałach poliestrowych, idealny do produkcji odzieży na zamówienie - od koszulek i bluz po stroje sportowe i firmowe. Nasz profesjonalny zespół graficzny pomoże Ci opracować lub zoptymalizować projekt, by każdy nadruk wyglądał doskonale. Dzięki nowoczesnemu wyposażeniu i ciągłemu rozwojowi gwarantujemy kolory, które nie blakną, oraz są trwałe podczas prania i użytkowania. Zaufało nam już setki klientów - od marek modowych po organizatorów wydarzeń. Masz pomysł? Napisz do nas - zrealizujemy go z najwyższą starannością!",
 		"cta": "Nasze możliwości",
 		"stats": {
 			"yearsOfExperience": "Lat doświadczenia",
@@ -78,58 +85,33 @@
 		"title": "Nasze usługi",
 		"sublimation": {
 			"title": "Sublimacja",
-			"description": "Wysokiej jakości druk na tekstyliach i gadżetach z jaskrawymi kolorami.",
-			"text": "Druk sublimacyjny to cyfrowa metoda druku wykorzystująca ciepło do przenoszenia barwnika na materiały takie jak tkanina, plastik i papier. Jest idealny do odzieży na zamówienie, produktów promocyjnych i spersonalizowanych prezentów, oferując pełnokolorowe, trwałe i odporne na blaknięcie wzory bez ciężkiego wykończenia.",
-			"list": [
-				"Jaskrawe, pełnokolorowe wzory",
-				"Trwałe i odporne na blaknięcie",
-				"Miękkie wykończenie na tkaninie",
-				"Idealne dla jasnych materiałów poliestrowych"
-			]
+			"description": "Druk sublimacyjny to trwała i żywa metoda znakowania tkanin poliestrowych. Idealna do odzieży sportowej i modowej, zapewnia najwyższą jakość i estetykę.",
+			"text": "Druk sublimacyjny to nowoczesna technologia pozwalająca na nanoszenie pełnokolorowych wzorów bezpośrednio na tkaniny poliestrowe. Kolory są żywe, trwałe i odporne na pranie. Technologia sublimacyjna jest idealna do produkcji strojów sportowych, kolekcji markowych, koszulek eventowych czy personalizowanej odzieży. Sublimacja pozwala na swobodę projektową: od pojedynczych elementów po druk na metrażu. Wybierz sublimację, jeśli zależy Ci na estetyce, jakości i długowieczności nadruku."
 		},
-		"diffusion": {
-			"title": "Druk dyfuzyjny",
-			"description": "Specjalistyczny druk na złożonych materiałach z unikalnymi efektami wizualnymi.",
-			"text": "Druk dyfuzyjny polega na użyciu specjalistycznych atramentów, które wnikają głębiej w włókna materiału, tworząc miękki, zintegrowany wydruk, który staje się częścią samej tkaniny. Ta metoda jest szczególnie odpowiednia do osiągania unikalnych tekstur wizualnych i luksusowego wykończenia na wysokiej klasy tekstyliach.",
-			"list": [
-				"Zintegrowany wydruk, bez wyczuwalnej powierzchni",
-				"Miękki, naturalny drap tkaniny zachowany",
-				"Idealny dla delikatnych materiałów wysokiej jakości",
-				"Unikalna głębia i tekstura wzorów"
-			]
+		"dtfPrint": {
+			"title": "Druk DTF (Direct to Film)",
+			"description": "DTF to innowacyjny druk na każdym rodzaju tkaniny. Zapewnia żywe kolory, detale i trwałość. Idealny dla małych serii i personalizacji już od 1 sztuki.",
+			"text": "Druk DTF to innowacyjna metoda nanoszenia nadruków na każdy rodzaj tkaniny - bawełnę, poliester, mieszanki czy nawet ciemne materiały. Gwarantuje intensywne kolory, doskonałą reprodukcję detali i trwałość porównywalną z sitodrukiem. Świetnie sprawdza się przy małych seriach, personalizowanych t-shirtach, gadżetach promocyjnych czy unikalnych projektach artystycznych. DTF to elastyczne i ekonomiczne rozwiązanie tam, gdzie sublimacja nie działa - bez kompromisów co do jakości, doskonała jakość już od 1 sztuki."
 		},
 		"screenPrinting": {
 			"title": "Sitodruk",
-			"description": "Trwały, długotrwały i gęsty druk, idealny dla dużych wolumenów.",
-			"text": "Sitodruk to wszechstronna technika druku, w której siatka jest używana do przenoszenia atramentu na podłoże, z wyjątkiem obszarów uczynionych nieprzepuszczalnymi dla atramentu przez blokujący szablon. Łopatka lub rakiel jest przesuwana przez ekran, aby wypełnić otwarte otwory siatki atramentem, a następnie ruch wsteczny powoduje, że ekran dotyka podłoża chwilowo wzdłuż linii kontaktu.",
-			"list": [
-				"Wysoka trwałość i odporność na pranie",
-				"Jaskrawe kolory na ciemnych tkaninach",
-				"Opłacalne dla dużych partii",
-				"Szeroka gama typów atramentów (metaliczne, świecące w ciemności)"
-			]
+			"description": "Sitodruk to klasyczna metoda idealna dla dużych nakładów. Gwarantuje trwałość, niskie koszty i wyraźne logo na odzieży firmowej oraz eventowej.",
+			"text": "Sitodruk to sprawdzona, klasyczna technologia druku, idealna dla dużych nakładów i prostych projektów. Dzięki zastosowaniu odpowiednich farb uzyskujesz wyraźny, trwały efekt - szczególnie przy jedno lub wielokolorowych logotypach. Często stosowany do odzieży firmowej, kampanii reklamowych, strojów zespołowych czy eventowych koszulek. Sitodruk to wybór, gdy potrzebujesz solidnego, ekonomicznego i szybkiego rozwiązania dla większej grupy odbiorców."
 		},
 		"logoTags": {
 			"title": "Metki logo",
-			"description": "Projektowanie i druk metek tekstylnych i kartonowych z Twoją marką.",
-			"text": "Oferujemy kompleksowe rozwiązania dla niestandardowych metek logo, w tym projektowanie, dobór materiału (tekstylny, kartonowy, skóropodobny) i druk. Nasze metki podnoszą profesjonalizm Twojej marki i dostarczają niezbędnych informacji o produkcie. Od eleganckich tkanych etykiet po solidne drukowane metki kartonowe, zapewniamy jakość i spójność marki.",
-			"list": [
-				"Własny projekt i branding",
-				"Różnorodność materiałów: tekstylne, kartonowe, syntetyczne",
-				"Wysokiej jakości druk i wykończenie",
-				"Wzmacnia tożsamość marki"
-			]
+			"description": "Metki sublimacyjne i tkane to klucz do rozpoznawalności Twojej marki. Personalizowane, trwałe i estetyczne - idealne do odzieży oraz akcesoriów.",
+			"text": "Profesjonalne metki szyjne i zawieszane to subtelny, ale skuteczny sposób na budowanie rozpoznawalności marki. Oferujemy metki sublimacyjne (miękkie, pełne koloru) oraz tkane (klasyczne, trwałe). Idealne do: odzieży modowej, kolekcji designerskich, worków prezentowych, torb czy akcesoriów. Możliwość dopasowania kształtu, koloru i treści - Twoje logo, nazwa marki lub hasło zawsze będzie na miejscu."
 		},
-		"packaging": {
-			"title": "Opakowania kartonowe",
-			"description": "Tworzenie i druk spersonalizowanych, stylowych opakowań kartonowych.",
-			"text": "Nasze usługi opakowań kartonowych wykraczają poza zwykłe pudełka. Projektujemy i produkujemy niestandardowe opakowania, które odzwierciedlają estetykę Twojej marki i chronią Twoje produkty. Wykorzystując różne techniki druku i opcje wykończenia, tworzymy opakowania, które się wyróżniają, od minimalistycznych projektów po złożone, wielokolorowe rozwiązania.",
-			"list": [
-				"Indywidualny projekt i inżynieria konstrukcyjna",
-				"Wysokiej jakości druk na różnych typach kartonu",
-				"Zrównoważone i ekologiczne opcje",
-				"Poprawia prezentację i ochronę produktów"
-			]
+		"eventAndMarketingClothing": {
+			"title": "Odzież reklamowa i eventowa",
+			"description": "Personalizowana odzież z Twoim logo: od T-shirtów po kurtki. Dowolna metoda druku, znane marki i wsparcie grafików. Szybka realizacja i wysoka jakość.",
+			"text": "Odzież z Twoim brandingiem - szybko, solidnie i zgodnie z wizją marki. Tworzymy koszulki, bluzy, koszulki polo, czapki, polary, kurtki  z nadrukiem sublimacyjnym, DTF ,sitodrukowym, flex / flock - w zależności od potrzeb. Doskonała do: konferencji, festiwali, kampanii marketingowych, dni otwartych czy strojów dla pracowników i zespołów. Oferujemy zarówno gotowe produkty, jak i produkcję od podstaw - wraz z pomocą naszego zespołu graficznego. W ofercie posiadamy produkty takich marek jak Fruit of the Loom, Malfini, JHK, Roly, Gildan, AWDis."
+		},
+		"graphicStudio": {
+			"title": "Studio graficzne",
+			"description": "Kreatywne projekty pod sublimację i DTF. Łączymy design z wiedzą techniczną, dostarczając pliki gotowe do druku. Wyróżnij swoją markę na rynku!",
+			"text": "Ożywiamy tkaniny dzięki unikalnemu designowi. Nasz zespół specjalizuje się w projektowaniu pod druk sublimacyjny i DTF. Łączymy kreatywność z wiedzą techniczną, gwarantując najwyższą jakość, żywe kolory i precyzję. Wspieramy marki odzieżowe i producentów tekstyliów, dostarczając pliki gotowe do produkcji. Niezależnie czy potrzebujesz metraży, czy aplikacji - tworzymy wzory, które wyróżniają się na rynku. Zaufaj profesjonalistom. Skontaktuj się z nami i rozpocznij współpracę już dziś!"
 		}
 	},
 	"portfolio": {
@@ -166,15 +148,27 @@
 			"selectService": "-- Wybierz usługę --",
 			"services": {
 				"sublimation": "Sublimacja",
-				"diffusion": "Druk dyfuzyjny",
+				"dtfPrint": "Druk DTF (Direct to Film)",
 				"screenPrinting": "Sitodruk",
 				"logoTags": "Metki logo",
-				"packaging": "Opakowania kartonowe",
+				"eventAndMarketingClothing": "Odzież reklamowa i eventowa",
 				"other": "Inne / Ogólne zapytanie"
 			},
 			"details": "Szczegóły projektu / Wiadomość",
 			"detailsPlaceholder": "Opisz swój projekt, ilość i wymagany termin dostawy.",
-			"submit": "Wyślij zapytanie"
+			"submit": "Wyślij zapytanie",
+			"errors": {
+				"required": "To pole jest wymagane",
+				"nameTooShort": "Imię musi mieć co najmniej 2 znaki",
+				"nameTooLong": "Imię może mieć maksymalnie 100 znaków",
+				"emailInvalid": "Podaj prawidłowy adres e-mail",
+				"emailTooLong": "Adres e-mail może mieć maksymalnie 254 znaki",
+				"phoneTooLong": "Numer telefonu może mieć maksymalnie 20 znaków",
+				"detailsTooShort": "Wiadomość musi mieć co najmniej 10 znaków",
+				"detailsTooLong": "Wiadomość może mieć maksymalnie 2000 znaków",
+				"submitFailed": "Wystąpił błąd podczas wysyłania wiadomości. Spróbuj ponownie."
+			},
+			"submitSuccess": "Wiadomość została wysłana. Skontaktujemy się z Tobą wkrótce!"
 		},
 		"info": {
 			"title": "Nasze dane"
@@ -219,5 +213,54 @@
 		"thousand": "tyś.",
 		"milion": "mln",
 		"billion": "mld"
+	},
+	"email": {
+		"contactRequest": {
+			"user": {
+				"title": "Potwierdzenie prośby kontaktu - {{serviceName}}",
+				"hero": {
+					"title": "Dziękujemy, {{nameAndSurname}}!",
+					"description": "Otrzymaliśmy Twoją wiadomość i skontaktujemy się z Tobą tak szybko, jak to możliwe."
+				},
+				"summary": {
+					"title": "Podsumowanie zapytania",
+					"nameAndSurname": "Imię i nazwisko",
+					"email": "Adres e-mail",
+					"tel": "Numer telefonu",
+					"service": "Usługa"
+				},
+				"message": {
+					"title": "Treść wiadomości"
+				},
+				"cta": {
+					"text": "Odwiedź atexprint.pl"
+				},
+				"footer": {
+					"systemNotice": "Ten e-mail został wygenerowany automatycznie przez system."
+				}
+			},
+			"admin": {
+				"title": "Prośba kontaktu - {{serviceName}}",
+				"header": {
+					"title": "ATEX - Nowa wiadomość"
+				},
+				"alert": {
+					"text": "Nowa wiadomość od: {{nameAndSurname}}"
+				},
+				"details": {
+					"title": "Dane kontaktowe",
+					"nameAndSurname": "Imię i nazwisko",
+					"email": "Adres e-mail",
+					"tel": "Numer telefonu",
+					"service": "Usługa"
+				},
+				"message": {
+					"title": "Treść wiadomości"
+				},
+				"footer": {
+					"systemNotice": "Ten e-mail został wygenerowany automatycznie przez system."
+				}
+			}
+		}
 	}
 }

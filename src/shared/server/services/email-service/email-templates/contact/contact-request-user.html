@@ -1,25 +1,308 @@
 <!doctype html>
-<html lang="en">
+<html lang="pl" xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>{{title}}</title>
+		<style type="text/css">
+			body,
+			#bodyTable {
+				margin: 0;
+				padding: 0;
+				background-color: #f4f4f4;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+			a {
+				color: #2f57a3;
+			}
+			@media only screen and (max-width: 600px) {
+				.email-container {
+					width: 100% !important;
+				}
+			}
+		</style>
 	</head>
-	<body>
-		<div>
-			<p>New message from {{ nameAndSurname }}</p>
+	<body style="margin: 0; padding: 0; background-color: #f4f4f4">
+		<table
+			id="bodyTable"
+			width="100%"
+			cellpadding="0"
+			cellspacing="0"
+			border="0"
+			style="background-color: #f4f4f4"
+		>
+			<tr>
+				<td align="center" style="padding: 32px 16px">
+					<!-- Email container -->
+					<table
+						class="email-container"
+						width="600"
+						cellpadding="0"
+						cellspacing="0"
+						border="0"
+						style="
+							background-color: #ffffff;
+							border-radius: 8px;
+							overflow: hidden;
+							box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+						"
+					>
+						<!-- Header -->
+						<tr>
+							<td align="center" style="background-color: #2f57a3; padding: 32px">
+								<p
+									style="
+										margin: 0;
+										font-size: 26px;
+										font-weight: bold;
+										color: #ffffff;
+										letter-spacing: 2px;
+									"
+								>
+									ATEX
+								</p>
+								<p style="margin: 4px 0 0; font-size: 12px; color: #c5d3ed; letter-spacing: 1px">
+									DIGITAL TEXTILE PRINT
+								</p>
+							</td>
+						</tr>
 
-			<p>
-				<b>Message:</b><br />
-				<i>{{ message }}</i>
-			</p>
+						<!-- Hero message -->
+						<tr>
+							<td align="center" style="padding: 36px 32px 24px">
+								<p style="margin: 0 0 8px; font-size: 22px; font-weight: bold; color: #1a1a1a">
+									{{heroTitle}}
+								</p>
+								<p style="margin: 0; font-size: 15px; color: #555555; line-height: 1.6">
+									{{heroDescription}}
+								</p>
+							</td>
+						</tr>
 
-			<p><b>Contact information:</b></p>
+						<!-- Divider -->
+						<tr>
+							<td style="padding: 0 32px">
+								<table width="100%" cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td style="border-top: 1px solid #e8e8e8"></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
 
-			<ul>
-				<li>Name & surname: {{ nameAndSurname }}</li>
-				<li>E-mail address: <a href="mailto:{{ email }}">{{ email }}</a></li>
-				<li>Phone number: <a href="tel:{{ tel }}">{{ tel }}</a></li>
-			</ul>
-		</div>
+						<!-- Summary -->
+						<tr>
+							<td style="padding: 24px 32px">
+								<p
+									style="
+										margin: 0 0 16px;
+										font-size: 13px;
+										font-weight: bold;
+										color: #2f57a3;
+										text-transform: uppercase;
+										letter-spacing: 1px;
+									"
+								>
+									{{summaryTitle}}
+								</p>
+								<table
+									width="100%"
+									cellpadding="0"
+									cellspacing="0"
+									border="0"
+									style="background-color: #f8f9fb; border-radius: 6px"
+								>
+									<tr>
+										<td
+											width="140"
+											valign="top"
+											style="
+												padding: 12px 16px;
+												border-bottom: 1px solid #eaeaea;
+												font-size: 12px;
+												color: #888888;
+												font-weight: bold;
+												text-transform: uppercase;
+											"
+										>
+											{{summaryNameAndSurname}}
+										</td>
+										<td
+											valign="top"
+											style="
+												padding: 12px 16px;
+												border-bottom: 1px solid #eaeaea;
+												font-size: 14px;
+												color: #1a1a1a;
+											"
+										>
+											{{nameAndSurname}}
+										</td>
+									</tr>
+									<tr>
+										<td
+											width="140"
+											valign="top"
+											style="
+												padding: 12px 16px;
+												border-bottom: 1px solid #eaeaea;
+												font-size: 12px;
+												color: #888888;
+												font-weight: bold;
+												text-transform: uppercase;
+											"
+										>
+											{{summaryEmail}}
+										</td>
+										<td
+											valign="top"
+											style="
+												padding: 12px 16px;
+												border-bottom: 1px solid #eaeaea;
+												font-size: 14px;
+												color: #1a1a1a;
+											"
+										>
+											<a href="mailto:{{email}}" style="color: #2f57a3">{{email}}</a>
+										</td>
+									</tr>
+									<tr>
+										<td
+											width="140"
+											valign="top"
+											style="
+												padding: 12px 16px;
+												border-bottom: 1px solid #eaeaea;
+												font-size: 12px;
+												color: #888888;
+												font-weight: bold;
+												text-transform: uppercase;
+											"
+										>
+											{{summaryTel}}
+										</td>
+										<td
+											valign="top"
+											style="
+												padding: 12px 16px;
+												border-bottom: 1px solid #eaeaea;
+												font-size: 14px;
+												color: #1a1a1a;
+											"
+										>
+											<a href="tel:{{tel}}" style="color: #2f57a3">{{tel}}</a>
+										</td>
+									</tr>
+									<tr>
+										<td
+											width="140"
+											valign="top"
+											style="
+												padding: 12px 16px;
+												border-bottom: 1px solid #eaeaea;
+												font-size: 12px;
+												color: #888888;
+												font-weight: bold;
+												text-transform: uppercase;
+											"
+										>
+											{{summaryService}}
+										</td>
+										<td
+											valign="top"
+											style="padding: 12px 16px; border-bottom: 1px solid #eaeaea; font-size: 14px"
+										>
+											<span
+												style="
+													display: inline-block;
+													background-color: #e8f0fb;
+													color: #2f57a3;
+													font-weight: bold;
+													padding: 3px 10px;
+													border-radius: 12px;
+													font-size: 13px;
+												"
+												>{{serviceName}}</span
+											>
+										</td>
+									</tr>
+								</table>
+
+								<!-- Message -->
+								<p
+									style="
+										margin: 28px 0 12px;
+										font-size: 13px;
+										font-weight: bold;
+										color: #2f57a3;
+										text-transform: uppercase;
+										letter-spacing: 1px;
+									"
+								>
+									{{messageTitle}}
+								</p>
+								<table width="100%" cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td
+											style="
+												background-color: #f8f9fb;
+												border-left: 4px solid #2f57a3;
+												padding: 16px 20px;
+												border-radius: 0 6px 6px 0;
+												font-size: 14px;
+												color: #333333;
+												line-height: 1.6;
+											"
+										>
+											{{message}}
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+
+						<!-- CTA -->
+						<tr>
+							<td align="center" style="padding: 8px 32px 36px">
+								<a
+									href="https://atexprint.pl"
+									style="
+										display: inline-block;
+										background-color: #2f57a3;
+										color: #ffffff;
+										font-weight: bold;
+										font-size: 14px;
+										padding: 12px 28px;
+										border-radius: 6px;
+										text-decoration: none;
+										letter-spacing: 0.5px;
+									"
+								>
+									{{ctaText}}
+								</a>
+							</td>
+						</tr>
+
+						<!-- Footer -->
+						<tr>
+							<td
+								align="center"
+								style="background-color: #f4f4f4; padding: 20px 32px; border-top: 1px solid #e8e8e8"
+							>
+								<p style="margin: 0; font-size: 12px; color: #aaaaaa">
+									ATEX Digital Textile Print &nbsp;|&nbsp;
+									<a href="https://atexprint.pl" style="color: #2f57a3">atexprint.pl</a>
+								</p>
+								<p style="margin: 4px 0 0; font-size: 11px; color: #cccccc">
+									{{footerSystemNotice}}
+								</p>
+							</td>
+						</tr>
+					</table>
+					<!-- /Email container -->
+				</td>
+			</tr>
+		</table>
 	</body>
 </html>

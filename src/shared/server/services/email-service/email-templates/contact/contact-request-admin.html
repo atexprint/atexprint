@@ -1,25 +1,253 @@
 <!doctype html>
-<html lang="en">
+<html lang="pl" xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>{{title}}</title>
+		<style type="text/css">
+			body,
+			#bodyTable {
+				margin: 0;
+				padding: 0;
+				background-color: #f4f4f4;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+			a {
+				color: #2f57a3;
+			}
+			@media only screen and (max-width: 600px) {
+				.email-container {
+					width: 100% !important;
+				}
+				.stack-col {
+					display: block !important;
+					width: 100% !important;
+				}
+			}
+		</style>
 	</head>
-	<body>
-		<div>
-			<p>New message from {{ nameAndSurname }}</p>
+	<body style="margin: 0; padding: 0; background-color: #f4f4f4">
+		<table
+			id="bodyTable"
+			width="100%"
+			cellpadding="0"
+			cellspacing="0"
+			border="0"
+			style="background-color: #f4f4f4"
+		>
+			<tr>
+				<td align="center" style="padding: 32px 16px">
+					<!-- Email container -->
+					<table
+						class="email-container"
+						width="600"
+						cellpadding="0"
+						cellspacing="0"
+						border="0"
+						style="
+							background-color: #ffffff;
+							border-radius: 8px;
+							overflow: hidden;
+							box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+						"
+					>
+						<!-- Header -->
+						<tr>
+							<td align="center" style="background-color: #2f57a3; padding: 28px 32px">
+								<p
+									style="
+										margin: 0;
+										font-size: 22px;
+										font-weight: bold;
+										color: #ffffff;
+										letter-spacing: 1px;
+									"
+								>
+									{{headerTitle}}
+								</p>
+							</td>
+						</tr>
 
-			<p>
-				<b>Message:</b><br />
-				<i>{{ message }}</i>
-			</p>
+						<!-- Alert banner -->
+						<tr>
+							<td style="background-color: #e8300d; padding: 12px 32px">
+								<p style="margin: 0; font-size: 14px; color: #ffffff; font-weight: bold">
+									{{alertText}}
+								</p>
+							</td>
+						</tr>
 
-			<p><b>Contact information:</b></p>
+						<!-- Body -->
+						<tr>
+							<td style="padding: 32px">
+								<!-- Contact details -->
+								<p
+									style="
+										margin: 0 0 16px;
+										font-size: 13px;
+										font-weight: bold;
+										color: #2f57a3;
+										text-transform: uppercase;
+										letter-spacing: 1px;
+									"
+								>
+									{{detailsTitle}}
+								</p>
+								<table width="100%" cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td
+											width="140"
+											valign="top"
+											style="
+												padding: 10px 0;
+												border-bottom: 1px solid #f0f0f0;
+												font-size: 13px;
+												color: #888888;
+											"
+										>
+											{{detailsNameAndSurname}}
+										</td>
+										<td
+											valign="top"
+											style="
+												padding: 10px 0;
+												border-bottom: 1px solid #f0f0f0;
+												font-size: 14px;
+												color: #1a1a1a;
+												font-weight: bold;
+											"
+										>
+											{{nameAndSurname}}
+										</td>
+									</tr>
+									<tr>
+										<td
+											width="140"
+											valign="top"
+											style="
+												padding: 10px 0;
+												border-bottom: 1px solid #f0f0f0;
+												font-size: 13px;
+												color: #888888;
+											"
+										>
+											{{detailsEmail}}
+										</td>
+										<td
+											valign="top"
+											style="
+												padding: 10px 0;
+												border-bottom: 1px solid #f0f0f0;
+												font-size: 14px;
+												color: #1a1a1a;
+											"
+										>
+											<a href="mailto:{{email}}" style="color: #2f57a3">{{email}}</a>
+										</td>
+									</tr>
+									<tr>
+										<td
+											width="140"
+											valign="top"
+											style="
+												padding: 10px 0;
+												border-bottom: 1px solid #f0f0f0;
+												font-size: 13px;
+												color: #888888;
+											"
+										>
+											{{detailsTel}}
+										</td>
+										<td
+											valign="top"
+											style="
+												padding: 10px 0;
+												border-bottom: 1px solid #f0f0f0;
+												font-size: 14px;
+												color: #1a1a1a;
+											"
+										>
+											<a href="tel:{{tel}}" style="color: #2f57a3">{{tel}}</a>
+										</td>
+									</tr>
+									<tr>
+										<td
+											width="140"
+											valign="top"
+											style="padding: 10px 0; font-size: 13px; color: #888888"
+										>
+											{{detailsService}}
+										</td>
+										<td valign="top" style="padding: 10px 0; font-size: 14px; color: #1a1a1a">
+											<span
+												style="
+													display: inline-block;
+													background-color: #e8f0fb;
+													color: #2f57a3;
+													font-weight: bold;
+													padding: 3px 10px;
+													border-radius: 12px;
+													font-size: 13px;
+												"
+												>{{serviceName}}</span
+											>
+										</td>
+									</tr>
+								</table>
 
-			<ul>
-				<li>Name & surname: {{ nameAndSurname }}</li>
-				<li>E-mail address: <a href="mailto:{{ email }}">{{ email }}</a></li>
-				<li>Phone number: <a href="tel:{{ tel }}">{{ tel }}</a></li>
-			</ul>
-		</div>
+								<!-- Message -->
+								<p
+									style="
+										margin: 28px 0 12px;
+										font-size: 13px;
+										font-weight: bold;
+										color: #2f57a3;
+										text-transform: uppercase;
+										letter-spacing: 1px;
+									"
+								>
+									{{messageTitle}}
+								</p>
+								<table width="100%" cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td
+											style="
+												background-color: #f8f9fb;
+												border-left: 4px solid #2f57a3;
+												padding: 16px 20px;
+												border-radius: 0 6px 6px 0;
+												font-size: 14px;
+												color: #333333;
+												line-height: 1.6;
+											"
+										>
+											{{message}}
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+
+						<!-- Footer -->
+						<tr>
+							<td
+								align="center"
+								style="background-color: #f4f4f4; padding: 20px 32px; border-top: 1px solid #e8e8e8"
+							>
+								<p style="margin: 0; font-size: 12px; color: #aaaaaa">
+									ATEX Digital Textile Print &nbsp;|&nbsp;
+									<a href="https://atexprint.pl" style="color: #2f57a3">atexprint.pl</a>
+								</p>
+								<p style="margin: 4px 0 0; font-size: 11px; color: #cccccc">
+									{{footerSystemNotice}}
+								</p>
+							</td>
+						</tr>
+					</table>
+					<!-- /Email container -->
+				</td>
+			</tr>
+		</table>
 	</body>
 </html>

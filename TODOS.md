@@ -9,7 +9,7 @@
 - [x] Dostarczyć film do sekcji **Hero** (min. szer. 1280 px; preferowany format 16:9).
 - [x] Dostarczyć logo w grafice wektorowej (SVG) - już dostarczone.
 - [x] Dostarczyć linki do mediów społecznościowych (Instagram, Facebook, WhatsApp).
-- [ ] Dostarczyć teksty opisów + media (zdjęcia i/lub wideo) do popupów w sekcji `Nasze usługi`.
+- [x] Dostarczyć teksty opisów + media (zdjęcia i/lub wideo) do popupów w sekcji `Nasze usługi`.
 - [ ] Dostarczyć zdjęcia do sekcji `Nasze najnowsze projekty` + galerie do popupów:
   - [ ] Ustalić jeden format dla wszystkich zdjęć (1:1 lub 4:5 lub 1.91:1).
   - [ ] Zapewnić minimalny rozmiar (mniejszy wymiar ≥ 1280 px): np. 1280×1280, 1280×1600 lub 2444×1280.
@@ -25,18 +25,18 @@
 
 ### Ogólne
 
-- [ ] Zaimplementowac system wysylki maili wraz z w pelni walidowanym formularzem
-- [ ] Zmniejszyć wertykalne odstępy między sekcjami.
-- [ ] Stworzyć wersję mobilną strony na podstawie wersji desktopowej.
-- [ ] Dodać numer telefonu **+48 794 093 963** we wszystkich miejscach, gdzie występuje **+48 508 227 647**.
-- [ ] Stworzyć finalne wersje translacji:
-  - [ ] pl-PL
-  - [ ] en-US
-- [ ] Stworzyć bazowe wersje translacji (teksty po angielsku), które ATEX później przetłumaczy i dostarczy:
-  - [ ] cs-CZ
-  - [ ] de-DE
-  - [ ] hu-HU
-  - [ ] ru-RU
+- [x] Zaimplementowac system wysylki maili wraz z w pelni walidowanym formularzem
+- [x] Zmniejszyć wertykalne odstępy między sekcjami.
+- [x] Stworzyć wersję mobilną strony na podstawie wersji desktopowej.
+- [x] Dodać numer telefonu **+48 794 093 963** we wszystkich miejscach, gdzie występuje **+48 508 227 647**.
+- [x] Stworzyć finalne wersje translacji:
+  - [x] pl-PL
+  - [x] en-US
+- [x] Stworzyć bazowe wersje translacji (teksty po angielsku), które ATEX później przetłumaczy i dostarczy:
+  - [x] cs-CZ
+  - [x] de-DE
+  - [x] hu-HU
+  - [x] ru-RU
 
 ### Header
 
@@ -56,21 +56,21 @@
 
 ### Sekcja kart atutów ATEX
 
-- [ ] Karta `Szybka dostawa`:
-  - [ ] Zmienić tytuł na `Szybka realizacja`.
-  - [ ] Zmienić opis na `Nowoczesny park maszynowy`.
+- [x] Karta `Szybka dostawa`:
+  - [x] Zmienić tytuł na `Szybka realizacja`.
+  - [x] Zmienić opis na `Nowoczesny park maszynowy`.
 - [x] Karta `Własny projekt` - bez zmian.
 - [x] Karta `Gwarancja jakości` - bez zmian.
 - [x] Karta `Wsparcie eksperckie` - bez zmian.
-- [ ] Dodać nową kartę:
-  - [ ] `Dostawa własnym transportem`.
-  - [ ] Piktogram samochodu.
-  - [ ] Brak opisu.
-- [ ] Dodać nową kartę:
-  - [ ] `Profesjonalny zespół graficzny`.
-  - [ ] Piktogram z grafiką.
-  - [ ] Brak opisu.
-- [ ] W najwyższych rozdzielczościach ułożyć karty w siatce **3×2**.
+- [x] Dodać nową kartę:
+  - [x] `Dostawa własnym transportem`.
+  - [x] Piktogram samochodu.
+  - [x] Brak opisu.
+- [x] Dodać nową kartę:
+  - [x] `Profesjonalny zespół graficzny`.
+  - [x] Piktogram z grafiką.
+  - [x] Brak opisu.
+- [x] W najwyższych rozdzielczościach ułożyć karty w siatce **3×2**.
 
 ### Sekcja opisowa `Nasze możliwości`
 
@@ -79,10 +79,10 @@
 
 ### Sekcja `Nasze usługi`
 
-- [ ] Zmienić tytuł karty `Druk` → `Druk DTF`.
-- [ ] Dodać kartę `Studio projektowe`.
-- [ ] Wprowadzić popupy po kliknięciu kafelków (opisy + media dostarcza ATEX).
-- [ ] Zapewnić pionowy scroll w popupach.
+- [x] Zmienić tytuł karty `Druk` → `Druk DTF`.
+- [x] Dodać kartę `Studio projektowe`.
+- [x] Wprowadzić popupy po kliknięciu kafelków (opisy + media dostarcza ATEX).
+- [x] Zapewnić pionowy scroll w popupach.
 
 ### Sekcja `Nasze najnowsze projekty`
 

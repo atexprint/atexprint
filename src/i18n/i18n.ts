@@ -6,13 +6,13 @@ import { Locale, TRANSLATIONS } from './model';
 export const DEFAULT_LOCALE = Locale.enUS;
 export const currentLocale = writable(DEFAULT_LOCALE);
 
-export const translate = derived(
-	currentLocale,
-	($currentLocale) =>
-		(translationString: string, vars = {}) => {
-			return parseTranslation($currentLocale, translationString, vars);
-		}
-);
+export const translate = derived(currentLocale, curriedTranslator);
+
+export function curriedTranslator(locale: Locale) {
+	return (translationString: string, vars = {}) => {
+		return parseTranslation(locale, translationString, vars);
+	};
+}
 
 function parseTranslation(locale: Locale, translationString: string, vars?: Record<string, any>) {
 	const translationFile = TRANSLATIONS[locale];
@@ -26,7 +26,7 @@ function parseTranslation(locale: Locale, translationString: string, vars?: Reco
 		string | undefined
 	];
 
-	vars = !isNil(inlineVarsString) ? JSON.parse(inlineVarsString) : null;
+	vars = { ...vars, ...(!isNil(inlineVarsString) ? JSON.parse(inlineVarsString) : {}) };
 
 	const keys = keysString.split('.');
 	let text = translationFile as any;

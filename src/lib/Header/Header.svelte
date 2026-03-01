@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { asset } from '$app/paths';
 	import { translate } from '$i18n';
-	import LanguageSelect from '$lib/LanguageSelect/LanguageSelect.svelte';
-	import { HEADER_ITEMS } from '../../routes/model';
+	import { LanguageSelect } from '$lib';
+	import { HEADER_ITEMS } from './model';
 
 	let menuOpen = $state(false);
 
@@ -19,7 +19,7 @@
 	<div class="container mx-auto max-w-7xl">
 		<div class="flex items-center p-2">
 			<!-- Logo -->
-			<a href="/" onclick={closeMenu}>
+			<a href="/" onclick={closeMenu} class="flex items-center">
 				<img src={asset('/logo.svg')} alt="ATEX logo" class="inline h-12 w-auto" />
 				<span class="ml-2 font-bold">DIGITAL TEXTILE PRINT</span>
 			</a>
@@ -48,7 +48,7 @@
 			>
 				<span
 					class="block h-1 w-6 bg-primary transition-all duration-300"
-          class:translate-y-2={menuOpen}
+					class:translate-y-2={menuOpen}
 					class:rotate-45={menuOpen}
 				></span>
 				<span
@@ -59,7 +59,7 @@
 				<span
 					class="block h-1 w-6 bg-primary transition-all duration-300"
 					class:-rotate-45={menuOpen}
-          class:-translate-y-2={menuOpen}
+					class:-translate-y-2={menuOpen}
 				></span>
 			</button>
 		</div>
