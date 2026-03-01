@@ -37,6 +37,7 @@
   - [x] de-DE
   - [x] hu-HU
   - [x] ru-RU
+- [ ] Poprawic ladowanie hero wideo - multiselect hls or lower bitrate single source
 
 ### Header
 
