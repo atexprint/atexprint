@@ -61,6 +61,7 @@
 									class="aspect-video h-4 object-cover"
 									src={LOCALES_MAP[value].icon.src}
 									alt={$translate(LOCALES_MAP[value].icon.alt)}
+									loading="lazy"
 								/>
 								{$translate(label)}
 							</div>

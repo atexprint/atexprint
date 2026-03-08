@@ -99,7 +99,7 @@
 			"text": "Screen printing is a proven, classic printing technology, ideal for high volumes and simple designs. By using appropriate inks, you get a clear, durable effect - especially with single or multi-color logos. Often used for corporate clothing, advertising campaigns, team outfits, or event t-shirts. Screen printing is the choice when you need a solid, economical, and fast solution for a larger audience."
 		},
 		"logoTags": {
-			"title": "Logo tags",
+			"title": "Labels, inserts",
 			"description": "Sublimation and woven tags are the key to your brand's recognition. Personalized, durable, and aesthetic - perfect for clothing and accessories.",
 			"text": "Professional neck and hang tags are a subtle but effective way to build brand recognition. We offer sublimation tags (soft, full color) and woven tags (classic, durable). Ideal for: fashion clothing, designer collections, gift bags, totes, or accessories. Possibility to customize the shape, color, and content - your logo, brand name, or slogan will always be in place."
 		},
@@ -123,13 +123,13 @@
 			"scarfPrinting": "Scarf printing",
 			"luxuryPackaging": "Luxury packaging",
 			"brandedMugs": "Branded mugs",
-			"elegantLogoTags": "Elegant logo tags",
+			"elegantLogoTags": "Elegant labels, inserts",
 			"specialtyItems": "Specialty items",
 			"screenPrinting": "Screen printing",
 			"diffusionPrinting": "Diffusion printing",
 			"cardboardPackaging": "Cardboard packaging",
 			"sublimation": "Sublimation",
-			"logoTags": "Logo tags",
+			"logoTags": "Labels, inserts",
 			"screenPrintingSpecial": "Screen printing / Special"
 		}
 	},
@@ -150,7 +150,7 @@
 				"sublimation": "Sublimation",
 				"dtfPrint": "DTF Printing (Direct to Film)",
 				"screenPrinting": "Screen printing",
-				"logoTags": "Logo tags",
+				"logoTags": "Labels, inserts",
 				"eventAndMarketingClothing": "Promotional and event clothing",
 				"other": "Other / General inquiry"
 			},
@@ -164,6 +164,7 @@
 				"emailInvalid": "Please provide a valid email address",
 				"emailTooLong": "Email address can be a maximum of 254 characters",
 				"phoneTooLong": "Phone number can be a maximum of 20 characters",
+				"phoneInvalid": "Provide a valid phone number",
 				"detailsTooShort": "Message must be at least 10 characters",
 				"detailsTooLong": "Message can be a maximum of 2000 characters",
 				"submitFailed": "An error occurred while sending the message. Please try again."

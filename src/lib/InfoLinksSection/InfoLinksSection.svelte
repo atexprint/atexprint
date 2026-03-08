@@ -7,7 +7,7 @@
 	<div class="container mx-auto max-w-7xl px-4">
 		<div class="grid grid-cols-1 gap-10 md:grid-cols-[2fr_1fr_1fr]">
 			<div>
-				<img src={asset('/logo.svg')} alt="ATEX Logo" class="mb-4 w-16" />
+				<img src={asset('/logo.svg')} alt="ATEX Logo" class="mb-4 w-16" loading="lazy" />
 				<p class="mb-5">
 					{$translate('footer.about')}
 				</p>

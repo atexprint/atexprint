@@ -37,7 +37,10 @@
   - [x] de-DE
   - [x] hu-HU
   - [x] ru-RU
-- [ ] Poprawic ladowanie hero wideo - multiselect hls or lower bitrate single source
+- [x] Poprawic ladowanie hero wideo - multiselect hls or lower bitrate single source
+- [x] Zrobic ze numer telefonu nie jest opcjonalny (bez walidacji poprawnosci numeru, tylko sprawdzic ze sa same cyfry)
+- [x] captcha jako system zabezpieczenia wysylki zapytania (hCaptcha)
+- [x] "Metki logo" - zmiana tekstu na "Metki, wszywki"
 
 ### Header
 

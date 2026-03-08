@@ -1,42 +1,42 @@
 <script lang="ts">
 	import { currentLocale, translate } from '$i18n';
-	import { onMount } from 'svelte';
 	import { STATS } from './model';
 	import { runAnimations, updateSuffixes } from './stats-animation-functions';
 
-	let animationStarted = false;
+	let sectionEl: HTMLElement | undefined = $state();
+	let animationStarted = $state(false);
 
-	onMount(() => {
-		const handleScroll = () => {
-			const statsSection = document.getElementById('about');
-			if (!statsSection || animationStarted) return;
+	$effect(() => {
+		if (!sectionEl) return;
 
-			const sectionTop = statsSection.getBoundingClientRect().top;
-			const windowHeight = window.innerHeight;
+		const observer = new IntersectionObserver(
+			([entry]) => {
+				if (entry.isIntersecting && !animationStarted) {
+					animationStarted = true;
+					runAnimations();
+					observer.disconnect();
+				}
+			},
+			{ threshold: 0.25 }
+		);
 
-			if (sectionTop < windowHeight * 0.75) {
-				runAnimations();
-				animationStarted = true;
-			}
-		};
+		observer.observe(sectionEl);
 
-		const unsubscribeLocale = currentLocale.subscribe(() => {
+		return () => observer.disconnect();
+	});
+
+	$effect(() => {
+		const unsubscribe = currentLocale.subscribe(() => {
 			if (animationStarted) {
 				updateSuffixes();
 			}
 		});
 
-		window.addEventListener('scroll', handleScroll);
-		handleScroll();
-
-		return () => {
-			window.removeEventListener('scroll', handleScroll);
-			unsubscribeLocale();
-		};
+		return () => unsubscribe();
 	});
 </script>
 
-<section id="about" class="my-20 scroll-mt-30 bg-white">
+<section bind:this={sectionEl} id="about" class="my-20 scroll-mt-30 bg-white">
 	<div class="container mx-auto max-w-7xl px-4">
 		<h2 class="mb-12 text-center text-4xl font-bold text-primary">{$translate('about.title')}</h2>
 		<div class="flex flex-col items-center gap-12 lg:flex-row">

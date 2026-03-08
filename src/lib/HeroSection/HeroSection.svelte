@@ -10,8 +10,10 @@
 		loop
 		playsinline
 		class="absolute top-0 left-[50%] z-0 h-full w-full max-w-7xl translate-x-[-50%] object-cover"
+		preload="none"
+		poster={asset('/video/hero-video-poster.jpeg')}
 	>
-		<source src={asset('/video/hero-video.m3u8')} type="application/vnd.apple.mpegurl" />
+		<source src={asset('/video/hero-video.mp4')} type="video/mp4" />
 		{$translate('Your browser does not support HTML5 video.')}
 	</video>
 
@@ -30,10 +32,10 @@
 		<div class="mx-auto my-6 w-fit gap-2 rounded bg-rose px-6 py-3 font-semibold text-white">
 			<p class="mb-2 font-bold">{$translate('hero.callUs')}</p>
 			<p>
-				<a href="tel:+48 508 227 647">+48 508 227 647</a>
+				<a href="tel:+48508227647">+48 508 227 647</a>
 			</p>
 			<p>
-				<a href="tel:+48 794 093 963">+48 794 093 963</a>
+				<a href="tel:+48794093963">+48 794 093 963</a>
 			</p>
 		</div>
 	</div>

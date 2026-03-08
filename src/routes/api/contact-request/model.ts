@@ -1,7 +1,5 @@
-import 'reflect-metadata';
-
 import { validators } from '$shared/server/validators';
-import { IsEnum, IsOptional } from 'class-validator';
+import { IsEnum } from 'class-validator';
 import { CONTACT_FORM_SERVICES, type ContactFormData } from '$lib/ContactSection/ContactForm/model';
 import { Locale } from '$i18n';
 
@@ -17,10 +15,9 @@ export class ContactFormDataRequest implements ContactFormData {
 	@MaxLength(254)
 	declare email: string;
 
-	@IsOptional()
 	@IsString()
 	@MaxLength(20)
-	declare phone?: string;
+	declare phone: string;
 
 	@IsIn(CONTACT_FORM_SERVICES)
 	declare service: (typeof CONTACT_FORM_SERVICES)[number];
@@ -32,4 +29,7 @@ export class ContactFormDataRequest implements ContactFormData {
 
 	@IsEnum(Locale)
 	declare locale: Locale;
+
+	@IsString()
+	declare hCaptchaToken: string;
 }

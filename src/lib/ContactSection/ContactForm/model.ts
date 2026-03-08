@@ -14,7 +14,7 @@ export type ContactFormService = (typeof CONTACT_FORM_SERVICES)[number];
 export interface ContactFormData {
 	name: string;
 	email: string;
-	phone?: string;
+	phone: string;
 	service: ContactFormService;
 	details: string;
 }
@@ -38,7 +38,11 @@ export const CONTACT_FORM_SCHEMA: yup.ObjectSchema<ContactFormData> = yup.object
 		.email('contact.form.errors.emailInvalid')
 		.max(254, 'contact.form.errors.emailTooLong')
 		.required('contact.form.errors.required'),
-	phone: yup.string().max(20, 'contact.form.errors.phoneTooLong').optional(),
+	phone: yup
+		.string()
+		.max(20, 'contact.form.errors.phoneTooLong')
+		.matches(/^\+?[\d\s\-().]{7,20}$/, 'contact.form.errors.phoneInvalid')
+		.required('contact.form.error.required'),
 	service: yup
 		.string()
 		.oneOf(CONTACT_FORM_SERVICES, 'contact.form.errors.required')

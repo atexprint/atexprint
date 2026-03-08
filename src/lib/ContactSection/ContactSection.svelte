@@ -28,8 +28,8 @@
 				<div class="mb-6 flex items-center">
 					<i class="fas fa-phone mr-4 min-w-[25px] text-center text-2xl text-primary"></i>
 					<p class="leading-snug text-gray-900">
-						<a href="tel:+48 508 227 647"> +48 508 227 647 </a> /
-						<a href="tel:+48 794 093 963">+48 794 093 963</a>
+						<a href="tel:+48508227647"> +48 508 227 647 </a> /
+						<a href="tel:+48794093963">+48 794 093 963</a>
 					</p>
 				</div>
 				<div class="mb-6 flex items-center">

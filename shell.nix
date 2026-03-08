@@ -7,6 +7,10 @@ pkgs.mkShell {
   packages = with pkgs; [
     zsh
     nodejs_24
+
+    (python3.withPackages (pp: [
+      pp.python-dotenv
+    ]))
   ];
 
   # for prisma-engines (6.7.0)

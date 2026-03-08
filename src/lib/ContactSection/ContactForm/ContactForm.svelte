@@ -13,16 +13,52 @@
 	import { HttpMethod } from '$shared/global/enums/http-method';
 	import { getBaseHeaders } from '$shared/global/functions/get-base-headers';
 	import type { ContactFormDataRequest } from '$api/contact-request/model';
+	import { PUBLIC_H_CATPCHA_SITE_KEY } from '$env/static/public';
 
 	let loading = $state(false);
 	let submitError = $state<string | null>(null);
 	let submitSuccess = $state(false);
+	let hCaptchaToken = $state<string | null>(null);
+
+	let captchaEl: HTMLDivElement | undefined = $state();
+	let captchaWidgetId: string | undefined;
+
+	$effect(() => {
+		if (!captchaEl) return;
+
+		// Wait for the hCaptcha script to be ready, then render explicitly.
+		// This avoids the widget disappearing when Svelte re-renders the component.
+		const render = () => {
+			const hcaptcha = (window as any).hcaptcha;
+			if (!hcaptcha) return;
+
+			captchaWidgetId = hcaptcha.render(captchaEl, {
+				sitekey: PUBLIC_H_CATPCHA_SITE_KEY,
+				callback: (token: string) => (hCaptchaToken = token),
+				'expired-callback': () => (hCaptchaToken = null)
+			});
+		};
+
+		if ((window as any).hcaptcha) {
+			render();
+		} else {
+			(window as any).onloadCallback = render;
+		}
+
+		return () => {
+			if (captchaWidgetId !== undefined) {
+				(window as any).hcaptcha?.reset(captchaWidgetId);
+			}
+		};
+	});
 
 	const { form, errors, touched, handleChange, handleSubmit, handleReset } =
 		createForm<ContactFormData>({
 			initialValues: { ...CONTACT_FORM_INITIAL_VALUE },
 			validationSchema: CONTACT_FORM_SCHEMA,
 			onSubmit: async (values) => {
+				if (!hCaptchaToken) return;
+
 				loading = true;
 				submitError = null;
 				submitSuccess = false;
@@ -33,12 +69,16 @@
 						headers: getBaseHeaders(),
 						body: JSON.stringify({
 							...values,
-							locale: $currentLocale
+							locale: $currentLocale,
+							hCaptchaToken: hCaptchaToken!
 						} satisfies ContactFormDataRequest)
 					})
 				);
 
 				loading = false;
+
+				hCaptchaToken = null;
+				(window as any).hcaptcha?.reset(captchaWidgetId);
 
 				if (result.status === 'ok') {
 					submitSuccess = true;
@@ -60,6 +100,7 @@
 
 	const submitDisabled = $derived(
 		loading ||
+			!hCaptchaToken ||
 			Object.values($errors).some((fieldError) => fieldError !== '') ||
 			Object.values($touched).some((fieldTouched) => !fieldTouched)
 	);
@@ -138,7 +179,7 @@
 				class={fieldClass('service')}
 			>
 				<option value="" disabled>{$translate('contact.form.selectService')}</option>
-				{#each CONTACT_FORM_SERVICES as service}
+				{#each CONTACT_FORM_SERVICES as service, i (i)}
 					<option value={service}>{$translate(`contact.form.services.${service}`)}</option>
 				{/each}
 			</select>
@@ -165,6 +206,11 @@
 				<p class="mt-1 text-xs text-red-500">{$translate($errors.details)}</p>
 			{/if}
 		</div>
+
+		<div class="flex justify-center">
+			<div bind:this={captchaEl} class="h-captcha"></div>
+		</div>
+
 		<button
 			disabled={submitDisabled}
 			type="submit"

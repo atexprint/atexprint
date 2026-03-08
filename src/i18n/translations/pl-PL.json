@@ -99,7 +99,7 @@
 			"text": "Sitodruk to sprawdzona, klasyczna technologia druku, idealna dla dużych nakładów i prostych projektów. Dzięki zastosowaniu odpowiednich farb uzyskujesz wyraźny, trwały efekt - szczególnie przy jedno lub wielokolorowych logotypach. Często stosowany do odzieży firmowej, kampanii reklamowych, strojów zespołowych czy eventowych koszulek. Sitodruk to wybór, gdy potrzebujesz solidnego, ekonomicznego i szybkiego rozwiązania dla większej grupy odbiorców."
 		},
 		"logoTags": {
-			"title": "Metki logo",
+			"title": "Metki, wszywki",
 			"description": "Metki sublimacyjne i tkane to klucz do rozpoznawalności Twojej marki. Personalizowane, trwałe i estetyczne - idealne do odzieży oraz akcesoriów.",
 			"text": "Profesjonalne metki szyjne i zawieszane to subtelny, ale skuteczny sposób na budowanie rozpoznawalności marki. Oferujemy metki sublimacyjne (miękkie, pełne koloru) oraz tkane (klasyczne, trwałe). Idealne do: odzieży modowej, kolekcji designerskich, worków prezentowych, torb czy akcesoriów. Możliwość dopasowania kształtu, koloru i treści - Twoje logo, nazwa marki lub hasło zawsze będzie na miejscu."
 		},
@@ -123,13 +123,13 @@
 			"scarfPrinting": "Druk szalików",
 			"luxuryPackaging": "Luksusowe opakowania",
 			"brandedMugs": "Kubki z logo",
-			"elegantLogoTags": "Eleganckie metki logo",
+			"elegantLogoTags": "Eleganckie metki, wszywki",
 			"specialtyItems": "Produkty specjalne",
 			"screenPrinting": "Sitodruk",
 			"diffusionPrinting": "Druk dyfuzyjny",
 			"cardboardPackaging": "Opakowania kartonowe",
 			"sublimation": "Sublimacja",
-			"logoTags": "Metki logo",
+			"logoTags": "Metki, wszywki",
 			"screenPrintingSpecial": "Sitodruk / Specjalny"
 		}
 	},
@@ -150,7 +150,7 @@
 				"sublimation": "Sublimacja",
 				"dtfPrint": "Druk DTF (Direct to Film)",
 				"screenPrinting": "Sitodruk",
-				"logoTags": "Metki logo",
+				"logoTags": "Metki, wszywki",
 				"eventAndMarketingClothing": "Odzież reklamowa i eventowa",
 				"other": "Inne / Ogólne zapytanie"
 			},
@@ -164,6 +164,7 @@
 				"emailInvalid": "Podaj prawidłowy adres e-mail",
 				"emailTooLong": "Adres e-mail może mieć maksymalnie 254 znaki",
 				"phoneTooLong": "Numer telefonu może mieć maksymalnie 20 znaków",
+				"phoneInvalid": "Podaj prawidłowy numer telefonu",
 				"detailsTooShort": "Wiadomość musi mieć co najmniej 10 znaków",
 				"detailsTooLong": "Wiadomość może mieć maksymalnie 2000 znaków",
 				"submitFailed": "Wystąpił błąd podczas wysyłania wiadomości. Spróbuj ponownie."

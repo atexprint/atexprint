@@ -3,7 +3,7 @@
 	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
 	import { injectAnalytics } from '@vercel/analytics/sveltekit';
 
-	import { currentLocale, getUserPreferredLocale, Locale, translate } from '$i18n';
+	import { currentLocale, getUserPreferredLocale, Locale } from '$i18n';
 	import { onDestroy, onMount } from 'svelte';
 	import {
 		localStorageGetItem,
@@ -45,13 +45,14 @@
 	onDestroy(() => {
 		UNSUBS.forEach((unsub) => unsub());
 	});
-</script>
 
-<svelte:head>
-	<title>
-		{$translate('meta.general.title')}
-	</title>
-	<meta name="description" content={$translate('meta.general.description')} />
-</svelte:head>
+	onMount(() => {
+		const script = document.createElement('script');
+		script.src = 'https://js.hcaptcha.com/1/api.js?onload=onloadCallback&render=explicit';
+		script.async = true;
+		script.defer = true;
+		document.head.appendChild(script);
+	});
+</script>
 
 {@render children?.()}

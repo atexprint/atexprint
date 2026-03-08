@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { asset } from '$app/paths';
+	import { asset, resolve } from '$app/paths';
 	import { translate } from '$i18n';
 	import { LanguageSelect } from '$lib';
 	import { HEADER_ITEMS } from './model';
@@ -19,8 +19,8 @@
 	<div class="container mx-auto max-w-7xl">
 		<div class="flex items-center p-2">
 			<!-- Logo -->
-			<a href="/" onclick={closeMenu} class="flex items-center">
-				<img src={asset('/logo.svg')} alt="ATEX logo" class="inline h-12 w-auto" />
+			<a href={resolve('/')} onclick={closeMenu} class="flex items-center">
+				<img src={asset('/logo.svg')} alt="ATEX logo" class="inline h-12 w-auto" loading="lazy" />
 				<span class="ml-2 font-bold">DIGITAL TEXTILE PRINT</span>
 			</a>
 
@@ -29,7 +29,9 @@
 			<!-- Desktop nav (> 900px) -->
 			<nav class="hidden items-center gap-6 min-[900px]:flex">
 				{#each HEADER_ITEMS as { href, key }, i (i)}
-					<a {href} class="font-medium text-gray-600 transition-colors hover:text-primary"
+					<a
+						href={resolve(href as any)}
+						class="font-medium text-gray-600 transition-colors hover:text-primary"
 						>{$translate(`nav.${key}`)}</a
 					>
 				{/each}
@@ -71,7 +73,7 @@
 			<nav class="container mx-auto flex max-w-7xl flex-col px-4 py-3">
 				{#each HEADER_ITEMS as { href, key }, i (i)}
 					<a
-						{href}
+						href={resolve(href as any)}
 						onclick={closeMenu}
 						class="border-b border-gray-100 py-3 font-medium text-gray-600 transition-colors last:border-none hover:text-primary"
 						>{$translate(`nav.${key}`)}</a

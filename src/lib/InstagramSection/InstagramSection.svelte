@@ -10,14 +10,14 @@
 		<div
 			class="mx-auto mb-10 flex min-h-[400px] max-w-[900px] items-center justify-center border border-gray-300 bg-gray-50 text-gray-600"
 		>
-			<script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
 			<iframe
-				src="//lightwidget.com/widgets/b9ff3a69b47c55b889b4e8c95fbe49c1.html"
-				scrolling="no"
-				allowtransparency={true}
-				class="w-full overflow-hidden border-0"
-				title="Instagram Feed"
-			></iframe>
+				src="https://emb.fouita.com/widget/0x3f6dab/ftlmw9wvw"
+				title="Instagram Hashtag Carousel"
+				width="100%"
+				height="500"
+				frameborder="0"
+			>
+			</iframe>
 		</div>
 	</div>
 </section>
