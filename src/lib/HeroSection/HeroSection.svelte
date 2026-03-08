@@ -11,10 +11,10 @@
 		playsinline
 		class="absolute top-0 left-[50%] z-0 h-full w-full max-w-7xl translate-x-[-50%] object-cover"
 		preload="none"
-		poster={asset('/video/hero-video-poster.jpeg')}
+		poster={asset('/media/hero/hero-video-poster.jpeg')}
 	>
-		<source src={asset('/video/hero-video.mp4')} type="video/mp4" />
-		{$translate('Your browser does not support HTML5 video.')}
+		<source src={asset('/media/hero/hero-video.mp4')} type="video/mp4" />
+		{$translate('general.html5VideoUnsupported')}
 	</video>
 
 	<div class="relative z-10 container mx-auto max-w-7xl px-4 text-center">

@@ -5,6 +5,9 @@
 			"description": "ATEX - experts in printing on knitted and polyester fabrics. 20 years of experience."
 		}
 	},
+	"general": {
+		"html5VideoUnsupported": "Your browser does not support HTML5 video"
+	},
 	"language": {
 		"czech": {
 			"label": "Čeština",
@@ -42,8 +45,7 @@
 		"title": "Professional solutions for your brand",
 		"subtitle": "From custom apparel, we bring your vision to life with precision and quality",
 		"cta": "Get a quote",
-		"callUs": "Call us",
-		"html5VideoUnsupported": "Your browser does not support HTML5 video."
+		"callUs": "Call us"
 	},
 	"features": {
 		"fastDelivery": {

@@ -2,7 +2,7 @@
 	import { translate } from '$i18n';
 	import {
 		ContactSection,
-		ServicesSection,
+		OurServicesSection,
 		AboutSection,
 		InfoLinksSection,
 		Header,
@@ -34,7 +34,7 @@
 <AboutSection />
 
 <!-- Services Section -->
-<ServicesSection />
+<OurServicesSection />
 
 <!-- Portfolio Section -->
 <PortfolioSection />

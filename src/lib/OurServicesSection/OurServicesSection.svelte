@@ -2,18 +2,18 @@
 	import { translate } from '$i18n';
 	import { SERVICES } from './model';
 
-	let activeService: string | null = $state(null);
+	let activeServiceIndex: number | null = $state(null);
 
 	$effect(() => {
-		document.body.style.overflow = activeService ? 'hidden' : '';
+		document.body.style.overflow = activeServiceIndex !== null ? 'hidden' : '';
 	});
 
-	function openPopup(key: string) {
-		activeService = key;
+	function openPopup(index: number) {
+		activeServiceIndex = index;
 	}
 
 	function closePopup() {
-		activeService = null;
+		activeServiceIndex = null;
 	}
 </script>
 
@@ -26,12 +26,15 @@
 			{#each SERVICES as { translationKeyPrefix }, i (i)}
 				<button
 					class="group min-h-[200px] rounded-lg border-t-4 border-primary bg-white p-8 shadow-md transition-all hover:-translate-y-1 hover:cursor-pointer hover:border-rose hover:shadow-lg"
-					onclick={() => openPopup(translationKeyPrefix)}
-					onkeydown={(e) => e.key === 'Enter' && openPopup(translationKeyPrefix)}
+					onclick={() => openPopup(i)}
+					onkeydown={(e) => e.key === 'Enter' && openPopup(i)}
 				>
-					<h3 class="mb-4 text-2xl font-semibold text-primary transition-colors group-hover:text-rose">
+					<h3
+						class="mb-4 text-2xl font-semibold text-primary transition-colors group-hover:text-rose"
+					>
 						{$translate(`${translationKeyPrefix}.title`)}
 					</h3>
+
 					<p class="text-gray-600">{$translate(`${translationKeyPrefix}.description`)}</p>
 				</button>
 			{/each}
@@ -40,7 +43,8 @@
 </section>
 
 <!-- Popup -->
-{#if activeService}
+{#if activeServiceIndex !== null}
+	{@const { media, translationKeyPrefix } = SERVICES[activeServiceIndex]}
 	<!-- Backdrop -->
 	<div class="fixed inset-0 z-100 bg-black/60 backdrop-blur-sm" aria-hidden="true"></div>
 
@@ -58,7 +62,7 @@
 			<!-- Header -->
 			<div class="flex shrink-0 items-start justify-between border-b border-gray-200 px-7 py-5">
 				<h2 id="service-popup-title" class="pr-6 text-2xl font-bold text-primary">
-					{$translate(`${activeService}.title`)}
+					{$translate(`${translationKeyPrefix}.title`)}
 				</h2>
 				<button
 					class="ml-2 flex h-8 w-8 shrink-0 cursor-pointer items-center justify-center rounded-full text-gray-400 transition-colors hover:bg-gray-100 hover:text-gray-700"
@@ -72,11 +76,29 @@
 			<!-- Scrollable body -->
 			<div class="overflow-y-auto px-7 py-6">
 				<p class="mb-5 text-base font-semibold text-gray-700">
-					{$translate(`${activeService}.description`)}
+					{$translate(`${translationKeyPrefix}.description`)}
 				</p>
-				<p class="text-base leading-relaxed text-gray-600">
-					{$translate(`${activeService}.text`)}
+
+				<p class="mb-5 text-base leading-relaxed text-gray-600">
+					{$translate(`${translationKeyPrefix}.text`)}
 				</p>
+
+				{#if media.type === 'image'}
+					<img class="rounded-xl" src={media.url} alt={media.alt} />
+				{:else if media.type === 'video'}
+					<video
+						autoplay
+						muted
+						loop
+						playsinline
+						preload="none"
+						poster={media.poster}
+						class="rounded-xl"
+					>
+						<source src={media.url} type={media.mimetype} />
+						{$translate('general.html5VideoUnsupported')}
+					</video>
+				{/if}
 			</div>
 		</div>
 	</div>
