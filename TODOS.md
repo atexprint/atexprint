@@ -103,7 +103,7 @@
 
 ### Sekcja `Śledź nas na Instagramie`
 
-- [ ] Użyć innej wtyczki/biblioteki umożliwiającej podgląd ostatnich postów konta ATEX.
+- [x] Użyć innej wtyczki/biblioteki umożliwiającej podgląd ostatnich postów konta ATEX.
 
 ### Sekcja `Skontaktuj się z nami i złóż zamówienie`
 
