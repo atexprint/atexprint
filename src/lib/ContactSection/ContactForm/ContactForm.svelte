@@ -208,7 +208,7 @@
 		</div>
 
 		<div class="flex justify-center">
-			<div bind:this={captchaEl} class="h-captcha"></div>
+			<div bind:this={captchaEl}></div>
 		</div>
 
 		<button
