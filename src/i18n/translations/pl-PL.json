@@ -5,6 +5,9 @@
 			"description": "ATEX - eksperci druku na dzianinach i tkaninach poliestrowych. 20 lat doświadczenia."
 		}
 	},
+	"general": {
+		"html5VideoUnsupported": "Twoja przeglądarka nie wspiera wideo HTML5"
+	},
 	"language": {
 		"czech": {
 			"label": "Čeština",
@@ -42,8 +45,7 @@
 		"title": "Profesjonalne rozwiązania dla Twojej marki",
 		"subtitle": "Od odzieży na zamówienie, ożywiamy Twoją wizję z precyzją i jakością",
 		"cta": "Uzyskaj wycenę",
-		"callUs": "Zadzwoń do nas",
-		"html5VideoUnsupported": "Twoja przeglądarka nie wspiera wideo w standardzie HTML5."
+		"callUs": "Zadzwoń do nas"
 	},
 	"features": {
 		"fastDelivery": {

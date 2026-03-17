@@ -10,4 +10,4 @@ export { default as FeaturesSection } from './FeaturesSection/FeaturesSection.sv
 export { default as PortfolioSection } from './PortfolioSection/PortfolioSection.svelte';
 export { default as InstagramSection } from './InstagramSection/InstagramSection.svelte';
 export { default as InfoLinksSection } from './InfoLinksSection/InfoLinksSection.svelte';
-export { default as ServicesSection } from './ServicesSection/ServicesSection.svelte';
+export { default as OurServicesSection } from './OurServicesSection/OurServicesSection.svelte';
