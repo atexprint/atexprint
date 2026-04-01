@@ -1,6 +1,7 @@
 <script lang="ts">
-	import { asset } from '$app/paths';
-	import { translate } from '$i18n';
+	import { asset, resolve } from '$app/paths';
+	import { currentLocale, translate } from '$i18n';
+
 </script>
 
 <section class="bg-gray-900 py-16 text-gray-100">
@@ -44,9 +45,8 @@
 				</h4>
 				<ul class="space-y-2">
 					<li>
-						<!-- TODO: need privacy policy pdf or seperate site for that -->
 						<a
-							href="#"
+							href={resolve(`/privacy-policy/${$currentLocale}`)}
 							class="text-gray-100 opacity-90 transition-all hover:text-primary hover:opacity-100"
 							>{$translate('footer.information.privacy')}</a
 						>

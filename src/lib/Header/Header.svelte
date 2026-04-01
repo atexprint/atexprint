@@ -19,7 +19,7 @@
 	<div class="container mx-auto max-w-7xl">
 		<div class="flex items-center p-2">
 			<!-- Logo -->
-			<a href={resolve('/')} onclick={closeMenu} class="flex items-center">
+			<a href={resolve('/')} onclick={closeMenu} data-sveltekit-reload class="flex items-center">
 				<img src={asset('/logo.svg')} alt="ATEX logo" class="inline h-12 w-auto" loading="lazy" />
 				<span class="ml-2 font-bold">DIGITAL TEXTILE PRINT</span>
 			</a>
@@ -31,6 +31,7 @@
 				{#each HEADER_ITEMS as { href, key }, i (i)}
 					<a
 						href={resolve(href as any)}
+						data-sveltekit-reload
 						class="font-medium text-gray-600 transition-colors hover:text-primary"
 						>{$translate(`nav.${key}`)}</a
 					>
@@ -75,6 +76,7 @@
 					<a
 						href={resolve(href as any)}
 						onclick={closeMenu}
+						data-sveltekit-reload
 						class="border-b border-gray-100 py-3 font-medium text-gray-600 transition-colors last:border-none hover:text-primary"
 						>{$translate(`nav.${key}`)}</a
 					>

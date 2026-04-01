@@ -121,18 +121,30 @@
 		"projectTitle": "Tytuł projektu",
 		"service": "Usługa",
 		"items": {
-			"customTShirts": "Koszulki na zamówienie",
-			"scarfPrinting": "Druk szalików",
-			"luxuryPackaging": "Luksusowe opakowania",
-			"brandedMugs": "Kubki z logo",
-			"elegantLogoTags": "Eleganckie metki, wszywki",
-			"specialtyItems": "Produkty specjalne",
-			"screenPrinting": "Sitodruk",
-			"diffusionPrinting": "Druk dyfuzyjny",
-			"cardboardPackaging": "Opakowania kartonowe",
-			"sublimation": "Sublimacja",
-			"logoTags": "Metki, wszywki",
-			"screenPrintingSpecial": "Sitodruk / Specjalny"
+			"sublimation": {
+				"title": "Sublimacja",
+				"description": "Żywe, trwałe nadruki wtapiane bezpośrednio w tkaninę"
+			},
+			"dtf": {
+				"title": "DTF",
+				"description": "Wszechstronne transfery z ostrym detalem na każdej tkaninie"
+			},
+			"flexFlock": {
+				"title": "Flex Flock",
+				"description": "Nadruki premium z wyraźną, aksamitną fakturą"
+			},
+			"labels": {
+				"title": "Metki i wszywki",
+				"description": "Indywidualne metki brandingowe nadające profesjonalny charakter odzieży"
+			},
+			"brandedClothing": {
+				"title": "Odzież firmowa",
+				"description": "Wysokiej jakości odzież na zamówienie, idealnie prezentująca Twoją markę"
+			},
+			"ourClients": {
+				"title": "Nasi klienci",
+				"description": "Zaufali nam firmy, zespoły i twórcy z całego świata"
+			}
 		}
 	},
 	"instagram": {
@@ -179,6 +191,11 @@
 		"connect": {
 			"title": "Połącz się z nami"
 		}
+	},
+	"privacyPolicy": {
+		"title": "Polityka Prywatności",
+		"metaTitle": "Polityka Prywatności - ATEX",
+		"backToHomepage": "Powrót do strony głównej"
 	},
 	"footer": {
 		"about": "Ekspert w druku cyfrowym. Ożywiamy wizję Twojej marki z precyzją i jakością.",

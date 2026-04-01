@@ -4,10 +4,11 @@
 
 <footer class="border-t border-white/20 bg-gray-900 py-5 text-gray-100">
 	<div class="container mx-auto max-w-7xl px-4">
-		<div class="flex flex-wrap items-center justify-between">
+		<div class="flex flex-wrap items-center justify-between gap-2">
 			<div>
 				<p class="my-1 text-sm">{$translate('footer.copyright')}</p>
 			</div>
+			<div>Created by <a href="https://mmbs.pl" class="underline">MMBS Studio</a></div>
 		</div>
 	</div>
 </footer>

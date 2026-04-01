@@ -121,18 +121,30 @@
 		"projectTitle": "Project title",
 		"service": "Service",
 		"items": {
-			"customTShirts": "Custom T-shirts",
-			"scarfPrinting": "Scarf printing",
-			"luxuryPackaging": "Luxury packaging",
-			"brandedMugs": "Branded mugs",
-			"elegantLogoTags": "Elegant labels, inserts",
-			"specialtyItems": "Specialty items",
-			"screenPrinting": "Screen printing",
-			"diffusionPrinting": "Diffusion printing",
-			"cardboardPackaging": "Cardboard packaging",
-			"sublimation": "Sublimation",
-			"logoTags": "Labels, inserts",
-			"screenPrintingSpecial": "Screen printing / Special"
+			"sublimation": {
+				"title": "Sublimation",
+				"description": "Vibrant, durable prints infused directly into fabric"
+			},
+			"dtf": {
+				"title": "DTF",
+				"description": "Versatile transfers with sharp detail on any fabric"
+			},
+			"flexFlock": {
+				"title": "Flex Flock",
+				"description": "Premium textured prints with bold, velvety finish"
+			},
+			"labels": {
+				"title": "Labels & tags",
+				"description": "Custom branding labels for a professional garment identity"
+			},
+			"brandedClothing": {
+				"title": "Branded clothing",
+				"description": "High-quality custom apparel showcasing your brand perfectly"
+			},
+			"ourClients": {
+				"title": "Our clients",
+				"description": "Trusted by businesses, teams, and creators worldwide"
+			}
 		}
 	},
 	"instagram": {
@@ -179,6 +191,11 @@
 		"connect": {
 			"title": "Connect with us"
 		}
+	},
+	"privacyPolicy": {
+		"title": "Privacy Policy",
+		"metaTitle": "Privacy Policy - ATEX",
+		"backToHomepage": "Back to homepage"
 	},
 	"footer": {
 		"about": "Expert in digital printing. We bring your brand's vision to life with precision and quality.",

@@ -12,6 +12,7 @@
 	} from '$shared/global/functions/local-storage';
 	import { isNil } from 'lodash-es';
 	import type { Unsubscriber } from 'svelte/store';
+	import { Header } from '$lib';
 
 	let { children } = $props();
 
@@ -54,5 +55,8 @@
 		document.head.appendChild(script);
 	});
 </script>
+
+<!-- Header -->
+<Header />
 
 {@render children?.()}

@@ -48,6 +48,7 @@
 		"class-validator": "^0.14.2",
 		"hcaptcha": "^0.2.0",
 		"lodash-es": "^4.17.21",
+		"marked": "^17.0.5",
 		"nodemailer": "^7.0.10",
 		"reflect-metadata": "^0.2.2",
 		"svelte-forms-lib": "^2.0.1",

@@ -5,7 +5,6 @@
 		OurServicesSection,
 		AboutSection,
 		InfoLinksSection,
-		Header,
 		HeroSection,
 		FeaturesSection,
 		PortfolioSection,
@@ -20,9 +19,6 @@
 	</title>
 	<meta name="description" content={$translate('meta.general.description')} />
 </svelte:head>
-
-<!-- Header -->
-<Header />
 
 <!-- Hero Section -->
 <HeroSection />
