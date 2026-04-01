@@ -10,9 +10,9 @@
 - [x] Dostarczyć logo w grafice wektorowej (SVG) - już dostarczone.
 - [x] Dostarczyć linki do mediów społecznościowych (Instagram, Facebook, WhatsApp).
 - [x] Dostarczyć teksty opisów + media (zdjęcia i/lub wideo) do popupów w sekcji `Nasze usługi`.
-- [ ] Dostarczyć zdjęcia do sekcji `Nasze najnowsze projekty` + galerie do popupów:
-  - [ ] Ustalić jeden format dla wszystkich zdjęć (1:1 lub 4:5 lub 1.91:1).
-  - [ ] Zapewnić minimalny rozmiar (mniejszy wymiar ≥ 1280 px): np. 1280×1280, 1280×1600 lub 2444×1280.
+- [x] Dostarczyć zdjęcia do sekcji `Nasze najnowsze projekty` + galerie do popupów:
+  - [x] Ustalić jeden format dla wszystkich zdjęć (1:1 lub 4:5 lub 1.91:1).
+  - [x] Zapewnić minimalny rozmiar (mniejszy wymiar ≥ 1280 px): np. 1280×1280, 1280×1600 lub 2444×1280.
 - [ ] Dostarczyć finalne tłumaczenia oparte o en-US:
   - [ ] cs-CZ
   - [ ] de-DE
@@ -91,16 +91,16 @@
 
 ### Sekcja `Nasze najnowsze projekty`
 
-- [ ] Podmienić zdjęcia w kafelkach (materiały dostarcza ATEX).
-- [ ] Dodać funkcjonalność:
-  - [ ] Kafelki klikalne.
-  - [ ] Popup po kliknięciu kafelka z galerią:
-    - [ ] Zdjęcia w jednym ustalonym formacie.
-    - [ ] Minimalny rozmiar zdjęć ≥ 1280 px (mniejszy wymiar).
-    - [ ] Galeria z poziomym scrollem.
-    - [ ] Nawigacja strzałkami.
-    - [ ] Szare kropki wskazujące pozycję.
-    - [ ] Maksymalnie 15 zdjęć w galerii.
+- [x] Podmienić zdjęcia w kafelkach (materiały dostarcza ATEX).
+- [x] Dodać funkcjonalność:
+  - [x] Kafelki klikalne.
+  - [x] Popup po kliknięciu kafelka z galerią:
+    - [x] Zdjęcia w jednym ustalonym formacie.
+    - [x] Minimalny rozmiar zdjęć ≥ 1280 px (mniejszy wymiar).
+    - [x] Galeria z poziomym scrollem.
+    - [x] Nawigacja strzałkami.
+    - [x] Szare kropki wskazujące pozycję.
+    - [x] Maksymalnie 15 zdjęć w galerii.
 
 ### Sekcja `Śledź nas na Instagramie`
 
