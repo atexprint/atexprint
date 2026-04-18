@@ -21,9 +21,6 @@
 		<h1 class="mb-5 text-3xl font-bold text-white uppercase sm:text-4xl md:text-5xl lg:text-6xl">
 			{$translate('hero.title')}
 		</h1>
-		<p class="mb-10 text-lg text-white sm:text-xl md:text-2xl">
-			{$translate('hero.subtitle')}
-		</p>
 		<a
 			href="#contact"
 			class="inline-block rounded border-2 border-primary bg-primary px-6 py-3 font-semibold text-white transition-all hover:border-rose hover:bg-rose hover:shadow-lg"

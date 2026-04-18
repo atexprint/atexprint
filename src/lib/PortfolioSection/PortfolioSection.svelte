@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { translate } from '$i18n';
-	import { PORTFOLIO_ITEMS, preloadPortfolioMedia } from './model';
+	import { PORTFOLIO_ITEMS, preloadPortfolioMedia, getCachedUrl } from './model';
 	import PortfolioGallery from './PortfolioGallery.svelte';
 
 	let activeItemIndex: number | null = $state(null);
@@ -27,7 +27,7 @@
 					onclick={() => (activeItemIndex = i)}
 				>
 					<img
-						src={image}
+						src={getCachedUrl(image)}
 						alt={$translate(title)}
 						class="h-full w-full object-cover transition-transform group-hover:scale-105"
 						loading="lazy"

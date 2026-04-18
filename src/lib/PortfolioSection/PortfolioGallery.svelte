@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { translate } from '$i18n';
-	import type { PORTFOLIO_ITEMS } from './model';
+	import { getCachedUrl, type PORTFOLIO_ITEMS } from './model';
 
 	type PortfolioItem = (typeof PORTFOLIO_ITEMS)[number];
 	type MediaItem = PortfolioItem['media'][number];
@@ -126,14 +126,14 @@
 				{#key currentIndex}
 					{#if currentMedia.type === 'img'}
 						<img
-							src={currentMedia.url}
+							src={getCachedUrl(currentMedia.url)}
 							alt="{$translate(title)} - {currentIndex + 1}"
 							class="max-h-[60dvh] max-w-full object-contain"
 							draggable="false"
 						/>
 					{:else if currentMedia.type === 'video'}
 						<video
-							src={currentMedia.url}
+							src={getCachedUrl(currentMedia.url)}
 							autoplay
 							muted
 							loop
@@ -174,7 +174,7 @@
 					>
 						{#if item.type === 'img'}
 							<img
-								src={item.url}
+								src={getCachedUrl(item.url)}
 								alt="Thumbnail {i + 1}"
 								class="h-full w-full object-cover"
 								loading="lazy"
@@ -182,7 +182,7 @@
 							/>
 						{:else if item.type === 'video'}
 							<video
-								src={item.url}
+								src={getCachedUrl(item.url)}
 								preload="metadata"
 								class="h-full w-full object-cover"
 								muted
