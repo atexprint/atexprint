@@ -1,12 +1,27 @@
-import { resolve } from '$app/paths';
+import { asset, resolve } from '$app/paths';
 import { Locale } from '$i18n';
 import { HttpStatus } from '$shared/global/enums/http-status';
 import { redirect } from '@sveltejs/kit';
+import type { PageServerLoad } from './$types';
 import { marked } from 'marked';
-import fs from 'node:fs';
-import path from 'node:path';
 
-export async function load({ params }) {
+function getRequestOrigin(requestUrl: URL, headers: Headers): string {
+	const forwardedProto = headers.get('x-forwarded-proto')?.split(',')[0]?.trim();
+	const forwardedHost = headers.get('x-forwarded-host')?.split(',')[0]?.trim();
+	const host = headers.get('host')?.trim();
+
+	if (forwardedProto && forwardedHost) {
+		return `${forwardedProto}://${forwardedHost}`;
+	}
+
+	if (host) {
+		return `${requestUrl.protocol}//${host}`;
+	}
+
+	return requestUrl.origin;
+}
+
+export const load: PageServerLoad = async ({ params, fetch, request, url }) => {
 	const locale = params.locale as Locale;
 
 	if (!Object.values(Locale).includes(locale as Locale)) {
@@ -20,15 +35,24 @@ export async function load({ params }) {
 		// case Locale.huHU:
 		// case Locale.ruRU:
 		case Locale.enUS:
-			mdPath = path.resolve('static', 'privacy-policy', `${Locale.enUS}.md`);
+			mdPath = asset('/privacy-policy/en-US.md');
 			break;
 
 		case Locale.plPL:
-			mdPath = path.resolve('static', 'privacy-policy', `${locale}.md`);
+			mdPath = asset('/privacy-policy/pl-PL.md');
 			break;
 	}
 
-	const html = await marked(fs.readFileSync(mdPath, 'utf-8'));
+	const origin = getRequestOrigin(url, request.headers);
+	const markdownUrl = new URL(mdPath, origin).toString();
+	const markdownResponse = await fetch(markdownUrl);
+
+	if (!markdownResponse.ok) {
+		throw redirect(HttpStatus.PERMANENT_REDIRECT, resolve(`/privacy-policy/${Locale.enUS}`));
+	}
+
+	const markdown = await markdownResponse.text();
+	const html = await marked(markdown);
 
 	return { locale, html };
-}
+};
