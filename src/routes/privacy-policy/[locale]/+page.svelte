@@ -1,9 +1,29 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
-	import { translate } from '$i18n';
+	import { currentLocale, translate } from '$i18n';
+	import { onDestroy, onMount } from 'svelte';
 	import type { PageData } from './$types';
+	import { goto } from '$app/navigation';
+	import type { Unsubscriber } from 'svelte/store';
 
 	let { data }: { data: PageData } = $props();
+	let previousLocale = $currentLocale;
+	let unsub: Unsubscriber;
+
+	onMount(() => {
+		unsub = currentLocale.subscribe((value) => {
+			if (previousLocale !== value) {
+				previousLocale = value;
+				goto(resolve('/privacy-policy/[locale]', { locale: value }));
+			}
+		});
+	});
+
+	onDestroy(() => {
+		if (unsub) {
+			unsub();
+		}
+	});
 </script>
 
 <svelte:head>
