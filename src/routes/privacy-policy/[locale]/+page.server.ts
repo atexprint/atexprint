@@ -15,11 +15,11 @@ export async function load({ params }) {
 
 	let mdPath;
 	switch (locale) {
-		case Locale.csCZ:
-		case Locale.deDE:
+		// case Locale.csCZ:
+		// case Locale.deDE:
+		// case Locale.huHU:
+		// case Locale.ruRU:
 		case Locale.enUS:
-		case Locale.huHU:
-		case Locale.ruRU:
 			mdPath = path.resolve('static', 'privacy-policy', `${Locale.enUS}.md`);
 			break;
 
