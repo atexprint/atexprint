@@ -218,29 +218,29 @@ export const PORTFOLIO_ITEMS = [
 		]
 	},
 	{
-		image: asset(`/media/portfolio/latest-projects/6-our-clients/0.jpg`),
+		image: asset(`/media/portfolio/latest-projects/6-our-clients/0.png`),
 		title: `${portfolioItemsKey}.ourClients.title`,
 		description: `${portfolioItemsKey}.ourClients.description`,
 		media: [
 			{
 				type: 'img',
-				url: asset('/media/portfolio/latest-projects/6-our-clients/0.jpg')
+				url: asset('/media/portfolio/latest-projects/6-our-clients/0.png')
 			},
 			{
 				type: 'img',
-				url: asset('/media/portfolio/latest-projects/6-our-clients/1.jpg')
+				url: asset('/media/portfolio/latest-projects/6-our-clients/1.png')
 			},
 			{
 				type: 'img',
-				url: asset('/media/portfolio/latest-projects/6-our-clients/2.jpg')
+				url: asset('/media/portfolio/latest-projects/6-our-clients/2.png')
 			},
 			{
 				type: 'img',
-				url: asset('/media/portfolio/latest-projects/6-our-clients/3.jpg')
+				url: asset('/media/portfolio/latest-projects/6-our-clients/3.png')
 			},
 			{
 				type: 'img',
-				url: asset('/media/portfolio/latest-projects/6-our-clients/4.jpg')
+				url: asset('/media/portfolio/latest-projects/6-our-clients/4.png')
 			}
 		]
 	}
