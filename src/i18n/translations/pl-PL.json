@@ -229,7 +229,7 @@
 		}
 	},
 	"numberSuffix": {
-		"thousand": "tyś.",
+		"thousand": "tys",
 		"milion": "mln",
 		"billion": "mld"
 	},
